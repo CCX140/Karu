@@ -1,4 +1,4 @@
-package karu.control;
+package karu.view.main;
 
 import javafx.application.Platform;
 
