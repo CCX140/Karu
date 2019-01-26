@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="karu.view.taux.Taux"
-            prefHeight="400.0" prefWidth="600.0">
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="karu.view.taux.Taux">
+   <right>
+      <ScrollBar orientation="VERTICAL" BorderPane.alignment="CENTER" />
+   </right>
+   <center>
+      <TableView prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black;" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn prefWidth="124.0" style="-fx-border-color: black;" text="Rune" />
+          <TableColumn prefWidth="126.0" style="-fx-border-color: black;" text="Nom de la rune"/>
+            <TableColumn prefWidth="88.0" style="-fx-border-color: black;" text="Prix /u" />
+            <TableColumn prefWidth="128.0" style="-fx-border-color: black;" text="Taux" />
+        </columns>
+      </TableView>
+   </center>
 
-</AnchorPane>
+</BorderPane>
