@@ -1,7 +1,7 @@
 # Karu
 Application aide Dofus brisage d'item
 
-https://s.ankama.com/www/static.ankama.com/dofus/www/game/items/200/78055.png
+![alt text](https://s.ankama.com/www/static.ankama.com/dofus/www/game/items/200/78055.png)
 
 ## Liste des fonctionnalités: 
 + Calcul du taux des runes (en fonction du prix unitaie et du poids)
