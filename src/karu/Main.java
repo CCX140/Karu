@@ -10,6 +10,7 @@ import javafx.scene.control.TabPane;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
+import karu.model.Karu;
 import karu.util.Constants;
 import karu.view.calculpoids.CalculPoids;
 import karu.view.items.Items;
@@ -23,6 +24,10 @@ public class Main extends Application {
 
         //Constants
         Constants constants = new Constants();
+
+        ///////MODEL//////
+        Karu model = new Karu();
+        System.out.println(model.toString());
 
         //main controller
         MainControl mainControl = new MainControl();

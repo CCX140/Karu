@@ -1,0 +1,94 @@
+rune age	
+1
+rune cha	
+1
+rune fo	
+1
+rune ine	
+1
+rune vi	
+1
+rune sa	
+3
+rune pui	
+2
+rune prospe	
+3
+rune ini	
+1
+rune re air	
+2
+rune re feu	
+2
+rune re terre	
+2
+rune re eau	
+2
+rune re cri	
+2
+rune re neutre	
+2
+rune re pou	
+2
+rune re per eau	
+6
+rune re per feu	
+6
+rune re per terre	
+6
+rune re per air	
+6
+rune re per neutre	
+6
+rune re pa 	
+7
+rune re pme	
+7
+rune fui	
+4
+rune tac	
+4
+rune ret pa	
+7
+rune ret pme	
+7
+rune do	
+20
+rune do air	
+5
+rune do eau	
+5
+rune do terre	
+5
+rune do feu	
+5
+rune do neutre	
+5
+rune do pou	
+5
+rune invo	
+30
+rune so	
+10
+rune po	
+51
+rune cri	
+10
+rune pa	
+100
+rune pme	
+90
+rune do cri	
+5
+rune do pi der
+15
+rune di per ar
+15
+rune do per so
+15
+rune do per me
+15
+rune re per me
+15
+rune re per di
+15
