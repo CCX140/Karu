@@ -15,7 +15,7 @@ public class Runes {
 
         try
         {
-            InputStream flux = new FileInputStream("ressources/runes.txt");
+            InputStream flux = getClass().getResourceAsStream("/karu/model/ressources/runes.txt");
             InputStreamReader lecture = new InputStreamReader(flux);
             BufferedReader buff = new BufferedReader(lecture);
             String nomRune;
