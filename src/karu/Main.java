@@ -5,6 +5,7 @@ package karu;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.control.ScrollPane;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
 import javafx.scene.layout.BorderPane;
@@ -22,9 +23,6 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
 
-        //Constants
-        Constants constants = new Constants();
-
         ///////MODEL//////
         Karu model = new Karu();
         System.out.println(model.toString());
@@ -39,7 +37,7 @@ public class Main extends Application {
         Items items = new Items();
 
         //Taux
-        Taux taux = new Taux();
+        Taux taux = new Taux(model);
 
         //load main view
         FXMLLoader loader = new FXMLLoader();
@@ -54,7 +52,7 @@ public class Main extends Application {
         FXMLLoader loader3 = new FXMLLoader();
         loader3.setLocation(getClass().getResource("/karu/view/taux/taux.fxml"));
         loader3.setControllerFactory(instantiatedClass -> { return taux ; });
-        HBox tauxRoot = loader3.load();
+        ScrollPane tauxRoot = loader3.load();
         //Tab creation
         Tab tabTaux = new Tab("Taux des runes");
         tabTaux.setContent(tauxRoot);
@@ -92,7 +90,8 @@ public class Main extends Application {
         primaryStage.setTitle("Karu");
 
         //root to primary stage
-        primaryStage.setScene(new Scene(root, constants.getWIDTH()/2,constants.getHEIGHT()/2));
+        primaryStage.setScene(new Scene(root));
+        primaryStage.setMaximized(true);
 
         //display app
         primaryStage.show();
