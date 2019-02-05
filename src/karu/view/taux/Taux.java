@@ -6,6 +6,7 @@ import javafx.scene.Node;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TextField;
+import javafx.scene.effect.Lighting;
 import javafx.scene.layout.Border;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
@@ -54,29 +55,33 @@ public class Taux implements Observer{
 
         //Titre colone "nom des runes"
         Label TitreNomRunes = new Label("Nom de la Rune");
+        //style -> size 18px, bold, border black
+        TitreNomRunes.setStyle("-fx-font-size: 18px; -fx-font-weight: bold; -fx-border-color: black;");
         TitreNomRunes.setPrefSize(LABEL_NOM_RUNE_WIDTH,LABEL_NOM_RUNE_HEIGHT);
         this.nomRunes.getChildren().add(TitreNomRunes);
 
         //remplissage du tableau : colone "nom de la rune"
         runes.getListRunes().forEach((nom,poids)-> {
             Label nomRune = new Label(nom);
-            nomRune.setStyle("-fx-border-color:black");
-            nomRune.setStyle("-fx-font-size:14px;");
+            //Style -> alignement center, size 14px, border black 1px
+            nomRune.setStyle("-fx-alignment: center; -fx-font-size: 14px; -fx-border-color: black;");
             nomRune.setPrefSize(LABEL_NOM_RUNE_WIDTH,LABEL_NOM_RUNE_HEIGHT);
             this.nomRunes.getChildren().add(nomRune);
         });
 
-        //remplissage du tableau : colone "Prix"
+        //remplissage du tableau : colone "Prix" avec des textes fields
+        //l'utilisateur rentre le prix de la rune correspondante
         //Titre
         Label TitrePrix = new Label("Prix de la rune");
-        TitreNomRunes.setStyle("-fx-font-size:24px;");
-        TitreNomRunes.setStyle("-fx-font-weight: bold");
-        TitreNomRunes.setPrefSize(LABEL_NOM_RUNE_WIDTH,LABEL_NOM_RUNE_HEIGHT);
-        prix.getChildren().add(TitreNomRunes);
+        //style -> size 18px, bold, border black
+        TitrePrix.setStyle("-fx-font-size: 18px; -fx-border-color: black; -fx-font-weight: bold; ");
+        TitrePrix.setPrefSize(LABEL_NOM_RUNE_WIDTH,LABEL_NOM_RUNE_HEIGHT);
+        prix.getChildren().add(TitrePrix);
         runes.getListRunes().forEach((nom,poids)-> {
             TextField field = new TextField();
-            field.setText("prix");
+            field.setStyle("-fx-faint-focus-color: red");
             field.setPrefSize(LABEL_NOM_RUNE_WIDTH,LABEL_NOM_RUNE_HEIGHT);
+            this.prix.getChildren().add(field);
         });
 
 

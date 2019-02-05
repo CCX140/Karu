@@ -1,94 +1,94 @@
-rune age
+Rune age
 1
-rune cha
+Rune cha
 1
-rune fo
+Rune fo
 1
-rune ine
+Rune ine
 1
-rune vi
+Rune vi
 1
-rune sa
+Rune sa
 3
-rune pui
+Rune pui
 2
-rune prospe
+Rune prospe
 3
-rune ini
+Rune ini
 1
-rune re air
+Rune re air
 2
-rune re feu
+Rune re feu
 2
-rune re terre
+Rune re terre
 2
-rune re eau
+Rune re eau
 2
-rune re cri
+Rune re cri
 2
-rune re neutre
+Rune re neutre
 2
-rune re pou
+Rune re pou
 2
-rune re per eau
+Rune re per eau
 6
-rune re per feu
+Rune re per feu
 6
-rune re per terre
+Rune re per terre
 6
-rune re per air
+Rune re per air
 6
-rune re per neutre
+Rune re per neutre
 6
-rune re pa
+Rune re pa
 7
-rune re pme
+Rune re pme
 7
-rune fui
+Rune fui
 4
-rune tac
+Rune tac
 4
-rune ret pa
+Rune ret pa
 7
-rune ret pme
+Rune ret pme
 7
-rune do
+Rune do
 20
-rune do air
+Rune do air
 5
-rune do eau
+Rune do eau
 5
-rune do terre
+Rune do terre
 5
-rune do feu
+Rune do feu
 5
-rune do neutre
+Rune do neutre
 5
-rune do pou
+Rune do pou
 5
-rune invo
+Rune invo
 30
-rune so
+Rune so
 10
-rune po
+Rune po
 51
-rune cri
+Rune cri
 10
-rune pa
+Rune pa
 100
-rune pme
+Rune pme
 90
-rune do cri
+Rune do cri
 5
-rune do pi der
+Rune do pi der
 15
-rune di per ar
+Rune di per ar
 15
-rune do per so
+Rune do per so
 15
-rune do per me
+Rune do per me
 15
-rune re per me
+Rune re per me
 15
-rune re per di
+Rune re per di
 15
