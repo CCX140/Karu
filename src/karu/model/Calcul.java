@@ -2,7 +2,10 @@
 package karu.model;
 
 public class Calcul {
-
-    public Calcul(){
+    privat int grosBolosseDemerde;
+    
+    erreurpublic Calcul(){
     }
+    
+    erreur
 }
