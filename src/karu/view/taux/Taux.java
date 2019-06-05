@@ -28,6 +28,7 @@ public class Taux implements Observer{
     private VBox nomRunes;
     private VBox prix;
     private VBox taux;
+    private VBox topRunes;
 
 
     public Taux(Karu model){
@@ -36,13 +37,14 @@ public class Taux implements Observer{
         this.nomRunes = new VBox();
         this.prix = new VBox();
         this.taux = new VBox();
+        this.topRunes = new VBox();
     }
 
     @FXML
     public void initialize() throws Exception {
 
         //on range les 4 Vbox dans la Hbox principal
-        hbox.getChildren().addAll(runesSprite,nomRunes,prix,taux);
+        hbox.getChildren().addAll(runesSprite,nomRunes,prix,taux,topRunes);
         Runes runes = model.getRunes();
 
         //Remplissage de la colone "Nom de la rune"
@@ -75,7 +77,7 @@ public class Taux implements Observer{
             TextField field = new TextField();
             field.setStyle("-fx-faint-focus-color: red");
             field.setPrefSize(LABEL_NOM_RUNE_WIDTH,LABEL_NOM_RUNE_HEIGHT);
-            field.setOnKeyReleased(event -> {calculTaux();coloreTaux();});
+            field.setOnKeyReleased(event -> {calculTaux();coloreTaux();changerTop();});
             this.prix.getChildren().add(field);
         });
 
@@ -91,6 +93,21 @@ public class Taux implements Observer{
             TauxRune.setPrefSize(LABEL_NOM_RUNE_WIDTH, LABEL_NOM_RUNE_HEIGHT);
             this.taux.getChildren().add(TauxRune);
         });
+
+        //colone top 10 runes
+        Label TitreTop = new Label("Top 10");
+        TitreTop.setStyle("-fx-font-size: 18px; -fx-border-color: black; -fx-font-weight: bold; ");
+        TitreTop.setPrefSize(LABEL_NOM_RUNE_WIDTH,LABEL_NOM_RUNE_HEIGHT);
+        topRunes.getChildren().add(TitreTop);
+        //création des 10 label pour les 10 places
+        for(int i = 0;i<10;i++){
+            Label l = new Label("Top "+(i+1));
+            l.setStyle("-fx-alignment: center; -fx-font-size: 14px;  -fx-font-weight: bold; -fx-border-color: black;");
+            l.setPrefSize(LABEL_NOM_RUNE_WIDTH, LABEL_NOM_RUNE_HEIGHT);
+            topRunes.getChildren().add(l);
+        }
+
+
     }
 
 
@@ -128,6 +145,17 @@ public class Taux implements Observer{
                 else if(t > 0){
                     label.setStyle("-fx-alignment: center; -fx-font-size: 14px; -fx-border-color: black; -fx-background-color: yellow;");
                 }
+            }
+        }
+    }
+
+
+    public void changerTop(){
+        for(int i = 1;i<11;i++){
+            Label label = (Label) topRunes.getChildren().get(i);
+            //si le prix de la rune n'est pas défini, la rune n'a pas encore de taux
+            if(model.getRunes().getIndexIemeMeilleureRune(i) > -1) {
+                label.setText("" + model.getRunes().getRuneWithIndex(model.getRunes().getIndexIemeMeilleureRune(i)));
             }
         }
     }

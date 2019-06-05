@@ -1,7 +1,9 @@
 package karu.model;
 
 import java.io.*;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class Runes {
@@ -58,12 +60,46 @@ public class Runes {
         }
     }
 
+    public int getIndexIemeMeilleureRune(int ind) {
+        //copy du tableau des taux
+        int[] copy = new int[taux.size()];
+        for(int i = 0;i < taux.size();i++ ){
+            copy[i] = taux.get(i);
+        }
+
+        ///TODO IMPLEMENTER UN TRIE POUR TRIER LES RUNES EN MEME TEMPS PSQ LE TOP BUG ACAUSE DE CA
+        Arrays.sort(copy);
+
+        int t = copy[copy.length -ind];
+
+        //si le taux de la rune n'est pas défini
+        // (si l'utilisateur n'a pas encore entré le prix de la rune
+        if (t == 0){
+            return -1;
+        }
+
+        //recherche de l'index de la rune
+        for(int j=0;j<taux.size();j++){
+            if (taux.get(j) == t ){
+                return j;
+            }
+        }
+
+        return -1;
+
+    }
+
     public void setPrixWithIndex(int index,int value ){
         prix.set(index,value);
     }
 
     public int getTauxWithIndex(int index){
         return taux.get(index);
+    }
+
+    public String getRuneWithIndex(int index){
+        ArrayList<String> keys = new ArrayList(listRunes.keySet());
+        return keys.get(index);
     }
 
     @Override
