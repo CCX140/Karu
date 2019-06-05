@@ -7,11 +7,15 @@ import java.util.HashMap;
 public class Runes {
 
     private HashMap<String,Integer> listRunes;
+    private ArrayList<Integer> prix;
+    private ArrayList<Integer> taux;
     private ArrayList<String> spriteRunes;
 
     public Runes() throws FileNotFoundException {
         listRunes = new HashMap<>();
         spriteRunes = new ArrayList<>();
+        taux = new ArrayList<>();
+        prix = new ArrayList<>();
 
         try
         {
@@ -25,6 +29,8 @@ public class Runes {
 
                 if((poidsRune = buff.readLine())!=null){
                     listRunes.put(nomRune,Integer.parseInt(poidsRune));
+                    taux.add(0);
+                    prix.add(0);
                 }
             }
 
@@ -41,6 +47,23 @@ public class Runes {
 
     public ArrayList<String> getSpriteRunes() {
         return spriteRunes;
+    }
+
+    public void calculTaux(){
+        ArrayList<Integer> keys = new ArrayList(listRunes.values());
+        for(int i = 0;i<listRunes.size();i++){
+            if(prix.get(i) != null){
+               taux.set(i, prix.get(i) / keys.get(i));
+            }
+        }
+    }
+
+    public void setPrixWithIndex(int index,int value ){
+        prix.set(index,value);
+    }
+
+    public int getTauxWithIndex(int index){
+        return taux.get(index);
     }
 
     @Override

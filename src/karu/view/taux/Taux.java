@@ -1,26 +1,20 @@
 package karu.view.taux;
 
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
-import javafx.geometry.Pos;
-import javafx.scene.Node;
 import javafx.scene.control.Label;
-import javafx.scene.control.TableColumn;
 import javafx.scene.control.TextField;
-import javafx.scene.effect.Lighting;
-import javafx.scene.layout.Border;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
-import javafx.scene.text.TextAlignment;
 import karu.model.Karu;
 import karu.model.Runes;
-import karu.util.Constants;
-import karu.util.Constants.*;
 
-import javax.swing.text.Element;
-import javax.swing.text.TableView;
 import java.util.Observable;
 import java.util.Observer;
-import static karu.util.Constants.*;
+
+import static karu.util.Constants.LABEL_NOM_RUNE_HEIGHT;
+import static karu.util.Constants.LABEL_NOM_RUNE_WIDTH;
 
 public class Taux implements Observer{
 
@@ -81,16 +75,62 @@ public class Taux implements Observer{
             TextField field = new TextField();
             field.setStyle("-fx-faint-focus-color: red");
             field.setPrefSize(LABEL_NOM_RUNE_WIDTH,LABEL_NOM_RUNE_HEIGHT);
+            field.setOnKeyReleased(event -> {calculTaux();coloreTaux();});
             this.prix.getChildren().add(field);
         });
 
-
-
-
-
+        //colone taux
+        Label TitreTaux = new Label("Taux de la rune");
+        //style -> size 18px, bold, border black
+        TitreTaux.setStyle("-fx-font-size: 18px; -fx-border-color: black; -fx-font-weight: bold; ");
+        TitreTaux.setPrefSize(LABEL_NOM_RUNE_WIDTH,LABEL_NOM_RUNE_HEIGHT);
+        taux.getChildren().add(TitreTaux);
+        runes.getListRunes().forEach((nom,poids) -> {
+            Label TauxRune = new Label("null");
+            TauxRune.setStyle("-fx-alignment: center; -fx-font-size: 14px; -fx-border-color: black;");
+            TauxRune.setPrefSize(LABEL_NOM_RUNE_WIDTH, LABEL_NOM_RUNE_HEIGHT);
+            this.taux.getChildren().add(TauxRune);
+        });
     }
 
 
+    public void calculTaux() {
+        //regarde tous les champs de texte et calcul les taux avec les prix entrés
+        for(int i = 1;i < prix.getChildren().size();i++) {
+            TextField text = (TextField) prix.getChildren().get(i);
+            if (!text.getText().isEmpty()) {
+                int p = Integer.parseInt(text.getText());
+                model.getRunes().setPrixWithIndex(i-1, p);
+            }
+        }
+        model.getRunes().calculTaux();
+
+        //affiche le prix
+        for(int i = 1; i<taux.getChildren().size();i++){
+            Label label = (Label) taux.getChildren().get(i);
+            if(model.getRunes().getTauxWithIndex(i-1) != 0) {
+                label.setText("" + model.getRunes().getTauxWithIndex(i - 1));
+            }
+        }
+    }
+
+    public void coloreTaux(){
+        for(int i = 1; i<taux.getChildren().size();i++){
+            Label label = (Label) taux.getChildren().get(i);
+            int t = model.getRunes().getTauxWithIndex(i-1);
+            if( t != 0) {
+                if(t > 200){
+                    label.setStyle("-fx-alignment: center; -fx-font-size: 16px; -fx-border-color: black; -fx-background-color: red;");
+                }
+                else if(t > 100){
+                    label.setStyle("-fx-alignment: center; -fx-font-size: 15px; -fx-border-color: black; -fx-background-color: orange;");
+                }
+                else if(t > 0){
+                    label.setStyle("-fx-alignment: center; -fx-font-size: 14px; -fx-border-color: black; -fx-background-color: yellow;");
+                }
+            }
+        }
+    }
 
     @Override
     public void update(Observable o, Object arg) {
