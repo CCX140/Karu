@@ -4,13 +4,13 @@ import java.io.FileNotFoundException;
 
 public class Karu {
 
-    private Runes runes;
+    private LesRunes runes;
 
     public Karu() throws FileNotFoundException {
-        runes = new Runes();
+        runes = new LesRunes();
     }
 
-    public Runes getRunes() {
+    public LesRunes getRunes() {
         return runes;
     }
 

@@ -1,14 +1,12 @@
 package karu.view.taux;
 
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import karu.model.Karu;
-import karu.model.Runes;
+import karu.model.LesRunes;
 
 import java.util.Observable;
 import java.util.Observer;
@@ -45,7 +43,7 @@ public class Taux implements Observer{
 
         //on range les 4 Vbox dans la Hbox principal
         hbox.getChildren().addAll(runesSprite,nomRunes,prix,taux,topRunes);
-        Runes runes = model.getRunes();
+        LesRunes runes = model.getRunes();
 
         //Remplissage de la colone "Nom de la rune"
 
@@ -57,13 +55,7 @@ public class Taux implements Observer{
         this.nomRunes.getChildren().add(TitreNomRunes);
 
         //remplissage du tableau : colone "nom de la rune"
-        runes.getListRunes().forEach((nom,poids)-> {
-            Label nomRune = new Label(nom);
-            //Style -> alignement center, size 14px, border black 1px
-            nomRune.setStyle("-fx-alignment: center; -fx-font-size: 14px; -fx-border-color: black;");
-            nomRune.setPrefSize(LABEL_NOM_RUNE_WIDTH,LABEL_NOM_RUNE_HEIGHT);
-            this.nomRunes.getChildren().add(nomRune);
-        });
+
 
         //remplissage du tableau : colone "Prix" avec des textes fields
         //l'utilisateur rentre le prix de la rune correspondante
@@ -73,13 +65,7 @@ public class Taux implements Observer{
         TitrePrix.setStyle("-fx-font-size: 18px; -fx-border-color: black; -fx-font-weight: bold; ");
         TitrePrix.setPrefSize(LABEL_NOM_RUNE_WIDTH,LABEL_NOM_RUNE_HEIGHT);
         prix.getChildren().add(TitrePrix);
-        runes.getListRunes().forEach((nom,poids)-> {
-            TextField field = new TextField();
-            field.setStyle("-fx-faint-focus-color: red");
-            field.setPrefSize(LABEL_NOM_RUNE_WIDTH,LABEL_NOM_RUNE_HEIGHT);
-            field.setOnKeyReleased(event -> {calculTaux();coloreTaux();changerTop();});
-            this.prix.getChildren().add(field);
-        });
+
 
         //colone taux
         Label TitreTaux = new Label("Taux de la rune");
@@ -87,12 +73,7 @@ public class Taux implements Observer{
         TitreTaux.setStyle("-fx-font-size: 18px; -fx-border-color: black; -fx-font-weight: bold; ");
         TitreTaux.setPrefSize(LABEL_NOM_RUNE_WIDTH,LABEL_NOM_RUNE_HEIGHT);
         taux.getChildren().add(TitreTaux);
-        runes.getListRunes().forEach((nom,poids) -> {
-            Label TauxRune = new Label("null");
-            TauxRune.setStyle("-fx-alignment: center; -fx-font-size: 14px; -fx-border-color: black;");
-            TauxRune.setPrefSize(LABEL_NOM_RUNE_WIDTH, LABEL_NOM_RUNE_HEIGHT);
-            this.taux.getChildren().add(TauxRune);
-        });
+
 
         //colone top 10 runes
         Label TitreTop = new Label("Top 10");
