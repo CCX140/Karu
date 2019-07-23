@@ -30575,7 +30575,6 @@ Arc corrompu
 Arc - Niveau 200
 
 41 à 55 Dégâts Feu
--1 PA (cible)
 301 à 350 Vitalité
 51 à 70 Intelligence
 31 à 40 Sagesse
@@ -30588,7 +30587,6 @@ Arc - Niveau 200
 16 à 25 Rés. Critique
 5 à 7 % Rés. Eau
 5 à 7 % Rés. Air
-5 PA • 4 - 8 PO • 15% CC • 10% CC tot • +15 CC • 1 coup
 
 
 
@@ -30597,8 +30595,6 @@ Arc - Niveau 200
 Arc de Koutoulou
 Arc - Niveau 200
 
-20 à 25 Vol Eau
-20 à 25 Vol Air
 301 à 350 Vitalité
 41 à 60 Chance
 41 à 60 Agilité
@@ -30611,8 +30607,6 @@ Arc - Niveau 200
 11 à 15 Esquive PA
 5 à 7 % Rés. Terre
 5 à 7 % Rés. Feu
-5 PA • 4 - 7 PO • 5% CC • 10% CC tot • +5 CC • 1 coup
-Chance > 400 + Agilité > 400
 
 
 
@@ -30621,8 +30615,6 @@ Chance > 400 + Agilité > 400
 Arc du Chalœil
 Arc - Niveau 200
 
-20 à 25 Dégâts Terre
-16 à 20 Vol Neutre
 351 à 400 Vitalité
 61 à 80 Force
 31 à 40 Sagesse
@@ -30635,7 +30627,7 @@ Arc - Niveau 200
 16 à 25 Dommages Poussée
 7 à 10 % Rés. Feu
 5 à 7 % Rés. Air
-5 PA • 3 - 7 PO • 15% CC • 10% CC tot • +6 CC • 1 coup
+
 
 
 
@@ -30644,9 +30636,6 @@ Arc - Niveau 200
 Arc Honte
 Arc - Niveau 200
 
-24 à 32 Dégâts Neutre
-4 à 7 Vol Eau
-4 à 7 Vol Air
 201 à 250 Vitalité
 31 à 50 Intelligence
 31 à 50 Sagesse
@@ -30662,8 +30651,7 @@ Arc - Niveau 200
 6 à 8 % Rés. Neutre
 6 à 8 % Rés. Eau
 6 à 8 % Rés. Air
-4 PA • 3 - 8 PO • 1 coup • Pas de CC
-Intelligence > 559
+
 
 
 
@@ -30672,9 +30660,6 @@ Intelligence > 559
 Arc Nécrotique
 Arc - Niveau 200
 
-21 à 25 Dégâts Feu
-6 à 10 Vol Eau
-6 à 10 Vol Eau
 301 à 350 Vitalité
 41 à 60 Intelligence
 41 à 60 Chance
@@ -30688,8 +30673,7 @@ Arc - Niveau 200
 5 à 7 % Rés. Neutre
 5 à 7 % Rés. Terre
 7 à 10 % Rés. Air
-5 PA • 4 - 7 PO • 15% CC • 10% CC tot • +4 CC • 1 coup
-Intelligence > 550 + Chance > 550
+
 
 
 
@@ -30698,10 +30682,7 @@ Intelligence > 550 + Chance > 550
 Arc Volkorne
 Arc - Niveau 200
 
-11 à 15 Dégâts Terre
-11 à 15 Dégâts Feu
-11 à 15 Dégâts Eau
-11 à 15 Dégâts Air
+
 301 à 350 Vitalité
 31 à 40 Sagesse
 51 à 70 Puissance
@@ -30713,19 +30694,12 @@ Arc - Niveau 200
 11 à 15 Dommages Air
 7 à 10 Fuite
 4 à 5 % Rés. Neutre
-5 PA • 5 - 10 PO • 10% CC • 10% CC tot • +3 CC • 1 coup
-Force > 350 + Intelligence > 350 + Chance > 350 + Agilité > 350
-
-
 
 
 
 Baguette de Malléfisk
 Baguette - Niveau 200
 
-11 à 15 Vol Feu
-26 à 30 PV rendus
-26 à 30 PV rendus
 301 à 350 Vitalité
 31 à 40 Sagesse
 41 à 60 Puissance
@@ -30738,7 +30712,7 @@ Baguette - Niveau 200
 16 à 20 Rés. Poussée
 5 à 7 % Rés. Eau
 7 à 10 % Rés. Air
-4 PA • 3 - 6 PO • 25% CC • 10% CC tot • +2 CC • 2 coups
+
 
 
 
@@ -30747,8 +30721,7 @@ Baguette - Niveau 200
 Baguette des égarés
 Baguette - Niveau 200
 
-24 à 30 Dégâts Terre
-24 à 30 Dégâts Eau
+
 301 à 350 Vitalité
 41 à 60 Force
 41 à 60 Chance
@@ -30762,9 +30735,6 @@ Baguette - Niveau 200
 7 à 10 Esquive PM
 16 à 20 Rés. Poussée
 7 à 10 % Rés. Feu
-5 PA • 2 - 5 PO • 15% CC • 10% CC tot • +8 CC • 1 coup
-Force > 450 + Chance > 450
-
 
 
 
@@ -30772,7 +30742,7 @@ Force > 450 + Chance > 450
 Baguette Héroclite
 Baguette - Niveau 200
 
-55 à 60 Dégâts Eau
+
 301 à 350 Vitalité
 41 à 60 Chance
 31 à 40 Sagesse
@@ -30782,8 +30752,6 @@ Baguette - Niveau 200
 9 à 12 Esquive PM
 16 à 25 Rés. Poussée
 7 à 10 % Rés. Air
-5 PA • 2 - 5 PO • 1 coup • Pas de CC
-
 
 
 
@@ -30791,9 +30759,7 @@ Baguette - Niveau 200
 Baguette Range
 Baguette - Niveau 200
 
-2 à 3 Dégâts Feu
-6 à 9 Dégâts Air
-2 à 3 Vol Feu
+
 301 à 350 Vitalité
 41 à 60 Intelligence
 41 à 60 Agilité
@@ -30806,9 +30772,6 @@ Baguette - Niveau 200
 16 à 25 Rés. Critique
 5 à 7 % Rés. Terre
 7 à 10 % Rés. Eau
-3 PA • 2 - 5 PO • 5% CC • 10% CC tot • +3 CC • 1 coup
-Intelligence > 400 + Agilité > 400
-
 
 
 
@@ -30816,8 +30779,6 @@ Intelligence > 400 + Agilité > 400
 Bâthon
 Bâton - Niveau 200
 
-34 à 40 Dégâts Terre
-16 à 20 Vol Feu
 301 à 350 Vitalité
 51 à 70 Force
 51 à 70 Intelligence
@@ -30832,9 +30793,6 @@ Bâton - Niveau 200
 7 à 10 Tacle
 5 à 7 Retrait PM
 7 à 10 % Rés. Air
-4 PA • 1 - 1 PO • 1 coup • Pas de CC
-Force > 400 + Intelligence > 400
-
 
 
 
@@ -30842,8 +30800,7 @@ Force > 400 + Intelligence > 400
 Couteaux Sacrificiels
 Dagues - Niveau 200
 
-12 à 18 Vol Feu
-12 à 18 Vol Eau
+
 351 à 400 Vitalité
 51 à 70 Intelligence
 51 à 70 Chance
@@ -30858,8 +30815,6 @@ Dagues - Niveau 200
 -30 Rés. Critique
 5 à 7 % Rés. Neutre
 5 à 7 % Rés. Terre
-3 PA • 1 - 1 PO • 2 coups • Pas de CC
-
 
 
 
@@ -30867,9 +30822,7 @@ Dagues - Niveau 200
 Crocobur
 Épée - Niveau 200
 
-41 à 60 Dégâts Neutre
-6 à 9 Vol Eau
-6 à 9 Vol Air
+
 401 à 450 Vitalité
 71 à 100 Force
 51 à 70 Chance
@@ -30882,8 +30835,6 @@ Crocobur
 16 à 20 Tacle
 -20 Esquive PA
 -10 % Rés. Distance
-6 PA • 1 - 1 PO • 10% CC • 10% CC tot • +7 CC • 1 coup
-
 
 
 
@@ -30891,7 +30842,7 @@ Crocobur
 Dagoulinantes
 Dagues - Niveau 200
 
-26 à 32 Dégâts Eau
+
 301 à 400 Vitalité
 61 à 80 Chance
 31 à 50 Sagesse
@@ -30901,8 +30852,6 @@ Dagues - Niveau 200
 7 à 10 Retrait PA
 5 à 7 % Rés. Neutre
 5 à 7 % Rés. Feu
-3 PA • 1 - 1 PO • 20% CC • 10% CC tot • +10 CC • 2 coups
-
 
 
 
@@ -30910,8 +30859,7 @@ Dagues - Niveau 200
 Dagues d'Ilyzaelle
 Dagues - Niveau 200
 
-9 à 12 Dégâts Neutre
-9 à 12 Dégâts Terre
+
 351 à 400 Vitalité
 51 à 70 Force
 31 à 50 Sagesse
@@ -30924,7 +30872,6 @@ Dagues - Niveau 200
 11 à 15 Dommages Critique
 31 à 40 Rés. Poussée
 7 à 10 % Rés. Feu
-3 PA • 1 - 1 PO • 15% CC • 10% CC tot • +6 CC • 2 coups
 
 
 
@@ -30933,9 +30880,6 @@ Dagues - Niveau 200
 Dagues de Srambad
 Dagues - Niveau 200
 
-13 à 18 Dégâts Neutre
-4 à 5 Vol Terre
-6 à 8 Vol Eau
 351 à 400 Vitalité
 51 à 70 Force
 51 à 70 Chance
@@ -30946,8 +30890,6 @@ Dagues - Niveau 200
 16 à 20 Dommages Eau
 16 à 25 Rés. Critique
 7 à 10 % Rés. Feu
-3 PA • 1 - 1 PO • 1 coup • Pas de CC
-Force > 449 + Chance > 449
 
 
 
@@ -30956,8 +30898,7 @@ Force > 449 + Chance > 449
 Dagues Érhy
 Dagues - Niveau 200
 
-16 à 22 Dégâts Neutre
-10 à 14 Dégâts Feu
+
 351 à 400 Vitalité
 31 à 50 Force
 31 à 50 Intelligence
@@ -30971,8 +30912,6 @@ Dagues - Niveau 200
 7 à 10 Fuite
 11 à 15 Rés. Critique
 7 à 10 % Rés. Eau
-3 PA • 1 - 1 PO • 5% CC • 10% CC tot • +6 CC • 2 coups
-Force > 450 ou Agilité > 450
 
 
 
@@ -30981,8 +30920,7 @@ Force > 450 ou Agilité > 450
 Épée Brûlâme
 Épée - Niveau 200
 
-25 à 30 Vol Feu
-25 à 30 Vol Eau
+
 301 à 350 Vitalité
 51 à 70 Intelligence
 51 à 70 Chance
@@ -30997,8 +30935,6 @@ Force > 450 ou Agilité > 450
 -10 Esquive PM
 9 à 12 Dommages Critique
 7 à 10 % Rés. Terre
-5 PA • 1 - 1 PO • 15% CC • 10% CC tot • +10 CC • 1 coup
-Intelligence > 449 + Chance > 449
 
 
 
@@ -31007,9 +30943,7 @@ Intelligence > 449 + Chance > 449
 Épée de la Reine des Voleurs
 Épée - Niveau 200
 
-41 à 45 Dégâts Neutre
-5 à 8 Dégâts Terre
-7 à 12 Vol Air
+
 301 à 350 Vitalité
 41 à 60 Force
 41 à 60 Agilité
@@ -31023,8 +30957,6 @@ Intelligence > 449 + Chance > 449
 -25 Esquive PM
 16 à 20 Dommages Critique
 7 à 10 % Rés. Feu
-5 PA • 1 - 1 PO • 1 coup • Pas de CC
-Force > 400 + Agilité > 400 + PA < 12
 
 
 
@@ -31034,8 +30966,7 @@ Force > 400 + Agilité > 400 + PA < 12
 Panoplie du Granduk
 Épée - Niveau 200
 
-30 à 37 Dégâts Neutre
-9 à 14 Dégâts Air
+
 301 à 350 Vitalité
 61 à 80 Agilité
 31 à 40 Sagesse
@@ -31048,7 +30979,7 @@ Panoplie du Granduk
 7 à 10 Esquive PM
 16 à 20 Rés. Critique
 11 à 15 Rés. Feu
-4 PA • 1 - 1 PO • 25% CC • 10% CC tot • +6 CC • 1 coup
+
 
 
 
@@ -31057,11 +30988,7 @@ Panoplie du Granduk
 Epée Maudite du Saigneur Guerrier
 Épée - Niveau 200
 
-9 à 18 Dégâts Neutre
-9 à 18 Dégâts Terre
-9 à 18 Dégâts Feu
-9 à 18 Dégâts Eau
-9 à 18 Dégâts Air
+
 151 à 165 Vitalité
 26 à 30 Force
 26 à 30 Intelligence
@@ -31073,8 +31000,6 @@ Epée Maudite du Saigneur Guerrier
 4 à 5 % Rés. Feu
 4 à 5 % Rés. Eau
 4 à 5 % Rés. Air
-@ : -1 PA
-7 PA • 1 - 1 PO • 5% CC • 10% CC tot • +10 CC • 1 coup
 
 
 
@@ -31083,8 +31008,7 @@ Epée Maudite du Saigneur Guerrier
 Épouvante
 Épée - Niveau 200
 
-23 à 28 Dégâts Terre
-23 à 28 Dégâts Eau
+
 301 à 350 Vitalité
 41 à 60 Force
 41 à 60 Chance
@@ -31097,9 +31021,6 @@ Epée Maudite du Saigneur Guerrier
 7 à 10 Tacle
 9 à 12 Esquive PM
 7 à 10 % Rés. Feu
-4 PA • 1 - 1 PO • 25% CC • 10% CC tot • +7 CC • 1 coup
-Force > 400 + Chance > 400
-
 
 
 
@@ -31107,11 +31028,7 @@ Force > 400 + Chance > 400
 Faux Maudite du Saigneur Guerrier
 Faux - Niveau 200
 
-9 à 18 Dégâts Neutre
-9 à 18 Dégâts Terre
-9 à 18 Dégâts Feu
-9 à 18 Dégâts Eau
-9 à 18 Dégâts Air
+
 26 à 40 Vitalité
 26 à 40 Force
 26 à 40 Intelligence
@@ -31123,17 +31040,14 @@ Faux - Niveau 200
 4 à 5 % Rés. Feu
 4 à 5 % Rés. Eau
 4 à 5 % Rés. Air
-@ : -1 PA
-6 PA • 1 - 1 PO • 5% CC • 10% CC tot • +5 CC • 1 coup
+
 
 
 
 Hache du Chalœil
 Hache - Niveau 200
 
-16 à 20 Dégâts Terre
-16 à 20 Dégâts Feu
-16 à 20 Dégâts Eau
+
 351 à 400 Vitalité
 31 à 50 Force
 31 à 50 Intelligence
@@ -31149,8 +31063,7 @@ Hache - Niveau 200
 11 à 15 Fuite
 11 à 15 Dommages Critique
 7 à 10 % Rés. Air
-4 PA • 1 - 1 PO • 15% CC • 10% CC tot • +5 CC • 1 coup
-Force > 400 + Intelligence > 400 + Chance > 400
+
 
 
 
@@ -31159,9 +31072,7 @@ Force > 400 + Intelligence > 400 + Chance > 400
 Hache Ériphe
 Hache - Niveau 200
 
-15 à 19 Dégâts Neutre
-21 à 27 Dégâts Air
-8 à 11 Vol Terre
+
 201 à 250 Vitalité
 41 à 60 Force
 41 à 60 Agilité
@@ -31176,8 +31087,6 @@ Hache - Niveau 200
 16 à 20 Dommages Poussée
 7 à 10 % Rés. Neutre
 7 à 10 % Rés. Air
-5 PA • 1 - 1 PO • 5% CC • 10% CC tot • +4 CC • 1 coup
-Force > 350 + Agilité > 350
 
 
 
@@ -31186,8 +31095,7 @@ Force > 350 + Agilité > 350
 Hache Euvale
 Hache - Niveau 200
 
-24 à 32 Dégâts Neutre
-18 à 24 Dégâts Eau
+
 6 à 8 Vol Eau
 351 à 400 Vitalité
 41 à 60 Force
@@ -31201,8 +31109,7 @@ Hache - Niveau 200
 7 à 10 % Rés. Feu
 16 à 20 Rés. Neutre
 11 à 15 Rés. Air
-5 PA • 1 - 1 PO • 1 coup • Pas de CC
-Force > 350 + Chance > 350
+
 
 
 
@@ -31211,9 +31118,7 @@ Force > 350 + Chance > 350
 Harpelle
 Pelle - Niveau 200
 
-21 à 25 Dégâts Feu
-21 à 25 Dégâts Feu
--1 PA (cible)
+
 301 à 400 Vitalité
 61 à 80 Intelligence
 31 à 50 Sagesse
@@ -31224,7 +31129,6 @@ Pelle - Niveau 200
 16 à 20 Dommages Critique
 5 à 7 % Rés. Neutre
 5 à 7 % Rés. Air
-4 PA • 1 - 1 PO • 20% CC • 10% CC tot • +5 CC • 1 coup
 
 
 
@@ -31233,9 +31137,7 @@ Pelle - Niveau 200
 Héqache
 Hache - Niveau 200
 
-20 à 25 Dégâts Neutre
-10 à 15 Vol Terre
-10 à 15 Vol Air
+
 301 à 350 Vitalité
 41 à 60 Force
 41 à 60 Agilité
@@ -31251,7 +31153,7 @@ Hache - Niveau 200
 16 à 25 Dommages Poussée
 5 à 7 % Rés. Feu
 5 à 7 % Rés. Eau
-4 PA • 1 - 1 PO • 5% CC • 10% CC tot • +5 CC • 1 coup
+
 
 
 
@@ -31260,9 +31162,7 @@ Hache - Niveau 200
 Lance corrompue
 Bâton - Niveau 200
 
-11 à 15 Dégâts Neutre
-6 à 8 Vol Terre
-6 à 8 Vol Air
+
 351 à 400 Vitalité
 51 à 70 Force
 51 à 70 Agilité
@@ -31276,8 +31176,6 @@ Bâton - Niveau 200
 4 à 6 Esquive PA
 21 à 30 Dommages Poussée
 7 à 10 % Rés. Eau
-3 PA • 1 - 1 PO • 1 coup • Pas de CC
-Force > 449 + Agilité > 449
 
 
 
@@ -31286,7 +31184,7 @@ Force > 449 + Agilité > 449
 Lance Horselé
 Bâton - Niveau 200
 
-20 à 25 Dégâts Air
+
 301 à 350 Vitalité
 61 à 80 Agilité
 31 à 40 Sagesse
@@ -31299,7 +31197,7 @@ Bâton - Niveau 200
 -30 Rés. Poussée
 5 à 7 % Rés. Neutre
 7 à 10 % Rés. Feu
-3 PA • 1 - 1 PO • 25% CC • 10% CC tot • +10 CC • 2 coups
+
 
 
 
@@ -31308,8 +31206,7 @@ Bâton - Niveau 200
 Lav'Hache
 Hache - Niveau 200
 
-12 à 16 Dégâts Terre
-12 à 16 Dégâts Terre
+
 301 à 350 Vitalité
 61 à 80 Force
 31 à 40 Sagesse
@@ -31322,7 +31219,7 @@ Hache - Niveau 200
 16 à 25 Dommages Poussée
 5 à 7 % Rés. Feu
 7 à 10 % Rés. Eau
-3 PA • 1 - 1 PO • 2 coups • Pas de CC
+
 
 
 
@@ -31331,8 +31228,7 @@ Hache - Niveau 200
 Le Ramboton
 Bâton - Niveau 200
 
-13 à 20 Dégâts Feu
-4 à 6 Vol Feu
+
 250 Vitalité
 50 Intelligence
 30 Agilité
@@ -31342,16 +31238,14 @@ Bâton - Niveau 200
 10 Dommages
 25 Puissance
 5 % Critique
-3 PA • 1 - 2 PO • 13% CC • 10% CC tot • +7 CC • 2 coups
-Objet non équipable
+
 
 
 
 Manthache
 Hache - Niveau 200
 
-30 à 35 Dégâts Air
-16 à 20 Vol Air
+
 301 à 400 Vitalité
 61 à 80 Agilité
 31 à 40 Sagesse
@@ -31360,7 +31254,7 @@ Hache - Niveau 200
 7 à 10 Esquive PA
 21 à 30 Rés. Critique
 7 à 10 % Rés. Eau
-5 PA • 1 - 1 PO • 10% CC • 10% CC tot • +5 CC • 1 coup
+
 
 
 
@@ -31369,9 +31263,7 @@ Hache - Niveau 200
 Marteau de Katrepat
 Marteau - Niveau 200
 
-18 à 21 Dégâts Terre
-18 à 21 Dégâts Feu
-18 à 21 Dégâts Air
+
 301 à 350 Vitalité
 31 à 50 Force
 31 à 50 Intelligence
@@ -31385,8 +31277,7 @@ Marteau - Niveau 200
 11 à 15 Dommages Air
 9 à 12 Tacle
 7 à 10 % Rés. Eau
-5 PA • 1 - 1 PO • 5% CC • 10% CC tot • +8 CC • 1 coup
-Force > 349 + Intelligence > 349 + Agilité > 349
+
 
 
 
@@ -31395,10 +31286,7 @@ Force > 349 + Intelligence > 349 + Agilité > 349
 Marteau des égarés
 Marteau - Niveau 200
 
-9 à 12 Vol Terre
-9 à 12 Vol Feu
-9 à 12 Vol Eau
-9 à 12 Vol Air
+
 351 à 400 Vitalité
 31 à 50 Force
 31 à 50 Intelligence
@@ -31414,9 +31302,6 @@ Marteau - Niveau 200
 9 à 12 Dommages Eau
 9 à 12 Dommages Air
 5 à 7 Esquive PA
-5 PA • 1 - 1 PO • 10% CC • 10% CC tot • +3 CC • 1 coup
-Force > 400 + Intelligence > 400 + Chance > 400 + Agilité > 400
-
 
 
 
@@ -31424,8 +31309,7 @@ Force > 400 + Intelligence > 400 + Chance > 400 + Agilité > 400
 Marteau Phossile
 Marteau - Niveau 200
 
-31 à 35 Dégâts Feu
-31 à 35 Dégâts Air
+
 301 à 350 Vitalité
 41 à 60 Intelligence
 41 à 60 Agilité
@@ -31438,8 +31322,7 @@ Marteau - Niveau 200
 7 à 10 Esquive PA
 7 à 10 % Rés. Terre
 11 à 15 Rés. Air
-5 PA • 1 - 1 PO • 15% CC • 10% CC tot • +7 CC • 1 coup
-Intelligence > 450 + Agilité > 450
+
 
 
 
@@ -31448,7 +31331,7 @@ Intelligence > 450 + Agilité > 450
 Marteau R'ture
 Marteau - Niveau 200
 
-52 à 60 Dégâts Neutre
+
 301 à 400 Vitalité
 61 à 80 Force
 31 à 40 Sagesse
@@ -31459,7 +31342,7 @@ Marteau - Niveau 200
 7 à 10 Retrait PM
 16 à 25 Rés. Poussée
 7 à 10 % Rés. Air
-5 PA • 1 - 1 PO • 20% CC • 10% CC tot • +20 CC • 1 coup
+
 
 
 
@@ -31468,8 +31351,7 @@ Marteau - Niveau 200
 Massier
 Marteau - Niveau 200
 
-12 à 16 Vol Feu
-12 à 16 Vol Feu
+
 301 à 350 Vitalité
 61 à 80 Intelligence
 31 à 40 Sagesse
@@ -31479,7 +31361,7 @@ Marteau - Niveau 200
 11 à 15 Esquive PA
 5 à 7 % Rés. Neutre
 5 à 7 % Rés. Terre
-4 PA • 1 - 1 PO • 15% CC • 10% CC tot • +6 CC • 1 coup
+
 
 
 
@@ -31488,8 +31370,7 @@ Marteau - Niveau 200
 Pelle de Katrepat
 Pelle - Niveau 200
 
-36 à 40 Dégâts Feu
-36 à 40 Dégâts Eau
+
 301 à 350 Vitalité
 41 à 60 Intelligence
 41 à 60 Chance
@@ -31502,8 +31383,7 @@ Pelle - Niveau 200
 11 à 15 Prospection
 11 à 15 Esquive PA
 7 à 10 % Rés. Air
-5 PA • 1 - 1 PO • 1 coup • Pas de CC
-Intelligence > 499 + Chance > 499
+
 
 
 
@@ -31512,7 +31392,7 @@ Intelligence > 499 + Chance > 499
 Pelle de la Cour Sombre
 Pelle - Niveau 200
 
-61 à 70 Dégâts Air
+
 251 à 300 Vitalité
 61 à 80 Agilité
 31 à 50 Sagesse
@@ -31525,7 +31405,7 @@ Pelle - Niveau 200
 21 à 30 Rés. Poussée
 7 à 10 % Rés. Terre
 7 à 10 % Rés. Eau
-6 PA • 1 - 1 PO • 5% CC • 10% CC tot • +10 CC • 1 coup
+
 
 
 
@@ -31534,9 +31414,8 @@ Pelle - Niveau 200
 Pelle de Nidas
 Pelle - Niveau 200
 
-33 à 40 Dégâts Neutre
-4 à 6 Vol Eau
-4 à 6 Vol Air
+
+
 301 à 350 Vitalité
 31 à 50 Force
 31 à 50 Chance
@@ -31551,8 +31430,7 @@ Pelle - Niveau 200
 4 à 6 Retrait PM
 9 à 12 Rés. Critique
 7 à 10 % Rés. Feu
-5 PA • 1 - 1 PO • 15% CC • 10% CC tot • +4 CC • 1 coup
-Chance > 300 + Agilité > 300
+
 
 
 
@@ -31561,15 +31439,14 @@ Chance > 300 + Agilité > 300
 Plume de Buhorado
 Arc - Niveau 200
 
-36 à 45 Dégâts Air
+
 301 à 350 Vitalité
 81 à 120 Agilité
 1 PM
 1 PO
 -20 Esquive PM
 21 à 30 Dommages Poussée
-4 PA • 4 - 7 PO • 15% CC • 10% CC tot • +15 CC • 1 coup
-PA < 12
+
 
 
 
@@ -31578,9 +31455,7 @@ PA < 12
 Plumeau Bil
 Hache - Niveau 200
 
-26 à 30 Dégâts Feu
-6 à 10 Vol Feu
-6 à 10 Vol Feu
+
 301 à 350 Vitalité
 61 à 80 Intelligence
 31 à 50 Sagesse
@@ -31592,7 +31467,7 @@ Hache - Niveau 200
 11 à 15 Tacle
 21 à 25 Rés. Critique
 7 à 10 % Rés. Terre
-5 PA • 1 - 1 PO • 1 coup • Pas de CC
+
 
 
 
@@ -31601,9 +31476,7 @@ Hache - Niveau 200
 Pyraguette
 Baguette - Niveau 200
 
-25 à 30 Dégâts Feu
-10 à 12 Dégâts Eau
-10 à 12 Dégâts Eau
+
 301 à 350 Vitalité
 51 à 70 Intelligence
 51 à 70 Chance
@@ -31617,7 +31490,6 @@ Baguette - Niveau 200
 11 à 15 Fuite
 11 à 15 Rés. Critique
 7 à 10 % Rés. Air
-4 PA • 3 - 6 PO • 1 coup • Pas de CC
 
 
 
@@ -31627,10 +31499,7 @@ Sabres d'Atcham
 Panoplie d'Atcham
 Épée - Niveau 200
 
-20 à 25 Dégâts Feu
-20 à 25 Dégâts Eau
-20 à 25 Dégâts Air
--1 PA (cible)
+
 301 à 350 Vitalité
 31 à 40 Intelligence
 31 à 40 Chance
@@ -31646,8 +31515,7 @@ Panoplie d'Atcham
 5 à 7 Retrait PA
 11 à 15 Dommages Critique
 7 à 10 % Rés. Feu
-6 PA • 1 - 1 PO • 15% CC • 10% CC tot • +5 CC • 1 coup
-Intelligence > 400 + Chance > 400 + Agilité > 400
+
 
 
 
@@ -31656,8 +31524,7 @@ Intelligence > 400 + Chance > 400 + Agilité > 400
 Sceptre du Roi Joueur
 Bâton - Niveau 200
 
-12 à 15 Dégâts Eau
-4 à 5 Vol Eau
+
 351 à 400 Vitalité
 61 à 80 Chance
 31 à 50 Sagesse
@@ -31670,7 +31537,7 @@ Bâton - Niveau 200
 7 à 10 Dommages Critique
 5 à 7 % Rés. Neutre
 7 à 10 % Rés. Terre
-3 PA • 1 - 1 PO • 15% CC • 10% CC tot • +3 CC • 2 coups
+
 
 
 
@@ -31679,8 +31546,7 @@ Bâton - Niveau 200
 Spatule Tranche-Gourmands
 Pelle - Niveau 200
 
-23 à 30 Dégâts Terre
-18 à 25 Dégâts Air
+
 7 à 10 Vol Neutre
 351 à 400 Vitalité
 41 à 60 Force
@@ -31695,7 +31561,7 @@ Pelle - Niveau 200
 7 à 10 Retrait PM
 4 à 7 % Rés. Neutre
 4 à 7 % Rés. Eau
-5 PA • 1 - 1 PO • 15% CC • 10% CC tot • +5 CC • 1 coup
+
 
 
 
@@ -31705,9 +31571,7 @@ Epée Gloursonne
 Panoplie Gloursonne
 Épée - Niveau 199
 
-7 à 12 Dégâts Neutre
-7 à 12 Dégâts Neutre
-7 à 12 Dégâts Neutre
+
 251 à 300 Vitalité
 31 à 50 Sagesse
 6 à 8 % Critique
@@ -31720,7 +31584,7 @@ Panoplie Gloursonne
 7 à 10 Rés. Feu
 7 à 10 Rés. Eau
 7 à 10 Rés. Air
-4 PA • 1 - 1 PO • 1% CC • 10% CC tot • +5 CC • 1 coup
+
 
 
 
@@ -31729,9 +31593,7 @@ Panoplie Gloursonne
 Masse Ossiale
 Marteau - Niveau 199
 
-30 à 37 Dégâts Neutre
-7 à 12 Dégâts Feu
-7 à 12 Vol Eau
+
 251 à 300 Vitalité
 31 à 40 Intelligence
 41 à 60 Chance
@@ -31746,8 +31608,7 @@ Marteau - Niveau 199
 16 à 20 Dommages Poussée
 7 à 10 % Rés. Air
 11 à 15 Rés. Feu
-5 PA • 1 - 1 PO • 25% CC • 10% CC tot • +4 CC • 1 coup
-Intelligence > 200 + Chance > 350
+
 
 
 
@@ -31756,9 +31617,8 @@ Intelligence > 200 + Chance > 350
 Pelle Vice
 Pelle - Niveau 199
 
-22 à 28 Dégâts Neutre
-23 à 34 Dégâts Feu
-7 à 10 Vol Eau
+
+
 251 à 300 Vitalité
 51 à 75 Intelligence
 31 à 50 Chance
@@ -31771,8 +31631,7 @@ Pelle - Niveau 199
 201 à 300 Initiative
 7 à 10 Retrait PA
 11 à 15 Rés. Air
-5 PA • 1 - 1 PO • 5% CC • 10% CC tot • +7 CC • 1 coup
-Intelligence > 350 + Chance > 250
+
 
 
 
@@ -31782,8 +31641,7 @@ Bâtonnet Ronien
 Panoplie Quartzésienne
 Baguette - Niveau 198
 
-10 à 14 Dégâts Eau
-10 à 14 Dégâts Air
+
 251 à 300 Vitalité
 31 à 50 Agilité
 31 à 45 Sagesse
@@ -31797,8 +31655,7 @@ Baguette - Niveau 198
 7 à 10 % Rés. Terre
 11 à 15 Rés. Feu
 11 à 15 Rés. Eau
-3 PA • 3 - 5 PO • 10% CC • 10% CC tot • +4 CC • 2 coups
-Chance > 300 + Agilité > 300
+
 
 
 
@@ -31807,8 +31664,7 @@ Chance > 300 + Agilité > 300
 Dagues Ricol
 Dagues - Niveau 198
 
-16 à 22 Dégâts Neutre
-5 à 7 Vol Feu
+
 251 à 300 Vitalité
 51 à 75 Intelligence
 31 à 45 Sagesse
@@ -31823,8 +31679,7 @@ Dagues - Niveau 198
 7 à 10 % Rés. Neutre
 5 à 7 % Rés. Terre
 5 à 7 % Rés. Air
-3 PA • 1 - 1 PO • 25% CC • 10% CC tot • +5 CC • 2 coups
-Force > 200 + Intelligence > 400
+
 
 
 
@@ -31833,8 +31688,7 @@ Force > 200 + Intelligence > 400
 Bâton Beau
 Bâton - Niveau 197
 
-17 à 24 Dégâts Neutre
-16 à 22 Dégâts Terre
+
 301 à 350 Vitalité
 31 à 50 Sagesse
 51 à 75 Puissance
@@ -31846,8 +31700,7 @@ Bâton - Niveau 197
 16 à 20 Rés. Poussée
 16 à 20 Rés. Neutre
 16 à 20 Rés. Eau
-4 PA • 1 - 1 PO • 25% CC • 10% CC tot • +7 CC • 1 coup
-Force > 350 + Intelligence > 350 ou Chance > 350 ou Agilité > 350
+
 
 
 
@@ -31856,9 +31709,8 @@ Force > 350 + Intelligence > 350 ou Chance > 350 ou Agilité > 350
 Bêche Asse
 Pelle - Niveau 197
 
-16 à 23 Dégâts Neutre
-16 à 23 Dégâts Terre
-4 à 6 Vol Neutre
+
+
 251 à 300 Vitalité
 51 à 75 Force
 31 à 40 Sagesse
@@ -31871,8 +31723,7 @@ Pelle - Niveau 197
 7 à 10 Dommages Critique
 7 à 10 % Rés. Terre
 7 à 10 % Rés. Air
-5 PA • 1 - 1 PO • 15% CC • 10% CC tot • +4 CC • 1 coup
-Force > 450
+
 
 
 
@@ -31881,9 +31732,7 @@ Force > 450
 Canne Harr
 Bâton - Niveau 197
 
-8 à 11 Dégâts Feu
-15 à 20 Dégâts Air
-5 à 7 Vol Feu
+
 301 à 350 Vitalité
 41 à 60 Intelligence
 31 à 40 Agilité
@@ -31898,8 +31747,7 @@ Bâton - Niveau 197
 5 à 7 % Rés. Terre
 5 à 7 % Rés. Feu
 7 à 10 Rés. Air
-4 PA • 1 - 1 PO • 20% CC • 10% CC tot • +7 CC • 1 coup
-Intelligence > 400 + Agilité > 400
+
 
 
 
@@ -31908,8 +31756,7 @@ Intelligence > 400 + Agilité > 400
 Dague Hirr
 Dagues - Niveau 197
 
-10 à 16 Dégâts Terre
-10 à 16 Dégâts Air
+
 251 à 300 Vitalité
 41 à 60 Force
 41 à 60 Agilité
@@ -31923,9 +31770,6 @@ Dagues - Niveau 197
 3 à 4 Tacle
 7 à 10 Rés. Critique
 5 à 7 % Rés. Neutre
-3 PA • 1 - 1 PO • 15% CC • 10% CC tot • +7 CC • 2 coups
-Force > 400 + Agilité > 400
-
 
 
 
@@ -31933,9 +31777,7 @@ Force > 400 + Agilité > 400
 Marteau des Anciens Steamers
 Marteau - Niveau 197
 
-27 à 32 Dégâts Eau
-14 à 17 Dégâts Air
-6 à 8 Vol Air
+
 301 à 350 Vitalité
 41 à 60 Chance
 41 à 60 Agilité
@@ -31952,8 +31794,7 @@ Marteau - Niveau 197
 5 à 7 % Rés. Terre
 5 à 7 % Rés. Feu
 11 à 15 Rés. Feu
-5 PA • 1 - 1 PO • 5% CC • 10% CC tot • +5 CC • 1 coup
-Chance > 400 + Agilité > 400
+
 
 
 
@@ -31962,9 +31803,7 @@ Chance > 400 + Agilité > 400
 Pelle Fik
 Pelle - Niveau 197
 
-21 à 30 Dégâts Neutre
-3 à 4 Vol Eau
-3 à 4 Vol Eau
+
 251 à 300 Vitalité
 41 à 60 Chance
 31 à 50 Sagesse
@@ -31977,8 +31816,7 @@ Pelle - Niveau 197
 4 à 6 % Rés. Neutre
 11 à 15 Rés. Eau
 11 à 15 Rés. Air
-4 PA • 1 - 1 PO • 35% CC • 10% CC tot • +6 CC • 1 coup
-Chance > 400
+
 
 
 
@@ -31987,8 +31825,7 @@ Chance > 400
 Rapière aux Glyphes
 Épée - Niveau 197
 
-33 à 44 Dégâts Neutre
-8 à 10 Vol Eau
+
 251 à 300 Vitalité
 61 à 80 Chance
 31 à 40 Sagesse
@@ -32002,8 +31839,7 @@ Rapière aux Glyphes
 6 à 8 % Rés. Terre
 6 à 8 % Rés. Air
 16 à 20 Rés. Neutre
-4 PA • 1 - 1 PO • 15% CC • 10% CC tot • +10 CC • 1 coup
-Chance > 450
+
 
 
 
@@ -32012,9 +31848,7 @@ Chance > 450
 Arc Ahique
 Arc - Niveau 196
 
-8 à 12 Dégâts Neutre
-8 à 12 Dégâts Air
-3 à 4 Vol Eau
+
 251 à 350 Vitalité
 31 à 40 Chance
 31 à 40 Agilité
@@ -32029,8 +31863,7 @@ Arc - Niveau 196
 7 à 10 Rés. Critique
 7 à 10 Rés. Neutre
 7 à 10 Rés. Air
-3 PA • 3 - 8 PO • 1 coup • Pas de CC
-Force > 200 + Chance > 300 + Agilité > 300
+
 
 
 
@@ -32040,7 +31873,7 @@ Force > 200 + Chance > 300 + Agilité > 300
 Panoplie d'Otomaï
 Épée - Niveau 196
 
-36 à 44 Dégâts Feu
+
 251 à 300 Vitalité
 61 à 80 Intelligence
 21 à 30 Sagesse
@@ -32054,8 +31887,7 @@ Panoplie d'Otomaï
 4 à 6 Esquive PA
 16 à 20 Rés. Neutre
 16 à 20 Rés. Eau
-4 PA • 1 - 1 PO • 10% CC • 10% CC tot • +10 CC • 1 coup
-Intelligence > 500
+
 
 
 
@@ -32064,9 +31896,7 @@ Intelligence > 500
 Epée Toche
 Épée - Niveau 196
 
-16 à 30 Dégâts Neutre
-16 à 30 Dégâts Terre
-5 à 6 Vol Feu
+
 201 à 250 Vitalité
 31 à 50 Force
 31 à 50 Intelligence
@@ -32080,8 +31910,7 @@ Epée Toche
 4 à 5 Retrait PM
 7 à 10 % Rés. Terre
 7 à 10 Rés. Eau
-5 PA • 1 - 1 PO • 15% CC • 10% CC tot • +7 CC • 1 coup
-Force > 350 + Intelligence > 250
+
 
 
 
@@ -32090,9 +31919,7 @@ Force > 350 + Intelligence > 250
 Bâton Brageut
 Bâton - Niveau 195
 
-15 à 23 Dégâts Neutre
-12 à 18 Dégâts Feu
-5 à 8 Vol Feu
+
 301 à 400 Vitalité
 31 à 50 Intelligence
 31 à 50 Sagesse
@@ -32105,8 +31932,7 @@ Bâton - Niveau 195
 5 à 7 Fuite
 4 à 5 Retrait PA
 7 à 10 Rés. Poussée
-5 PA • 1 - 1 PO • 5% CC • 10% CC tot • +4 CC • 1 coup
-Force > 300 + Intelligence > 400
+
 
 
 
@@ -32115,8 +31941,7 @@ Force > 300 + Intelligence > 400
 Hachoirs de Viandargh
 Dagues - Niveau 195
 
-12 à 16 Dégâts Air
-4 à 5 Vol Air
+
 301 à 350 Vitalité
 51 à 70 Agilité
 31 à 40 Sagesse
@@ -32128,7 +31953,6 @@ Dagues - Niveau 195
 7 à 10 Dommages Critique
 21 à 30 Dommages Poussée
 7 à 10 % Rés. Terre
-3 PA • 1 - 1 PO • 15% CC • 10% CC tot • +6 CC • 2 coups
 
 
 
@@ -32137,9 +31961,7 @@ Dagues - Niveau 195
 Marteau du Glouragan
 Marteau - Niveau 195
 
-11 à 15 Dégâts Feu
-11 à 15 Dégâts Eau
-11 à 15 Dégâts Air
+
 251 à 300 Vitalité
 31 à 45 Intelligence
 31 à 45 Chance
@@ -32153,8 +31975,7 @@ Marteau - Niveau 195
 11 à 15 Prospection
 4 à 5 Esquive PA
 11 à 15 Rés. Critique
-4 PA • 1 - 1 PO • 25% CC • 10% CC tot • +6 CC • 1 coup
-Intelligence > 250 + Chance > 250 + Agilité > 250
+
 
 
 
@@ -32163,9 +31984,7 @@ Intelligence > 250 + Chance > 250 + Agilité > 250
 Hache Téroïde
 Hache - Niveau 194
 
-9 à 22 Dégâts Terre
-9 à 22 Dégâts Feu
-4 à 5 Vol Neutre
+
 251 à 300 Vitalité
 21 à 30 Force
 21 à 30 Intelligence
@@ -32180,8 +31999,7 @@ Hache - Niveau 194
 4 à 5 Rés. Neutre
 4 à 5 Rés. Terre
 4 à 5 Rés. Eau
-4 PA • 1 - 1 PO • 40% CC • 10% CC tot • +7 CC • 1 coup
-Force > 300 + Intelligence > 300
+
 
 
 
@@ -32191,9 +32009,7 @@ Rouleau à Pâtisserie d'Aermyne
 Panoplie d'Aermyne
 Bâton - Niveau 194
 
-9 à 14 Dégâts Neutre
-9 à 14 Dégâts Neutre
--1 PA (cible)
+
 301 à 350 Vitalité
 -71 à -100 Force
 -71 à -100 Intelligence
@@ -32210,7 +32026,6 @@ Bâton - Niveau 194
 7 à 10 % Rés. Feu
 7 à 10 % Rés. Eau
 7 à 10 % Rés. Air
-4 PA • 1 - 1 PO • 5% CC • 10% CC tot • +5 CC • 1 coup
 
 
 
@@ -32219,9 +32034,7 @@ Bâton - Niveau 194
 Baguette Hique
 Baguette - Niveau 193
 
-14 à 24 Dégâts Neutre
-7 à 12 Dégâts Eau
-4 à 5 Vol Eau
+
 251 à 300 Vitalité
 31 à 45 Intelligence
 31 à 45 Chance
@@ -32235,8 +32048,7 @@ Baguette - Niveau 193
 5 à 6 Retrait PM
 5 à 7 % Rés. Terre
 5 à 7 % Rés. Air
-4 PA • 2 - 5 PO • 20% CC • 10% CC tot • +6 CC • 1 coup
-Intelligence > 300 + Chance > 250
+
 
 
 
@@ -32246,9 +32058,7 @@ Marteau d'Henual
 Panoplie d'Henual
 Marteau - Niveau 193
 
-12 à 20 Dégâts Terre
-18 à 28 Dégâts Feu
-6 à 8 Vol Neutre
+
 201 à 250 Vitalité
 41 à 60 Force
 41 à 60 Intelligence
@@ -32264,8 +32074,7 @@ Marteau - Niveau 193
 -11 à -15 Rés. Critique
 5 à 7 % Rés. Feu
 5 à 7 % Rés. Air
-4 PA • 1 - 1 PO • 15% CC • 10% CC tot • +4 CC • 1 coup
-Force > 400 + Intelligence > 400
+
 
 
 
@@ -32275,10 +32084,8 @@ Grésilosceptre
 Panoplie Grésil
 Bâton - Niveau 192
 
-10 à 15 Dégâts Neutre
-8 à 12 Dégâts Feu
-8 à 12 Dégâts Air
--1 PA (cible)
+
+
 301 à 350 Vitalité
 41 à 60 Force
 41 à 60 Chance
@@ -32289,8 +32096,7 @@ Bâton - Niveau 192
 301 à 400 Initiative
 6 à 10 % Rés. Feu
 6 à 10 Rés. Neutre
-4 PA • 1 - 1 PO • 25% CC • 10% CC tot • +7 CC • 1 coup
-Force > 200 + Intelligence > 200 + Chance > 200 + Agilité > 200
+
 
 
 
@@ -32299,7 +32105,7 @@ Force > 200 + Intelligence > 200 + Chance > 200 + Agilité > 200
 Hache Rot
 Hache - Niveau 192
 
-46 à 60 Dégâts Eau
+
 301 à 350 Vitalité
 51 à 70 Chance
 21 à 30 Sagesse
@@ -32311,7 +32117,7 @@ Hache - Niveau 192
 7 à 10 % Rés. Feu
 11 à 15 Rés. Terre
 11 à 15 Rés. Air
-5 PA • 1 - 1 PO • 15% CC • 10% CC tot • +20 CC • 1 coup
+
 
 
 
@@ -32320,9 +32126,7 @@ Hache - Niveau 192
 Bâton Champmanique
 Bâton - Niveau 191
 
-18 à 27 Dégâts Neutre
-1 à 8 Vol Terre
-1 à 8 Vol Eau
+
 201 à 250 Vitalité
 31 à 50 Force
 31 à 50 Intelligence
@@ -32332,8 +32136,7 @@ Bâton - Niveau 191
 4 à 5 Dommages
 11 à 15 Prospection
 6 à 10 % Rés. Neutre
-4 PA • 1 - 1 PO • 15% CC • 10% CC tot • +7 CC • 1 coup
-Force > 200 + Intelligence > 90 + Chance > 200
+
 
 
 
@@ -32343,9 +32146,7 @@ Pelle du Professeur Xa
 Panoplie du Professeur Xa
 Pelle - Niveau 191
 
-15 à 21 Dégâts Neutre
-5 à 7 Vol Air
--1 PA (cible)
+
 151 à 200 Vitalité
 31 à 50 Force
 31 à 50 Intelligence
@@ -32360,8 +32161,7 @@ Pelle - Niveau 191
 4 à 5 Fuite
 4 à 5 Retrait PA
 7 à 10 % Rés. Air
-3 PA • 1 - 1 PO • 5% CC • 10% CC tot • +3 CC • 2 coups
-PM < 6 + Sagesse > 350
+
 
 
 
@@ -32370,16 +32170,14 @@ PM < 6 + Sagesse > 350
 Pelle Emélaka
 Pelle - Niveau 191
 
-8 à 18 Dégâts Neutre
-12 à 26 Dégâts Eau
+
 251 à 300 Vitalité
 41 à 60 Chance
 31 à 40 Sagesse
 6 à 10 Dommages
 21 à 30 Prospection
 6 à 10 % Rés. Feu
-3 PA • 1 - 1 PO • 2 coups • Pas de CC
-Chance > 450
+
 
 
 
@@ -32388,8 +32186,7 @@ Chance > 450
 Bâton Brelle
 Bâton - Niveau 188
 
-22 à 33 Dégâts Neutre
-5 à 7 Vol Air
+
 201 à 250 Vitalité
 41 à 60 Agilité
 31 à 40 Sagesse
@@ -32401,8 +32198,7 @@ Bâton - Niveau 188
 4 à 5 Esquive PA
 11 à 15 Rés. Critique
 5 à 7 % Rés. Neutre
-4 PA • 1 - 1 PO • 30% CC • 10% CC tot • +7 CC • 1 coup
-Agilité > 350 + Vitalité > 1500
+
 
 
 
@@ -32412,9 +32208,7 @@ Hache du Korriandre
 Panoplie du Korriandre
 Hache - Niveau 188
 
-8 à 14 Vol Eau
-8 à 14 Vol Air
--1 PA (cible)
+
 201 à 250 Vitalité
 31 à 50 Chance
 31 à 50 Agilité
@@ -32426,8 +32220,6 @@ Hache - Niveau 188
 301 à 400 Initiative
 4 à 5 Retrait PA
 7 à 10 Rés. Critique
-3 PA • 1 - 1 PO • 5% CC • 10% CC tot • +4 CC • 2 coups
-Chance > 300 + Agilité > 300
 
 
 
@@ -32436,9 +32228,7 @@ Chance > 300 + Agilité > 300
 Baguette Hernelle
 Baguette - Niveau 187
 
-14 à 22 Dégâts Neutre
-14 à 22 Dégâts Neutre
-6 à 9 Vol Air
+
 251 à 300 Vitalité
 31 à 50 Intelligence
 31 à 50 Agilité
@@ -32453,9 +32243,6 @@ Baguette - Niveau 187
 7 à 10 Dommages Poussée
 7 à 10 Rés. Terre
 7 à 10 Rés. Eau
-5 PA • 3 - 6 PO • 5% CC • 10% CC tot • +7 CC • 1 coup
-Intelligence > 300 + Agilité > 200
-
 
 
 
@@ -32464,9 +32251,7 @@ Couteaux à Champignons
 Panoplignon
 Dagues - Niveau 187
 
-8 à 14 Dégâts Neutre
-8 à 14 Dégâts Air
--1 PA (cible)
+
 201 à 250 Vitalité
 31 à 50 Agilité
 21 à 30 Sagesse
@@ -32475,9 +32260,6 @@ Dagues - Niveau 187
 11 à 15 Prospection
 301 à 400 Initiative
 31 à 50 Puissance Piège
-3 PA • 1 - 1 PO • 25% CC • 10% CC tot • +4 CC • 2 coups
-Agilité > 450
-
 
 
 
@@ -32485,9 +32267,7 @@ Agilité > 450
 Marteau Reine
 Marteau - Niveau 187
 
-24 à 44 Dégâts Neutre
-6 à 10 Dégâts Terre
-6 à 10 Vol Air
+
 201 à 250 Vitalité
 21 à 30 Agilité
 31 à 50 Sagesse
@@ -32500,9 +32280,6 @@ Marteau - Niveau 187
 4 à 5 Tacle
 5 à 7 % Rés. Feu
 5 à 7 % Rés. Eau
-5 PA • 1 - 1 PO • 1% CC • 10% CC tot • +10 CC • 1 coup
-Force > 200 + Agilité > 300
-
 
 
 
@@ -32510,10 +32287,7 @@ Force > 200 + Agilité > 300
 Az'tech
 Épée - Niveau 186
 
-31 à 50 Dégâts Neutre
-6 à 8 Vol Eau
-6 à 8 Vol Air
--1 PA (cible)
+
 101 à 150 Vitalité
 31 à 50 Force
 31 à 50 Chance
@@ -32523,8 +32297,6 @@ Az'tech
 11 à 15 Prospection
 5 à 7 % Rés. Eau
 5 à 7 % Rés. Air
-5 PA • 1 - 1 PO • 10% CC • 10% CC tot • +7 CC • 1 coup
-Force > 200 + Chance > 200 + Agilité > 200
 
 
 
@@ -32533,9 +32305,7 @@ Force > 200 + Chance > 200 + Agilité > 200
 Rhizome du Tynril
 Bâton - Niveau 186
 
-13 à 21 Dégâts Neutre
-7 à 11 Dégâts Terre
-4 à 6 Vol Feu
+
 201 à 300 Vitalité
 41 à 60 Intelligence
 31 à 40 Sagesse
@@ -32544,8 +32314,7 @@ Bâton - Niveau 186
 4 à 5 % Rés. Neutre
 4 à 5 % Rés. Terre
 4 à 5 % Rés. Feu
-4 PA • 1 - 1 PO • 15% CC • 10% CC tot • +5 CC • 1 coup
-Force > 200 + Intelligence > 250
+
 
 
 
@@ -32554,8 +32323,7 @@ Force > 200 + Intelligence > 250
 Arc Oleptik
 Arc - Niveau 185
 
-6 à 19 Dégâts Feu
-6 à 19 Dégâts Air
+
 151 à 200 Vitalité
 31 à 50 Intelligence
 31 à 50 Agilité
@@ -32566,8 +32334,7 @@ Arc - Niveau 185
 301 à 400 Initiative
 4 à 6 % Rés. Feu
 4 à 6 % Rés. Air
-4 PA • 3 - 8 PO • 25% CC • 10% CC tot • +10 CC • 1 coup
-Intelligence > 300 + Agilité > 300
+
 
 
 
@@ -32576,8 +32343,7 @@ Intelligence > 300 + Agilité > 300
 Hache Hélème
 Hache - Niveau 185
 
-35 à 45 Dégâts Feu
-6 à 12 Vol Air
+
 251 à 300 Vitalité
 41 à 60 Intelligence
 31 à 40 Agilité
@@ -32590,8 +32356,7 @@ Hache - Niveau 185
 5 à 7 % Rés. Feu
 5 à 7 Rés. Terre
 5 à 7 Rés. Eau
-5 PA • 1 - 1 PO • 20% CC • 10% CC tot • +7 CC • 1 coup
-Intelligence > 350 + Agilité > 200
+
 
 
 
@@ -32600,8 +32365,7 @@ Intelligence > 350 + Agilité > 200
 Arc Hétype
 Arc - Niveau 184
 
-28 à 44 Dégâts Neutre
-51 à 100 PV rendus
+
 201 à 250 Vitalité
 31 à 50 Force
 31 à 50 Intelligence
@@ -32614,8 +32378,7 @@ Arc - Niveau 184
 4 à 5 Retrait PM
 7 à 10 % Rés. Terre
 7 à 10 Rés. Air
-5 PA • 4 - 7 PO • 10% CC • 10% CC tot • +10 CC • 1 coup
-Force > 90
+
 
 
 
@@ -32624,7 +32387,7 @@ Force > 90
 Epée Kari
 Épée - Niveau 184
 
-46 à 75 Dégâts Neutre
+
 301 à 400 Vitalité
 31 à 50 Sagesse
 46 à 75 Puissance
@@ -32632,8 +32395,7 @@ Epée Kari
 16 à 25 Prospection
 10 Tacle
 -10 Fuite
-5 PA • 1 - 1 PO • 30% CC • 10% CC tot • +15 CC • 1 coup
-Vitalité > 2000
+
 
 
 
@@ -32642,8 +32404,7 @@ Vitalité > 2000
 Epée Loponèze
 Épée - Niveau 184
 
-6 à 28 Dégâts Eau
-6 à 28 Dégâts Air
+
 201 à 250 Vitalité
 31 à 50 Chance
 31 à 50 Agilité
@@ -32653,8 +32414,7 @@ Epée Loponèze
 401 à 700 Initiative
 6 à 10 % Rés. Eau
 6 à 10 % Rés. Air
-4 PA • 1 - 1 PO • 5% CC • 10% CC tot • +10 CC • 1 coup
-Chance > 300 + Agilité > 300
+
 
 
 
@@ -32673,8 +32433,7 @@ Arc - Niveau 183
 5 à 7 Dommages
 11 à 20 Prospection
 301 à 400 Initiative
-4 PA • 2 - 7 PO • 25% CC • 10% CC tot • +10 CC • 1 coup
-Force > 300 + Intelligence > 300
+
 
 
 
@@ -32683,9 +32442,7 @@ Force > 300 + Intelligence > 300
 Dagues Açantes
 Dagues - Niveau 183
 
-7 à 12 Dégâts Neutre
-4 à 6 Vol Eau
--1 PA (cible)
+
 201 à 250 Vitalité
 31 à 50 Chance
 31 à 50 Sagesse
@@ -32698,8 +32455,7 @@ Dagues - Niveau 183
 3 à 4 Retrait PM
 7 à 10 % Rés. Air
 7 à 10 Rés. Eau
-3 PA • 1 - 1 PO • 25% CC • 10% CC tot • +8 CC • 2 coups
-Chance > 350
+
 
 
 
@@ -32709,9 +32465,7 @@ Lame Assacre
 Panoplie du Bworker Berserker
 Dagues - Niveau 182
 
-8 à 17 Dégâts Neutre
-6 à 10 Dégâts Feu
-6 à 10 Dégâts Eau
+
 251 à 300 Vitalité
 31 à 50 Force
 31 à 50 Agilité
@@ -32719,8 +32473,7 @@ Dagues - Niveau 182
 4 à 6 Dommages
 6 à 10 % Rés. Air
 6 à 10 Rés. Air
-4 PA • 1 - 1 PO • 25% CC • 10% CC tot • +7 CC • 1 coup
-Force > 200 + Intelligence > 140 + Chance > 140 + Agilité > 140
+
 
 
 
@@ -32729,9 +32482,7 @@ Force > 200 + Intelligence > 140 + Chance > 140 + Agilité > 140
 Pelle Vétik
 Pelle - Niveau 181
 
-23 à 33 Dégâts Neutre
-12 à 22 Dégâts Air
-7 à 10 Vol Feu
+
 201 à 250 Vitalité
 31 à 50 Force
 31 à 50 Intelligence
@@ -32745,9 +32496,6 @@ Pelle - Niveau 181
 16 à 25 Prospection
 301 à 400 Initiative
 4 à 5 Esquive PA
-5 PA • 1 - 1 PO • 5% CC • 10% CC tot • +8 CC • 1 coup
-Force > 200 + Intelligence > 200 + Agilité > 200
-
 
 
 
@@ -32767,8 +32515,6 @@ Baguette - Niveau 180
 4 à 5 Dommages
 6 à 10 Soin
 6 à 10 Prospection
-4 PA • 2 - 4 PO • 10% CC • 10% CC tot • +5 CC • 1 coup
-Intelligence > 300 + Agilité > 300
 
 
 
@@ -32778,15 +32524,13 @@ Ougarteau
 Panoplie Ougah
 Marteau - Niveau 180
 
-19 à 35 Dégâts Neutre
-2 à 7 Vol Eau
+
 301 à 400 Vitalité
 31 à 40 Sagesse
 31 à 40 Puissance
 6 à 10 Dommages
 6 à 10 Prospection
-4 PA • 1 - 1 PO • 5% CC • 10% CC tot • +10 CC • 1 coup
-Vitalité > 1200
+
 
 
 
@@ -32795,8 +32539,7 @@ Vitalité > 1200
 Kukri Kura
 Épée - Niveau 179
 
-10 à 21 Dégâts Neutre
-10 à 21 Dégâts Neutre
+
 151 à 200 Vitalité
 31 à 50 Force
 21 à 30 Agilité
@@ -32807,8 +32550,7 @@ Kukri Kura
 301 à 500 Initiative
 6 à 10 % Rés. Neutre
 6 à 10 Rés. Neutre
-4 PA • 1 - 1 PO • 15% CC • 10% CC tot • +7 CC • 1 coup
-Force > 300 + Agilité > 140
+
 
 
 
@@ -32817,17 +32559,13 @@ Force > 300 + Agilité > 140
 Marteau Minokers
 Marteau - Niveau 178
 
-27 à 43 Dégâts Neutre
-4 à 6 Vol Feu
+
 201 à 250 Vitalité
 31 à 50 Intelligence
 26 à 40 Sagesse
 2 Invocation
 5 à 7 Dommages
 5 à 7 Soin
-5 PA • 1 - 1 PO • 15% CC • 10% CC tot • +5 CC • 1 coup
-Intelligence > 350 + Sagesse > 180
-
 
 
 
@@ -32835,8 +32573,7 @@ Intelligence > 350 + Sagesse > 180
 Pelle Dorado
 Pelle - Niveau 178
 
-25 à 37 Dégâts Neutre
-6 à 8 Vol Neutre
+
 151 à 200 Vitalité
 31 à 50 Chance
 31 à 40 Sagesse
@@ -32850,8 +32587,7 @@ Pelle - Niveau 178
 5 à 7 % Rés. Eau
 5 à 7 Rés. Feu
 5 à 7 Rés. Air
-4 PA • 1 - 1 PO • 5% CC • 10% CC tot • +8 CC • 1 coup
-Chance > 250
+
 
 
 
@@ -32860,8 +32596,7 @@ Chance > 250
 Baguette Nolog
 Baguette - Niveau 177
 
-20 à 34 Dégâts Neutre
-3 à 4 Vol Terre
+
 201 à 250 Vitalité
 31 à 40 Force
 31 à 40 Intelligence
@@ -32876,8 +32611,7 @@ Baguette - Niveau 177
 4 à 5 Fuite
 4 à 5 Esquive PA
 7 à 10 % Rés. Neutre
-4 PA • 2 - 4 PO • 15% CC • 10% CC tot • +8 CC • 1 coup
-Force > 200 + Intelligence > 200
+
 
 
 
@@ -32886,9 +32620,7 @@ Force > 200 + Intelligence > 200
 Epée Kadille
 Épée - Niveau 177
 
-21 à 30 Dégâts Neutre
-5 Vol Neutre
-5 Vol Feu
+
 201 à 250 Vitalité
 31 à 50 Force
 31 à 50 Intelligence
@@ -32900,8 +32632,7 @@ Epée Kadille
 4 à 5 Esquive PM
 7 à 10 Rés. Eau
 7 à 10 Rés. Air
-4 PA • 1 - 1 PO • 5% CC • 10% CC tot • +5 CC • 1 coup
-Force > 200 + Intelligence > 200
+
 
 
 
@@ -32910,7 +32641,7 @@ Force > 200 + Intelligence > 200
 L'Épée Nice
 Épée - Niveau 177
 
-16 à 30 Dégâts Neutre
+
 101 à 150 Vitalité
 31 à 50 Force
 26 à 40 Agilité
@@ -32922,8 +32653,7 @@ L'Épée Nice
 6 à 8 % Rés. Air
 6 à 10 Rés. Neutre
 6 à 10 Rés. Terre
-3 PA • 1 - 1 PO • 5% CC • 10% CC tot • +5 CC • 2 coups
-PM > 5
+
 
 
 
@@ -32932,8 +32662,7 @@ PM > 5
 Dagues Imauve
 Dagues - Niveau 176
 
-9 à 16 Dégâts Neutre
-7 à 12 Dégâts Feu
+
 201 à 250 Vitalité
 31 à 50 Intelligence
 41 à 50 Sagesse
@@ -32943,8 +32672,7 @@ Dagues - Niveau 176
 5 à 7 Soin
 16 à 25 Prospection
 201 à 300 Initiative
-3 PA • 1 - 1 PO • 25% CC • 10% CC tot • +5 CC • 2 coups
-Force > 90 + Intelligence > 300
+
 
 
 
@@ -32953,8 +32681,7 @@ Force > 90 + Intelligence > 300
 Rod Gerse
 Bâton - Niveau 176
 
-9 à 21 Dégâts Neutre
-9 à 21 Dégâts Feu
+
 201 à 250 Vitalité
 31 à 50 Intelligence
 21 à 35 Sagesse
@@ -32963,8 +32690,7 @@ Bâton - Niveau 176
 5 à 7 % Rés. Terre
 5 à 7 % Rés. Eau
 5 à 7 % Rés. Air
-4 PA • 1 - 1 PO • 25% CC • 10% CC tot • +7 CC • 1 coup
-Intelligence > 450
+
 
 
 
@@ -32973,9 +32699,7 @@ Intelligence > 450
 Arc Ontanporin
 Arc - Niveau 175
 
-8 à 15 Dégâts Neutre
-8 à 15 Dégâts Eau
--1 PA (cible)
+
 151 à 200 Vitalité
 21 à 30 Chance
 31 à 40 Sagesse
@@ -32990,9 +32714,6 @@ Arc - Niveau 175
 4 à 5 Retrait PA
 7 à 10 % Rés. Terre
 7 à 10 Rés. Air
-4 PA • 2 - 7 PO • 25% CC • 10% CC tot • +10 CC • 1 coup
-Chance > 250
-
 
 
 
@@ -33000,9 +32721,7 @@ Chance > 250
 Dague Adou
 Dagues - Niveau 175
 
-8 à 13 Dégâts Eau
-8 à 13 Dégâts Air
-1 à 2 Vol Neutre
+
 151 à 200 Vitalité
 31 à 50 Force
 31 à 50 Chance
@@ -33013,8 +32732,7 @@ Dagues - Niveau 175
 21 à 30 Puissance Piège
 6 à 10 Rés. Feu
 6 à 10 Rés. Air
-3 PA • 1 - 1 PO • 15% CC • 10% CC tot • +3 CC • 1 coup
-Force > 140 + Chance > 250 + Agilité > 250
+
 
 
 
@@ -33024,9 +32742,7 @@ Arc de Guten Tak
 Panoplie de Guten Tak
 Arc - Niveau 173
 
-21 à 30 Dégâts Neutre
-1 Vol Terre
-1 Vol Eau
+
 201 à 250 Vitalité
 31 à 40 Force
 31 à 40 Chance
@@ -33041,8 +32757,7 @@ Arc - Niveau 173
 11 à 15 Rés. Critique
 11 à 15 Rés. Terre
 11 à 15 Rés. Eau
-5 PA • 3 - 8 PO • 25% CC • 10% CC tot • +7 CC • 1 coup
-Force > 250 + Chance > 250
+
 
 
 
@@ -33051,8 +32766,7 @@ Force > 250 + Chance > 250
 Marteau Racle
 Marteau - Niveau 173
 
-18 à 30 Dégâts Neutre
-9 à 15 Dégâts Air
+
 151 à 200 Vitalité
 31 à 50 Force
 31 à 50 Agilité
@@ -33066,8 +32780,7 @@ Marteau - Niveau 173
 4 à 5 Retrait PM
 7 à 10 % Rés. Feu
 7 à 10 Rés. Air
-4 PA • 1 - 1 PO • 15% CC • 10% CC tot • +6 CC • 1 coup
-Force > 200 + Agilité > 200
+
 
 
 
@@ -33076,8 +32789,7 @@ Force > 200 + Agilité > 200
 La Bêche à Mel
 Pelle - Niveau 172
 
-6 à 10 Dégâts Feu
-16 à 30 Dégâts Eau
+
 101 à 150 Vitalité
 31 à 50 Intelligence
 31 à 50 Chance
@@ -33087,8 +32799,7 @@ Pelle - Niveau 172
 11 à 15 Prospection
 6 à 8 % Rés. Feu
 6 à 8 % Rés. Eau
-4 PA • 1 - 1 PO • 20% CC • 10% CC tot • +7 CC • 1 coup
-Intelligence > 250 + Chance > 250
+
 
 
 
@@ -33097,11 +32808,7 @@ Intelligence > 250 + Chance > 250
 Le Thanos
 Bâton - Niveau 172
 
-11 à 20 Vol Feu
-8 à 12 PV rendus
-8 à 12 PV rendus
-8 à 12 PV rendus
-8 à 12 PV rendus
+
 251 à 300 Vitalité
 41 à 60 Intelligence
 31 à 50 Sagesse
@@ -33116,8 +32823,7 @@ Bâton - Niveau 172
 -16 à -20 Dommages Poussée
 7 à 10 % Rés. Terre
 7 à 10 Rés. Air
-4 PA • 1 - 1 PO • 25% CC • 10% CC tot • +5 CC • 2 coups
-Intelligence > 140 + Sagesse > 300
+
 
 
 
@@ -33126,8 +32832,7 @@ Intelligence > 140 + Sagesse > 300
 Baguette du Chêne Mou
 Baguette - Niveau 171
 
-1 à 25 Dégâts Feu
-1 à 15 Vol Eau
+
 151 à 250 Vitalité
 31 à 50 Intelligence
 31 à 50 Chance
@@ -33139,8 +32844,7 @@ Baguette - Niveau 171
 6 à 7 % Rés. Eau
 -6 à -7 % Rés. Air
 Arme de chasse
-3 PA • 3 - 4 PO • 10% CC • 10% CC tot • +7 CC • 2 coups
-Intelligence > 400 + Chance > 250 + Sagesse > 140
+
 
 
 
@@ -33149,8 +32853,7 @@ Intelligence > 400 + Chance > 250 + Sagesse > 140
 Dagues Eudin
 Dagues - Niveau 171
 
-9 à 14 Dégâts Neutre
-7 à 10 Dégâts Terre
+
 151 à 200 Vitalité
 31 à 50 Force
 31 à 50 Agilité
@@ -33161,8 +32864,7 @@ Dagues - Niveau 171
 21 à 30 Puissance Piège
 11 à 20 Dommages Piège
 6 à 10 % Rés. Terre
-3 PA • 1 - 1 PO • 25% CC • 10% CC tot • +5 CC • 2 coups
-Force > 350 + Agilité > 200
+
 
 
 
@@ -33171,8 +32873,7 @@ Force > 350 + Agilité > 200
 Hache Achinecride
 Hache - Niveau 170
 
-16 à 32 Dégâts Terre
-8 à 16 Dégâts Air
+
 201 à 250 Vitalité
 41 à 60 Force
 41 à 60 Agilité
@@ -33187,8 +32888,7 @@ Hache - Niveau 170
 7 à 10 Dommages Poussée
 5 à 7 % Rés. Eau
 5 à 7 Rés. Feu
-4 PA • 1 - 1 PO • 15% CC • 10% CC tot • +10 CC • 1 coup
-Force > 250 + Agilité > 200
+
 
 
 
@@ -33198,9 +32898,7 @@ Bâton des Prophètes
 Panoplie des Prophètes
 Bâton - Niveau 169
 
-20 à 30 Dégâts Neutre
-4 à 6 Vol Feu
--1 PA (cible)
+
 151 à 200 Vitalité
 31 à 40 Intelligence
 31 à 40 Chance
@@ -33214,8 +32912,7 @@ Bâton - Niveau 169
 3 à 4 Retrait PM
 7 à 10 Rés. Critique
 7 à 10 Rés. Neutre
-4 PA • 1 - 1 PO • 5% CC • 10% CC tot • +8 CC • 1 coup
-Intelligence > 250 + Chance > 250
+
 
 
 
@@ -33224,15 +32921,13 @@ Intelligence > 250 + Chance > 250
 L'Epée Rilleuse
 Épée - Niveau 169
 
-26 à 50 Dégâts Neutre
-3 à 4 Vol Terre
+
 201 à 300 Vitalité
 31 à 50 Force
 1 PO
 6 à 10 Dommages
 11 à 20 Prospection
-5 PA • 1 - 1 PO • 5% CC • 10% CC tot • +5 CC • 1 coup
-Force > 450 + Vitalité > 450
+
 
 
 
@@ -33241,9 +32936,7 @@ Force > 450 + Vitalité > 450
 Arc Tangente
 Arc - Niveau 167
 
-10 à 14 Dégâts Terre
-10 à 14 Dégâts Eau
-4 à 6 Vol Feu
+
 201 à 250 Vitalité
 31 à 40 Force
 31 à 40 Intelligence
@@ -33257,8 +32950,7 @@ Arc - Niveau 167
 11 à 15 Prospection
 2 à 3 Fuite
 Arme de chasse
-5 PA • 2 - 8 PO • 25% CC • 10% CC tot • +7 CC • 1 coup
-Force > 250 + Intelligence > 140 + Chance > 250
+
 
 
 
@@ -33267,8 +32959,7 @@ Force > 250 + Intelligence > 140 + Chance > 250
 Marteau R'Gnole
 Marteau - Niveau 166
 
-8 à 12 Dégâts Feu
-8 à 12 Dégâts Air
+
 201 à 250 Vitalité
 31 à 40 Intelligence
 31 à 40 Agilité
@@ -33283,8 +32974,7 @@ Marteau - Niveau 166
 7 à 10 Rés. Critique
 7 à 10 Rés. Terre
 7 à 10 Rés. Eau
-3 PA • 1 - 1 PO • 15% CC • 10% CC tot • +4 CC • 2 coups
-Intelligence > 250 + Agilité > 250
+
 
 
 
@@ -33293,8 +32983,7 @@ Intelligence > 250 + Agilité > 250
 Canne Hassukre
 Bâton - Niveau 165
 
-22 à 32 Dégâts Terre
-3 à 5 Vol Neutre
+
 141 à 180 Vitalité
 41 à 60 Force
 41 à 60 Agilité
@@ -33309,8 +32998,7 @@ Bâton - Niveau 165
 3 à 4 Retrait PM
 7 à 10 Rés. Critique
 -4 à -5 % Rés. Feu
-4 PA • 1 - 1 PO • 5% CC • 10% CC tot • +7 CC • 1 coup
-Force > 350
+
 
 
 
@@ -33320,9 +33008,7 @@ Force > 350
 Panoplie de Ush
 Épée - Niveau 165
 
-19 à 28 Dégâts Neutre
-3 à 4 Vol Feu
-3 à 4 Vol Air
+
 201 à 250 Vitalité
 41 à 60 Intelligence
 41 à 60 Agilité
@@ -33335,8 +33021,7 @@ Panoplie de Ush
 4 à 5 Fuite
 9 à 12 Dommages Poussée
 5 à 7 % Rés. Neutre
-4 PA • 1 - 1 PO • 5% CC • 10% CC tot • +5 CC • 1 coup
-Intelligence > 300 + Agilité > 300
+
 
 
 
@@ -33345,8 +33030,7 @@ Intelligence > 300 + Agilité > 300
 Youyettes
 Dagues - Niveau 164
 
-16 à 24 Dégâts Neutre
-4 à 6 Vol Terre
+
 151 à 200 Vitalité
 31 à 50 Force
 31 à 50 Agilité
@@ -33360,8 +33044,7 @@ Dagues - Niveau 164
 7 à 10 Rés. Critique
 16 à 25 Puissance Piège
 7 à 10 % Rés. Air
-3 PA • 1 - 1 PO • 25% CC • 10% CC tot • +6 CC • 2 coups
-Force > 350 + Agilité > 200 + PM < 6
+
 
 
 
@@ -33370,9 +33053,7 @@ Force > 350 + Agilité > 200 + PM < 6
 Baguette Hernuement
 Baguette - Niveau 163
 
-12 à 20 Dégâts Neutre
-5 à 8 Dégâts Feu
-5 à 8 Dégâts Eau
+
 151 à 200 Vitalité
 31 à 50 Intelligence
 31 à 50 Chance
@@ -33386,8 +33067,7 @@ Baguette - Niveau 163
 5 à 7 % Rés. Terre
 5 à 7 % Rés. Air
 7 à 10 Rés. Neutre
-5 PA • 2 - 3 PO • 15% CC • 10% CC tot • +4 CC • 1 coup
-Intelligence > 250 + Chance > 250
+
 
 
 
@@ -33396,8 +33076,7 @@ Intelligence > 250 + Chance > 250
 Fuschia
 Épée - Niveau 163
 
-16 à 28 Dégâts Feu
-16 à 28 Dégâts Air
+
 151 à 200 Vitalité
 31 à 50 Intelligence
 31 à 50 Agilité
@@ -33406,8 +33085,7 @@ Fuschia
 6 à 8 Soin
 6 à 8 % Rés. Feu
 6 à 8 % Rés. Air
-5 PA • 1 - 1 PO • 25% CC • 10% CC tot • +7 CC • 1 coup
-Intelligence > 300 + Agilité > 300
+
 
 
 
@@ -33416,16 +33094,14 @@ Intelligence > 300 + Agilité > 300
 Hache Sueur Rance
 Hache - Niveau 162
 
-30 Dégâts Neutre
-10 Vol Terre
+
 151 à 200 Vitalité
 31 à 45 Force
 31 à 40 Sagesse
 5 à 7 % Critique
 6 à 10 Dommages
 11 à 15 Prospection
-5 PA • 1 - 1 PO • 5% CC • 10% CC tot • +10 CC • 1 coup
-Force > 300 + Sagesse > 250
+
 
 
 
@@ -33434,8 +33110,7 @@ Force > 300 + Sagesse > 250
 Bâton K'Tueuh
 Bâton - Niveau 161
 
-16 à 25 Dégâts Neutre
-4 à 6 Vol Eau
+
 151 à 200 Vitalité
 31 à 50 Chance
 16 à 25 Sagesse
@@ -33449,8 +33124,7 @@ Bâton - Niveau 161
 4 à 5 Fuite
 7 à 10 Rés. Feu
 7 à 10 Rés. Air
-4 PA • 1 - 1 PO • 5% CC • 10% CC tot • +6 CC • 1 coup
-Chance > 250
+
 
 
 
@@ -33460,8 +33134,7 @@ Chance > 250
 Panoplie du Bretteur Céleste
 Épée - Niveau 160
 
-30 à 44 Dégâts Neutre
-4 à 6 Vol Feu
+
 201 à 250 Vitalité
 31 à 50 Intelligence
 31 à 50 Agilité
@@ -33474,8 +33147,7 @@ Panoplie du Bretteur Céleste
 7 à 10 Dommages Critique
 11 à 15 Rés. Critique
 11 à 15 Rés. Neutre
-5 PA • 1 - 1 PO • 25% CC • 10% CC tot • +7 CC • 1 coup
-Intelligence > 300 + Agilité > 300
+
 
 
 
@@ -33485,8 +33157,7 @@ Bâton du Maître Zoth
 Panoplie du Zothuliste
 Bâton - Niveau 158
 
-21 à 40 Dégâts Neutre
--1 PA (cible)
+
 151 à 200 Vitalité
 26 à 40 Force
 31 à 50 Intelligence
@@ -33494,8 +33165,7 @@ Bâton - Niveau 158
 6 à 10 Dommages
 11 à 15 Prospection
 6 à 10 % Rés. Neutre
-5 PA • 1 - 1 PO • 15% CC • 10% CC tot • +15 CC • 1 coup
-Force > 90 + Intelligence > 180
+
 
 
 
@@ -33504,7 +33174,7 @@ Force > 90 + Intelligence > 180
 Dagues Ruik
 Dagues - Niveau 158
 
-1 à 20 Dégâts Neutre
+
 201 à 250 Vitalité
 31 à 50 Agilité
 21 à 30 Sagesse
@@ -33513,8 +33183,7 @@ Dagues - Niveau 158
 31 à 40 Puissance Piège
 6 à 10 % Rés. Neutre
 6 à 10 Rés. Neutre
-2 PA • 1 - 1 PO • 25% CC • 10% CC tot • +15 CC • 3 coups
-Agilité > 300
+
 
 
 
@@ -33523,9 +33192,7 @@ Agilité > 300
 Hache Harnée
 Hache - Niveau 158
 
-13 à 19 Dégâts Feu
-13 à 19 Dégâts Eau
-13 à 19 Dégâts Air
+
 101 à 150 Vitalité
 26 à 40 Intelligence
 26 à 40 Chance
@@ -33537,8 +33204,7 @@ Hache - Niveau 158
 5 à 7 % Rés. Eau
 5 à 7 % Rés. Air
 Arme de chasse
-5 PA • 1 - 1 PO • 5% CC • 10% CC tot • +7 CC • 1 coup
-Intelligence > 140 + Chance > 140 + Agilité > 140
+
 
 
 
@@ -33547,8 +33213,7 @@ Intelligence > 140 + Chance > 140 + Agilité > 140
 Karnak
 Épée - Niveau 158
 
-29 à 47 Dégâts Neutre
-4 à 6 Vol Air
+
 201 à 250 Vitalité
 31 à 50 Agilité
 21 à 35 Sagesse
@@ -33556,9 +33221,6 @@ Karnak
 6 à 8 Dommages
 5 à 7 % Rés. Neutre
 5 à 7 % Rés. Air
-5 PA • 1 - 1 PO • 5% CC • 10% CC tot • +10 CC • 1 coup
-Agilité > 300 + Vitalité > 300
-
 
 
 
@@ -33567,8 +33229,7 @@ Hache à Lamelles
 Panoplie des Sous-bois
 Hache - Niveau 157
 
-11 à 23 Dégâts Neutre
-11 à 23 Dégâts Eau
+
 201 à 250 Vitalité
 41 à 60 Chance
 21 à 30 Sagesse
@@ -33577,8 +33238,7 @@ Hache - Niveau 157
 6 à 10 Dommages
 11 à 20 Prospection
 6 à 10 Rés. Terre
-4 PA • 1 - 1 PO • 5% CC • 10% CC tot • +5 CC • 1 coup
-Chance > 450
+
 
 
 
@@ -33587,8 +33247,7 @@ Chance > 450
 Marteau de la Vigie Pirate
 Marteau - Niveau 156
 
-18 à 32 Dégâts Neutre
-3 à 4 Vol Neutre
+
 201 à 250 Vitalité
 31 à 40 Force
 21 à 30 Sagesse
@@ -33600,8 +33259,7 @@ Marteau - Niveau 156
 7 à 10 Rés. Poussée
 7 à 10 % Rés. Eau
 7 à 10 Rés. Terre
-4 PA • 1 - 1 PO • 20% CC • 10% CC tot • +4 CC • 1 coup
-Force > 250 + Vitalité > 800
+
 
 
 
@@ -33610,8 +33268,7 @@ Force > 250 + Vitalité > 800
 Pelle Aigante
 Pelle - Niveau 155
 
-16 à 27 Dégâts Terre
-16 à 27 Dégâts Feu
+
 151 à 200 Vitalité
 31 à 50 Force
 31 à 50 Intelligence
@@ -33622,8 +33279,7 @@ Pelle - Niveau 155
 201 à 300 Initiative
 5 à 7 % Rés. Terre
 5 à 7 % Rés. Feu
-5 PA • 1 - 1 PO • 30% CC • 10% CC tot • +7 CC • 1 coup
-Force > 250 + Intelligence > 250
+
 
 
 
@@ -33633,8 +33289,7 @@ Bâton du Harpirate
 Panoplie du Harpirate
 Bâton - Niveau 154
 
-16 à 22 Dégâts Neutre
-16 à 22 Dégâts Air
+
 151 à 200 Vitalité
 31 à 50 Intelligence
 31 à 50 Agilité
@@ -33647,8 +33302,7 @@ Bâton - Niveau 154
 151 à 250 Initiative
 7 à 10 Dommages Poussée
 5 à 7 % Rés. Air
-5 PA • 1 - 1 PO • 25% CC • 10% CC tot • +8 CC • 1 coup
-Intelligence > 140 + Agilité > 300
+
 
 
 
@@ -33657,9 +33311,7 @@ Intelligence > 140 + Agilité > 300
 Hache Haimenu
 Hache - Niveau 154
 
-12 à 20 Dégâts Neutre
-12 à 20 Dégâts Feu
--1 PA (cible)
+
 151 à 200 Vitalité
 41 à 60 Intelligence
 31 à 40 Sagesse
@@ -33672,8 +33324,7 @@ Hache - Niveau 154
 7 à 10 Rés. Critique
 7 à 10 Rés. Eau
 7 à 10 Rés. Air
-4 PA • 1 - 1 PO • 10% CC • 10% CC tot • +6 CC • 1 coup
-Intelligence > 300 + Sagesse > 200
+
 
 
 
@@ -33682,8 +33333,7 @@ Intelligence > 300 + Sagesse > 200
 Hache du Fancrôme
 Hache - Niveau 153
 
-22 à 32 Dégâts Neutre
-5 à 7 Vol Air
+
 151 à 200 Vitalité
 31 à 50 Agilité
 31 à 40 Sagesse
@@ -33697,8 +33347,7 @@ Hache - Niveau 153
 5 à 7 % Rés. Air
 5 à 7 Rés. Terre
 5 à 7 Rés. Eau
-4 PA • 1 - 1 PO • 5% CC • 10% CC tot • +6 CC • 1 coup
-Agilité > 300
+
 
 
 
@@ -33708,8 +33357,7 @@ Sabre de Ben le Ripate
 Panoplie de Ben le Ripate
 Épée - Niveau 152
 
-21 à 30 Dégâts Neutre
-2 à 3 Vol Air
+
 201 à 250 Vitalité
 31 à 50 Intelligence
 31 à 50 Agilité
@@ -33722,8 +33370,7 @@ Panoplie de Ben le Ripate
 7 à 10 Rés. Critique
 5 à 7 % Rés. Terre
 5 à 7 % Rés. Eau
-4 PA • 1 - 1 PO • 25% CC • 10% CC tot • +10 CC • 1 coup
-Force > 90 + Intelligence > 90 + Agilité > 200
+
 
 
 
@@ -33732,8 +33379,7 @@ Force > 90 + Intelligence > 90 + Agilité > 200
 Marteau du Juge Lou
 Marteau - Niveau 151
 
-30 à 38 Dégâts Neutre
-10 à 12 Dégâts Eau
+
 51 à 60 Chance
 31 à 40 Sagesse
 5 à 7 % Critique
@@ -33746,8 +33392,7 @@ Marteau - Niveau 151
 7 à 10 % Rés. Terre
 7 à 10 % Rés. Air
 9 à 12 Rés. Feu
-Quelqu'un vous suit !
-5 PA • 1 - 1 PO • 25% CC • 10% CC tot • +2 CC • 1 coup
+
 
 
 
@@ -33757,17 +33402,14 @@ Sceptre du Minotot
 Panoplie du Minotot
 Bâton - Niveau 151
 
-13 à 27 Dégâts Neutre
-3 à 5 Vol Feu
-3 à 5 Vol Eau
+
 71 à 120 Vitalité
 21 à 40 Intelligence
 21 à 40 Chance
 11 à 20 Sagesse
 4 à 6 Soin
 16 à 25 Prospection
-8 à 12 % Rés. Eau
-4 PA • 1 - 1 PO • 15% CC • 10% CC tot • +5 CC • 1 coup
+
 
 
 
@@ -33777,8 +33419,7 @@ Bâton de Zatoïshwan
 Panoplie de Zatoïshwan
 Bâton - Niveau 150
 
-15 à 19 Dégâts Neutre
-15 à 19 Dégâts Eau
+
 151 à 200 Vitalité
 31 à 50 Force
 31 à 50 Chance
@@ -33792,8 +33433,6 @@ Bâton - Niveau 150
 7 à 10 Dommages Critique
 8 à 12 Rés. Feu
 8 à 12 Rés. Air
-5 PA • 1 - 1 PO • 30% CC • 10% CC tot • +8 CC • 1 coup
-Force > 250 + Chance > 250
 
 
 
@@ -33802,8 +33441,7 @@ Force > 250 + Chance > 250
 Dagues Lassay
 Dagues - Niveau 150
 
-8 à 13 Dégâts Neutre
-8 à 13 Dégâts Air
+
 201 à 250 Vitalité
 31 à 50 Force
 31 à 50 Agilité
@@ -33812,8 +33450,7 @@ Dagues - Niveau 150
 300 Initiative
 16 à 25 Puissance Piège
 16 à 20 Dommages Piège
-3 PA • 1 - 1 PO • 25% CC • 10% CC tot • +5 CC • 2 coups
-Force > 140 + Agilité > 250
+
 
 
 
@@ -33823,8 +33460,7 @@ Baguette de Frigostine
 Panoplie de Frigostine
 Baguette - Niveau 149
 
-11 à 16 Dégâts Neutre
-4 à 6 Dégâts Air
+
 101 à 150 Vitalité
 21 à 30 Agilité
 16 à 25 Sagesse
@@ -33840,8 +33476,7 @@ Baguette - Niveau 149
 7 à 10 Rés. Critique
 5 à 7 % Rés. Feu
 5 à 7 % Rés. Air
-3 PA • 2 - 4 PO • 30% CC • 10% CC tot • +3 CC • 2 coups
-Intelligence > 90 + Agilité > 250
+
 
 
 
@@ -33850,9 +33485,7 @@ Intelligence > 90 + Agilité > 250
 Kriss Toubal
 Dagues - Niveau 149
 
-3 à 6 Vol Feu
-3 à 6 Vol Eau
-1 à 20 PV rendus
+
 151 à 200 Vitalité
 31 à 50 Intelligence
 31 à 50 Chance
@@ -33864,8 +33497,7 @@ Dagues - Niveau 149
 11 à 20 Prospection
 6 à 10 Rés. Feu
 6 à 10 Rés. Eau
-3 PA • 1 - 1 PO • 25% CC • 10% CC tot • +10 CC • 2 coups
-Intelligence > 250 + Chance > 250
+
 
 
 
@@ -33874,15 +33506,12 @@ Intelligence > 250 + Chance > 250
 Marteau Bleuronne
 Marteau - Niveau 148
 
-18 à 36 Dégâts Neutre
-5 à 8 Vol Feu
--1 PA (cible)
+
 251 à 300 Vitalité
 41 à 50 Intelligence
 31 à 40 Sagesse
 Arme de chasse
-5 PA • 1 - 1 PO • 5% CC • 10% CC tot • +10 CC • 1 coup
-Intelligence > 140 + Vitalité > 200
+
 
 
 
@@ -33891,7 +33520,7 @@ Intelligence > 140 + Vitalité > 200
 Arc à Chon
 Arc - Niveau 147
 
-9 à 18 Dégâts Neutre
+
 151 à 200 Vitalité
 31 à 40 Agilité
 31 à 40 Sagesse
@@ -33900,8 +33529,7 @@ Arc - Niveau 147
 11 à 20 Prospection
 6 à 10 Rés. Feu
 6 à 10 Rés. Air
-3 PA • 2 - 7 PO • 25% CC • 10% CC tot • +10 CC • 2 coups
-Agilité > 200
+
 
 
 
@@ -33910,20 +33538,17 @@ Agilité > 200
 Dague de Meloro
 Dagues - Niveau 147
 
-16 à 20 Dégâts Neutre
+
 -151 à -200 Force
 151 à 200 Intelligence
-3 PA • 1 PO • 25% CC • 10% CC tot • +20 CC • 2 coups
-Agilité > 152
+
 
 
 
 Pelle Tonedjone
 Pelle - Niveau 147
 
-8 à 13 Dégâts Neutre
-6 à 10 Dégâts Eau
-4 à 6 Vol Terre
+
 151 à 200 Vitalité
 21 à 30 Force
 41 à 60 Chance
@@ -33937,8 +33562,7 @@ Pelle - Niveau 147
 7 à 10 Rés. Critique
 7 à 10 Rés. Neutre
 7 à 10 Rés. Terre
-4 PA • 1 - 1 PO • 25% CC • 10% CC tot • +8 CC • 1 coup
-Force > 140 + Chance > 250
+
 
 
 
@@ -33947,16 +33571,14 @@ Force > 140 + Chance > 250
 Griffe Pourpre
 Épée - Niveau 145
 
-36 à 60 Dégâts Neutre
-3 à 5 Vol Terre
+
 151 à 200 Vitalité
 21 à 35 Sagesse
 31 à 50 Puissance
 3 à 4 % Critique
 5 à 8 Dommages
 4 à 6 % Rés. Feu
-6 PA • 1 - 1 PO • 20% CC • 10% CC tot • +8 CC • 1 coup
-Force > 350 + Vitalité > 400
+
 
 
 
@@ -33965,16 +33587,13 @@ Force > 350 + Vitalité > 400
 La Xyothine
 Baguette - Niveau 145
 
-9 à 13 Dégâts Neutre
-9 à 13 Dégâts Feu
-4 à 5 Vol Air
+
 101 à 150 Vitalité
 31 à 50 Intelligence
 21 à 40 Sagesse
 3 à 4 % Critique
 5 à 7 Soin
-5 PA • 3 - 5 PO • 30% CC • 10% CC tot • +7 CC • 1 coup
-Intelligence > 450 + Vitalité > 200
+
 
 
 
@@ -33983,13 +33602,13 @@ Intelligence > 450 + Vitalité > 200
 Racine de Floribonde
 Bâton - Niveau 144
 
-1 à 10 Vol Air
+
 251 à 300 Vitalité
 41 à 60 Agilité
 41 à 60 Sagesse
 6 à 10 Dommages
 11 à 20 Prospection
-2 PA • 1 - 1 PO • 15% CC • 10% CC tot • +10 CC • 3 coups
+
 
 
 
@@ -33998,9 +33617,7 @@ Bâton - Niveau 144
 Sabre Heutelle
 Épée - Niveau 144
 
-16 à 20 Dégâts Neutre
-16 à 20 Dégâts Neutre
--1 PA (cible)
+
 101 à 150 Vitalité
 31 à 40 Force
 31 à 40 Sagesse
@@ -34014,8 +33631,7 @@ Sabre Heutelle
 7 à 10 Dommages Poussée
 7 à 10 Rés. Terre
 7 à 10 Rés. Air
-4 PA • 1 - 1 PO • 25% CC • 10% CC tot • +6 CC • 1 coup
-Force > 140 + Intelligence > 75 + Chance > 75 + Agilité > 75
+
 
 
 
@@ -34024,8 +33640,7 @@ Force > 140 + Intelligence > 75 + Chance > 75 + Agilité > 75
 Dagues Réceuses
 Dagues - Niveau 143
 
-13 à 22 Dégâts Neutre
-4 à 5 Vol Air
+
 201 à 250 Vitalité
 31 à 50 Agilité
 31 à 40 Sagesse
@@ -34033,8 +33648,7 @@ Dagues - Niveau 143
 1 PO
 6 à 10 % Rés. Neutre
 5 à 8 Rés. Neutre
-3 PA • 1 - 1 PO • 25% CC • 10% CC tot • +6 CC • 2 coups
-Force > 250 + Agilité > 90
+
 
 
 
@@ -34043,16 +33657,14 @@ Force > 250 + Agilité > 90
 Le Sabre Ayassalama
 Épée - Niveau 143
 
-26 à 40 Dégâts Neutre
-4 à 6 Vol Feu
+
 201 à 250 Vitalité
 31 à 50 Intelligence
 16 à 30 Agilité
 6 à 10 Dommages
 201 à 400 Initiative
 6 à 10 Rés. Neutre
-4 PA • 1 - 1 PO • 15% CC • 10% CC tot • +12 CC • 1 coup
-Force > 130 + Intelligence > 300
+
 
 
 
@@ -34061,17 +33673,14 @@ Force > 130 + Intelligence > 300
 Racine Cithi
 Bâton - Niveau 143
 
-7 à 16 Dégâts Neutre
-7 à 16 Dégâts Neutre
--1 PA (cible)
+
 201 à 250 Vitalité
 31 à 50 Force
 16 à 20 Puissance
 5 à 6 % Critique
 11 à 15 Prospection
 5 à 7 % Rés. Air
-4 PA • 1 - 1 PO • 25% CC • 10% CC tot • +5 CC • 1 coup
-Force > 140 + Intelligence > 50 + Agilité > 50 + Vitalité > 400
+
 
 
 
@@ -34080,9 +33689,7 @@ Force > 140 + Intelligence > 50 + Agilité > 50 + Vitalité > 400
 Arc Hisedaisange
 Arc - Niveau 142
 
-6 à 13 Dégâts Neutre
-6 à 13 Dégâts Feu
-6 à 13 Dégâts Air
+
 151 à 200 Vitalité
 31 à 50 Intelligence
 31 à 50 Chance
@@ -34090,8 +33697,7 @@ Arc - Niveau 142
 21 à 40 Sagesse
 6 à 10 Dommages
 6 à 10 % Rés. Air
-5 PA • 2 - 6 PO • 25% CC • 10% CC tot • +5 CC • 1 coup
-Intelligence > 120 + Chance > 120 + Agilité > 120 + Vitalité > 300
+
 
 
 
@@ -34100,15 +33706,13 @@ Intelligence > 120 + Chance > 120 + Agilité > 120 + Vitalité > 300
 Pelle Rhon
 Pelle - Niveau 142
 
-24 à 43 Dégâts Neutre
-5 à 7 Vol Eau
+
 151 à 200 Vitalité
 31 à 50 Chance
 26 à 45 Sagesse
 11 à 20 Puissance
 16 à 20 Prospection
-4 PA • 1 - 1 PO • 25% CC • 10% CC tot • +10 CC • 1 coup
-Chance > 400 + Vitalité > 250
+
 
 
 
@@ -34117,16 +33721,13 @@ Chance > 400 + Vitalité > 250
 Marteau Lahre
 Marteau - Niveau 141
 
-11 à 20 Dégâts Neutre
-11 à 20 Dégâts Air
-5 à 7 Vol Air
+
 251 à 300 Vitalité
 31 à 50 Agilité
 26 à 40 Sagesse
 4 à 6 % Critique
 4 à 6 Dommages
-6 PA • 1 - 1 PO • 20% CC • 10% CC tot • +5 CC • 1 coup
-Agilité > 250
+
 
 
 
@@ -34135,8 +33736,7 @@ Agilité > 250
 Bâton du Chêne Mou
 Bâton - Niveau 140
 
-22 à 28 Dégâts Terre
-22 à 28 Dégâts Feu
+
 31 à 40 Force
 31 à 40 Intelligence
 21 à 30 Sagesse
@@ -34148,8 +33748,7 @@ Bâton - Niveau 140
 11 à 15 Prospection
 -10 Fuite
 7 à 10 % Rés. Air
-5 PA • 1 - 1 PO • 25% CC • 10% CC tot • +5 CC • 1 coup
-Force > 350 + Intelligence > 350
+
 
 
 
@@ -34158,8 +33757,7 @@ Force > 350 + Intelligence > 350
 Marteau Mawoque
 Marteau - Niveau 140
 
-14 à 23 Dégâts Feu
-14 à 23 Dégâts Eau
+
 101 à 150 Vitalité
 21 à 40 Chance
 26 à 40 Sagesse
@@ -34167,8 +33765,7 @@ Marteau - Niveau 140
 6 à 10 Dommages
 5 à 7 % Rés. Neutre
 5 à 7 % Rés. Terre
-4 PA • 1 - 1 PO • 30% CC • 10% CC tot • +5 CC • 1 coup
-Intelligence > 250 + Chance > 250
+
 
 
 
@@ -34178,17 +33775,13 @@ Hache du Guerrier Zoth
 Panoplie du Zothicien
 Hache - Niveau 139
 
-7 à 13 Dégâts Neutre
-7 à 13 Dégâts Feu
-7 à 13 Dégâts Eau
-7 à 13 Dégâts Air
+
 251 à 300 Vitalité
 26 à 35 Sagesse
 1 PA
 3 à 4 Dommages
 11 à 15 Prospection
-5 PA • 1 - 1 PO • 25% CC • 10% CC tot • +5 CC • 1 coup
-Vitalité > 500 + Sagesse > 250
+
 
 
 
@@ -34198,8 +33791,7 @@ Kalypsoton
 Panoplie Engloutie
 Bâton - Niveau 139
 
-16 à 24 Dégâts Neutre
-4 à 6 Vol Eau
+
 101 à 150 Vitalité
 31 à 40 Chance
 31 à 40 Agilité
@@ -34212,8 +33804,7 @@ Bâton - Niveau 139
 4 à 6 Esquive PA
 7 à 10 % Rés. Terre
 11 à 15 Rés. Feu
-4 PA • 1 - 1 PO • 25% CC • 10% CC tot • +5 CC • 1 coup
-Chance > 200 + Agilité > 200
+
 
 
 
@@ -34222,10 +33813,7 @@ Chance > 200 + Agilité > 200
 Baguette Iots
 Baguette - Niveau 138
 
-1 à 2 Vol Terre
-1 à 2 Vol Feu
-1 à 2 Vol Eau
-1 à 2 Vol Air
+
 151 à 200 Vitalité
 21 à 35 Force
 21 à 35 Intelligence
@@ -34236,8 +33824,7 @@ Baguette - Niveau 138
 6 à 10 Prospection
 6 à 8 Rés. Feu
 6 à 8 Rés. Air
-4 PA • 3 - 5 PO • 15% CC • 10% CC tot • +5 CC • 1 coup
-Force > 90 + Intelligence > 140 + Chance > 90 + Agilité > 90
+
 
 
 
@@ -34246,10 +33833,7 @@ Force > 90 + Intelligence > 140 + Chance > 90 + Agilité > 90
 Poolache
 Hache - Niveau 137
 
-14 à 22 Dégâts Terre
-14 à 22 Dégâts Feu
-3 à 4 Vol Terre
-3 à 4 Vol Feu
+
 101 à 150 Vitalité
 26 à 40 Force
 26 à 40 Intelligence
@@ -34257,7 +33841,7 @@ Hache - Niveau 137
 6 à 10 Prospection
 6 à 10 % Rés. Terre
 6 à 10 % Rés. Feu
-5 PA • 1 - 1 PO • 15% CC • 10% CC tot • +7 CC • 1 coup
+
 
 
 
@@ -34266,8 +33850,7 @@ Hache - Niveau 137
 Pelle Shattkitou
 Pelle - Niveau 136
 
-20 à 34 Dégâts Neutre
-4 à 6 Vol Air
+
 71 à 100 Vitalité
 26 à 40 Chance
 26 à 40 Agilité
@@ -34279,8 +33862,7 @@ Pelle - Niveau 136
 5 à 7 % Rés. Air
 5 à 7 Rés. Air
 Arme de chasse
-4 PA • 1 - 1 PO • 30% CC • 10% CC tot • +8 CC • 1 coup
-Chance > 140 + Agilité > 200
+
 
 
 
@@ -34289,8 +33871,7 @@ Chance > 140 + Agilité > 200
 Racine de Fécorce
 Bâton - Niveau 136
 
-9 à 16 Dégâts Terre
-9 à 16 Dégâts Eau
+
 101 à 150 Vitalité
 31 à 50 Force
 31 à 50 Chance
@@ -34304,8 +33885,7 @@ Bâton - Niveau 136
 -4 à -5 % Rés. Air
 6 à 10 Rés. Feu
 6 à 10 Rés. Eau
-3 PA • 1 - 1 PO • 30% CC • 10% CC tot • +3 CC • 2 coups
-Vitalité > 500
+
 
 
 
@@ -34314,8 +33894,7 @@ Vitalité > 500
 Marteau Pinière
 Marteau - Niveau 135
 
-13 à 21 Dégâts Neutre
-13 à 21 Dégâts Eau
+
 201 à 250 Vitalité
 31 à 50 Chance
 31 à 50 Agilité
@@ -34323,8 +33902,7 @@ Marteau - Niveau 135
 1 PO
 5 à 7 % Rés. Neutre
 5 à 7 Rés. Neutre
-5 PA • 1 - 1 PO • 30% CC • 10% CC tot • +7 CC • 1 coup
-Chance > 200 + Vitalité > 300
+
 
 
 
@@ -34333,8 +33911,7 @@ Chance > 200 + Vitalité > 300
 Baguette du Grand Glucid
 Baguette - Niveau 134
 
-21 à 28 Dégâts Neutre
-2 à 3 Vol Feu
+
 101 à 150 Vitalité
 31 à 40 Chance
 31 à 40 Agilité
@@ -34347,9 +33924,7 @@ Baguette - Niveau 134
 11 à 15 Prospection
 3 à 4 Retrait PM
 7 à 10 % Rés. Feu
-Quelqu'un vous suit !
-4 PA • 3 - 5 PO • 20% CC • 10% CC tot • +6 CC • 1 coup
-Chance > 90 + Agilité > 90
+
 
 
 
@@ -34358,8 +33933,7 @@ Chance > 90 + Agilité > 90
 Les Dagues du Bouwin
 Dagues - Niveau 134
 
-14 à 25 Dégâts Neutre
--1 PA (cible)
+
 201 à 250 Vitalité
 31 à 50 Force
 16 à 30 Agilité
@@ -34368,8 +33942,7 @@ Dagues - Niveau 134
 11 à 20 Puissance Piège
 6 à 10 Rés. Neutre
 6 à 10 Rés. Air
-3 PA • 1 - 1 PO • 25% CC • 10% CC tot • +10 CC • 2 coups
-Force > 250 + Agilité > 90
+
 
 
 
@@ -34378,9 +33951,7 @@ Force > 250 + Agilité > 90
 La Canne Bière
 Bâton - Niveau 133
 
-7 à 16 Dégâts Neutre
-7 à 16 Dégâts Air
-3 à 5 Vol Feu
+
 101 à 150 Vitalité
 21 à 35 Force
 21 à 35 Intelligence
@@ -34388,8 +33959,6 @@ Bâton - Niveau 133
 16 à 25 Sagesse
 3 à 5 Dommages
 11 à 15 Prospection
-4 PA • 1 - 1 PO • 25% CC • 10% CC tot • +6 CC • 1 coup
-Force > 140 + Intelligence > 140 + Agilité > 140
 
 
 
@@ -34399,9 +33968,7 @@ Branche de l'Abrakleur clair
 Panoplie Claire
 Baguette - Niveau 132
 
-7 à 16 Dégâts Neutre
-7 à 16 Dégâts Air
-4 à 6 Vol Terre
+
 101 à 150 Vitalité
 26 à 40 Force
 26 à 40 Agilité
@@ -34409,8 +33976,7 @@ Baguette - Niveau 132
 11 à 15 Prospection
 6 à 8 % Rés. Neutre
 6 à 8 % Rés. Air
-4 PA • 2 - 5 PO • 30% CC • 10% CC tot • +5 CC • 1 coup
-Force > 200 + Agilité > 200
+
 
 
 
@@ -34420,8 +33986,7 @@ Marteau de la Gamine Zoth
 Panoplie du Zoth Zotheur
 Marteau - Niveau 132
 
-11 à 18 Dégâts Neutre
-11 à 18 Dégâts Air
+
 91 à 120 Vitalité
 31 à 50 Agilité
 26 à 40 Sagesse
@@ -34429,8 +33994,6 @@ Marteau - Niveau 132
 6 à 10 Dommages
 11 à 15 Prospection
 6 à 10 % Rés. Neutre
-4 PA • 1 - 1 PO • 20% CC • 10% CC tot • +5 CC • 1 coup
-Agilité > 250 + Sagesse > 140
 
 
 
@@ -34439,8 +34002,7 @@ Agilité > 250 + Sagesse > 140
 Pelle à Gâteau
 Pelle - Niveau 131
 
-6 à 14 Dégâts Neutre
-6 à 8 Dégâts Eau
+
 101 à 150 Vitalité
 21 à 40 Force
 21 à 40 Chance
@@ -34452,8 +34014,7 @@ Pelle - Niveau 131
 5 à 7 Rés. Terre
 5 à 7 Rés. Eau
 5 à 7 Rés. Air
-3 PA • 1 - 1 PO • 25% CC • 10% CC tot • +6 CC • 2 coups
-Chance > 250 + Agilité > 90
+
 
 
 
@@ -34462,13 +34023,11 @@ Chance > 250 + Agilité > 90
 Arc Lavoine
 Arc - Niveau 130
 
-6 à 20 Vol Eau
-6 à 20 Vol Air
+
 21 à 40 Chance
 21 à 40 Agilité
 4 à 6 Dommages
-4 PA • 3 - 6 PO • 25% CC • 10% CC tot • +10 CC • 1 coup
-Chance > 70 + Agilité > 200
+
 
 
 
@@ -34477,8 +34036,7 @@ Chance > 70 + Agilité > 200
 Bâton du Shamansot
 Bâton - Niveau 130
 
-18 à 25 Dégâts Feu
-4 à 7 Vol Eau
+
 101 à 150 Vitalité
 31 à 40 Intelligence
 31 à 40 Chance
@@ -34492,8 +34050,7 @@ Bâton - Niveau 130
 7 à 10 Rés. Critique
 5 à 7 % Rés. Terre
 5 à 7 % Rés. Air
-4 PA • 1 - 1 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Intelligence > 300 + Chance > 140
+
 
 
 
@@ -34502,8 +34059,7 @@ Intelligence > 300 + Chance > 140
 Dagues Cacterre
 Dagues - Niveau 130
 
-12 à 15 Dégâts Feu
-12 à 15 Dégâts Eau
+
 81 à 120 Vitalité
 31 à 40 Intelligence
 31 à 40 Chance
@@ -34513,7 +34069,7 @@ Dagues - Niveau 130
 7 à 10 Dommages Eau
 7 à 10 Fuite
 7 à 10 % Rés. Feu
-3 PA • 1 - 1 PO • 25% CC • 10% CC tot • +7 CC • 2 coups
+
 
 
 
@@ -34522,9 +34078,7 @@ Dagues - Niveau 130
 Glaive Icération
 Épée - Niveau 130
 
-11 à 20 Dégâts Neutre
-11 à 20 Dégâts Air
--1 PA (cible)
+
 151 à 200 Vitalité
 31 à 50 Force
 31 à 50 Agilité
@@ -34532,8 +34086,7 @@ Glaive Icération
 5 à 7 % Rés. Neutre
 5 à 7 % Rés. Feu
 5 à 7 % Rés. Eau
-4 PA • 1 - 1 PO • 25% CC • 10% CC tot • +10 CC • 1 coup
-Force > 200 + Agilité > 120 + Vitalité > 300
+
 
 
 
@@ -34542,8 +34095,7 @@ Force > 200 + Agilité > 120 + Vitalité > 300
 Maracassabre
 Épée - Niveau 130
 
-16 à 20 Dégâts Terre
-16 à 20 Dégâts Air
+
 101 à 150 Vitalité
 21 à 30 Force
 21 à 30 Agilité
@@ -34555,7 +34107,7 @@ Maracassabre
 7 à 10 Tacle
 16 à 25 Rés. Critique
 5 à 7 % Rés. Eau
-5 PA • 1 - 1 PO • 15% CC • 10% CC tot • +10 CC • 1 coup
+
 
 
 
@@ -34564,8 +34116,7 @@ Maracassabre
 Arc Chtelion
 Arc - Niveau 129
 
-13 à 27 Dégâts Neutre
-5 à 7 Dégâts Feu
+
 51 à 100 Vitalité
 21 à 35 Intelligence
 1 PO
@@ -34574,8 +34125,7 @@ Arc - Niveau 129
 101 à 200 Initiative
 5 à 8 % Rés. Terre
 5 à 8 % Rés. Eau
-4 PA • 2 - 6 PO • 30% CC • 10% CC tot • +7 CC • 1 coup
-Intelligence > 300 + Agilité > 90 + Vitalité > 300
+
 
 
 
@@ -34584,16 +34134,14 @@ Intelligence > 300 + Agilité > 90 + Vitalité > 300
 Kelinobranche
 Bâton - Niveau 129
 
-16 à 30 Dégâts Neutre
-3 à 6 Vol Neutre
+
 41 à 80 Vitalité
 31 à 50 Force
 21 à 40 Sagesse
 6 à 10 Dommages
 6 à 10 Prospection
 3 à 5 % Rés. Neutre
-4 PA • 1 - 1 PO • 25% CC • 10% CC tot • +3 CC • 1 coup
-Force > 250 + Vitalité > 200
+
 
 
 
@@ -34602,7 +34150,7 @@ Force > 250 + Vitalité > 200
 Marteau Xiko
 Marteau - Niveau 129
 
-21 à 32 Dégâts Terre
+
 101 à 150 Vitalité
 21 à 40 Force
 4 à 5 % Critique
@@ -34611,8 +34159,7 @@ Marteau - Niveau 129
 6 à 10 Dommages
 11 à 15 Prospection
 101 à 200 Initiative
-4 PA • 1 - 1 PO • 30% CC • 10% CC tot • +5 CC • 1 coup
-Force > 250 + Intelligence > 140
+
 
 
 
@@ -34621,7 +34168,7 @@ Force > 250 + Intelligence > 140
 Baguette Gyver
 Baguette - Niveau 128
 
-26 à 33 Dégâts Neutre
+
 4 à 6 Dégâts Feu
 151 à 200 Vitalité
 31 à 50 Intelligence
@@ -34629,8 +34176,7 @@ Baguette - Niveau 128
 1 PO
 5 à 7 Soin
 6 à 8 % Rés. Terre
-5 PA • 2 - 5 PO • 30% CC • 10% CC tot • +5 CC • 1 coup
-Intelligence > 250
+
 
 
 
@@ -34639,18 +34185,16 @@ Intelligence > 250
 Dagues du Dragoeuf
 Dagues - Niveau 128
 
-5 à 10 Dégâts Terre
-5 à 10 Dégâts Feu
+
 101 à 150 Vitalité
-26 à 40 Force
-26 à 40 Intelligence
-26 à 40 Agilité
+31 à 40 Agilité
+21 à 30 Puissance
 1 PA
-4 à 6 Dommages
-4 à 6 Soin
-5 à 7 Rés. Eau
-3 PA • 1 - 1 PO • 25% CC • 10% CC tot • +10 CC • 2 coups
-Force > 140 + Intelligence > 140 + Agilité > 90
+151 à 200 Initiative
+4 à 6 Esquive PA
+7 à 10 Dommages Critique
+3 à 4 % Rés. Terre
+6 à 10 Rés. Eau
 
 
 
@@ -34659,15 +34203,14 @@ Force > 140 + Intelligence > 140 + Agilité > 90
 Le Fendoir Tichaud
 Hache - Niveau 128
 
-24 à 42 Dégâts Neutre
+
 101 à 150 Vitalité
 21 à 40 Intelligence
 6 à 10 Dommages
 4 à 6 Soin
 6 à 10 Prospection
 4 à 6 % Rés. Feu
-4 PA • 1 - 1 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Intelligence > 230 + Agilité > 60 + Vitalité > 250
+
 
 
 
@@ -34676,8 +34219,7 @@ Intelligence > 230 + Agilité > 60 + Vitalité > 250
 Baguette Ourderie
 Baguette - Niveau 127
 
-6 à 14 Dégâts Neutre
-6 à 14 Dégâts Feu
+
 101 à 150 Vitalité
 31 à 50 Intelligence
 31 à 50 Agilité
@@ -34685,8 +34227,7 @@ Baguette - Niveau 127
 5 à 6 Soin
 5 à 6 % Rés. Terre
 5 à 6 % Rés. Feu
-4 PA • 4 - 6 PO • 30% CC • 10% CC tot • +8 CC • 1 coup
-Intelligence > 300 + Vitalité > 300
+
 
 
 
@@ -34695,17 +34236,17 @@ Intelligence > 300 + Vitalité > 300
 Epée du Dragoeuf
 Épée - Niveau 127
 
-16 à 25 Dégâts Terre
-16 à 25 Dégâts Air
 71 à 100 Vitalité
 26 à 45 Force
 26 à 45 Agilité
-26 à 40 Sagesse
+16 à 25 Sagesse
+11 à 15 Puissance
 6 à 10 Prospection
-5 à 8 % Rés. Feu
-5 à 8 % Rés. Air
-4 PA • 1 - 1 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Force > 200 + Agilité > 200
+6 à 9 Dommages Critique
+5 à 7 Rés. Critique
+4 à 6 % Rés. Feu
+4 à 6 % Rés. Eau
+
 
 
 
@@ -34714,15 +34255,20 @@ Force > 200 + Agilité > 200
 Pelle Dragoeuf
 Pelle - Niveau 127
 
-18 à 33 Dégâts Neutre
-4 à 6 Vol Neutre
+
 101 à 150 Vitalité
-26 à 40 Chance
-16 à 25 Sagesse
-5 à 8 Dommages
+31 à 40 Chance
+11 à 20 Sagesse
+3 à 4 Dommages Eau
 11 à 15 Prospection
-4 PA • 1 - 1 PO • 15% CC • 10% CC tot • +7 CC • 1 coup
-Force > 90 + Chance > 200
+101 à 150 Initiative
+4 à 5 Esquive PM
+11 à 15 Dommages Critique
+6 à 10 Rés. Poussée
+4 à 5 % Rés. Terre
+4 à 5 % Rés. Air
+4 à 5 Rés. Terre
+4 à 5 Rés. Air
 
 
 
@@ -34731,16 +34277,13 @@ Force > 90 + Chance > 200
 Sertisseur de Ramougre
 Dagues - Niveau 127
 
-5 à 14 Dégâts Neutre
-5 à 6 Vol Air
--1 PA (cible)
+
 101 à 150 Vitalité
 31 à 50 Force
 31 à 50 Agilité
 5 à 6 % Critique
 16 à 20 Dommages Piège
-3 PA • 1 - 1 PO • 25% CC • 10% CC tot • +5 CC • 2 coups
-Force > 200 + Agilité > 200
+
 
 
 
@@ -34749,8 +34292,7 @@ Force > 200 + Agilité > 200
 Bâton Fracass
 Bâton - Niveau 126
 
-16 à 20 Dégâts Neutre
-5 à 7 Vol Eau
+
 101 à 150 Vitalité
 31 à 50 Chance
 21 à 30 Sagesse
@@ -34765,8 +34307,7 @@ Bâton - Niveau 126
 5 à 7 % Rés. Terre
 5 à 7 % Rés. Feu
 7 à 10 Rés. Air
-Quelqu'un vous suit !
-4 PA • 1 - 1 PO • 30% CC • 10% CC tot • +6 CC • 1 coup
+
 
 
 
@@ -34775,8 +34316,7 @@ Quelqu'un vous suit !
 Epée du Dark Vlad
 Épée - Niveau 126
 
-11 à 20 Dégâts Neutre
-18 à 32 Dégâts Feu
+
 151 à 200 Vitalité
 31 à 50 Intelligence
 21 à 40 Agilité
@@ -34784,8 +34324,7 @@ Epée du Dark Vlad
 11 à 15 Prospection
 4 à 6 % Rés. Feu
 4 à 6 % Rés. Air
-5 PA • 1 - 1 PO • 20% CC • 10% CC tot • +12 CC • 1 coup
-Intelligence > 300 + Vitalité > 250
+
 
 
 
@@ -34794,19 +34333,20 @@ Intelligence > 300 + Vitalité > 250
 Hache du Dragoeuf
 Hache - Niveau 126
 
-23 à 37 Dégâts Neutre
-4 à 6 Vol Eau
-51 à 80 Vitalité
-21 à 40 Chance
-16 à 25 Agilité
-11 à 20 Sagesse
+
+91 à 130 Vitalité
+26 à 40 Intelligence
+26 à 40 Chance
+11 à 15 Sagesse
+11 à 15 Puissance
 3 à 4 % Critique
-4 à 6 Dommages
-11 à 15 Prospection
-5 à 7 Rés. Terre
-5 à 7 Rés. Air
-4 PA • 1 - 1 PO • 30% CC • 10% CC tot • +7 CC • 1 coup
-Chance > 180 + Sagesse > 80
+2 à 3 Dommages Feu
+2 à 3 Dommages Eau
+101 à 200 Initiative
+3 à 4 Retrait PA
+4 à 6 Esquive PM
+4 à 6 % Rés. Neutre
+
 
 
 
@@ -34815,15 +34355,13 @@ Chance > 180 + Sagesse > 80
 Marteau Hubohu
 Marteau - Niveau 126
 
-16 à 30 Dégâts Neutre
-6 à 10 Vol Eau
+
 151 à 200 Vitalité
 31 à 50 Intelligence
 31 à 50 Chance
 21 à 40 Sagesse
 11 à 15 Prospection
-4 PA • 1 - 1 PO • 25% CC • 10% CC tot • +3 CC • 1 coup
-Chance > 200
+
 
 
 
@@ -34832,8 +34370,7 @@ Chance > 200
 Baguette Houalle
 Baguette - Niveau 125
 
-15 à 24 Dégâts Neutre
--1 PA (cible)
+
 101 à 150 Vitalité
 21 à 35 Intelligence
 21 à 40 Sagesse
@@ -34841,8 +34378,7 @@ Baguette - Niveau 125
 11 à 15 Prospection
 301 à 400 Initiative
 Arme de chasse
-3 PA • 2 - 4 PO • 30% CC • 10% CC tot • +5 CC • 2 coups
-Intelligence > 300 + Vitalité > 140
+
 
 
 
@@ -34851,17 +34387,14 @@ Intelligence > 300 + Vitalité > 140
 Masse du Corailleur Magistral
 Marteau - Niveau 125
 
-21 à 35 Dégâts Neutre
-1 à 8 Vol Eau
-1 à 8 Vol Air
+
 51 à 80 Vitalité
 31 à 50 Chance
 31 à 50 Agilité
 21 à 30 Sagesse
 4 à 5 Dommages
 11 à 15 Prospection
-5 PA • 1 - 1 PO • 25% CC • 10% CC tot • +3 CC • 1 coup
-Chance > 130 + Agilité > 130 + Sagesse > 130
+
 
 
 
@@ -34870,16 +34403,18 @@ Chance > 130 + Agilité > 130 + Sagesse > 130
 Baguette du Dragoeuf
 Baguette - Niveau 124
 
-16 à 22 Dégâts Neutre
-101 à 150 Vitalité
+151 à 200 Vitalité
 31 à 50 Agilité
 16 à 25 Sagesse
-4 à 6 Dommages
+4 à 5 % Critique
+4 à 5 Dommages Air
 4 à 6 Soin
 6 à 10 Prospection
+101 à 200 Initiative
+6 à 10 Dommages Critique
+3 à 4 % Rés. Neutre
 6 à 10 Rés. Feu
-3 PA • 2 - 5 PO • 30% CC • 10% CC tot • +8 CC • 2 coups
-Intelligence > 90 + Agilité > 200
+6 à 10 Rés. Eau
 
 
 
@@ -34888,18 +34423,16 @@ Intelligence > 90 + Agilité > 200
 Bâton du Dragoeuf
 Bâton - Niveau 124
 
-24 à 43 Dégâts Terre
-81 à 130 Vitalité
-26 à 45 Force
-21 à 40 Agilité
+16 à 35 Force
+16 à 35 Agilité
 11 à 25 Sagesse
-4 à 6 Dommages
-11 à 20 Prospection
+2 à 3 Dommages Terre
+2 à 3 Dommages Air
+6 à 10 Prospection
 201 à 400 Initiative
-6 à 10 % Rés. Neutre
-6 à 10 % Rés. Feu
-5 PA • 1 - 1 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Force > 300 + Agilité > 140 + Vitalité > 300
+3 à 4 Esquive PA
+4 à 6 % Rés. Neutre
+4 à 6 % Rés. Feu
 
 
 
@@ -34908,8 +34441,7 @@ Force > 300 + Agilité > 140 + Vitalité > 300
 Couteau de Mer
 Dagues - Niveau 124
 
-12 à 17 Dégâts Neutre
-5 à 7 Vol Eau
+
 101 à 150 Vitalité
 31 à 40 Chance
 21 à 30 Sagesse
@@ -34922,8 +34454,7 @@ Dagues - Niveau 124
 5 à 7 Dommages Critique
 7 à 10 % Rés. Neutre
 11 à 15 Rés. Eau
-3 PA • 1 - 1 PO • 25% CC • 10% CC tot • +4 CC • 2 coups
-Chance > 250
+
 
 
 
@@ -34932,13 +34463,9 @@ Chance > 250
 Jakchir Arc
 Arc - Niveau 124
 
-5 à 6 Vol Eau
--2 à -3 PA (cible)
 101 à 150 Vitalité
 31 à 50 Chance
 16 à 20 Puissance
-4 PA • 4 - 8 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Chance > 90 + Agilité > 90
 
 
 
@@ -34947,16 +34474,13 @@ Chance > 90 + Agilité > 90
 Marteau Ksain
 Marteau - Niveau 124
 
-10 à 22 Dégâts Neutre
-10 à 22 Dégâts Feu
 201 à 250 Vitalité
 21 à 35 Sagesse
 4 à 5 % Rés. Neutre
 4 à 5 % Rés. Feu
 5 à 7 Rés. Neutre
 5 à 7 Rés. Feu
-5 PA • 1 - 1 PO • 20% CC • 10% CC tot • +7 CC • 1 coup
-Intelligence > 250
+
 
 
 
@@ -34965,15 +34489,13 @@ Intelligence > 250
 Arc Huledela
 Arc - Niveau 123
 
-16 à 25 Dégâts Neutre
-3 à 4 Vol Air
+
 151 à 200 Vitalité
 26 à 45 Agilité
 5 à 6 % Critique
 6 à 7 Dommages
 4 à 5 % Rés. Neutre
-4 PA • 2 - 6 PO • 25% CC • 10% CC tot • +10 CC • 1 coup
-Agilité > 250
+
 
 
 
@@ -34982,16 +34504,19 @@ Agilité > 250
 Marteau du Dragoeuf
 Marteau - Niveau 123
 
-21 à 35 Dégâts Neutre
-3 à 5 Vol Feu
+
 101 à 150 Vitalité
+21 à 30 Force
 31 à 50 Intelligence
-21 à 30 Sagesse
+16 à 25 Sagesse
 3 à 4 % Critique
+3 à 4 Dommages Terre
+3 à 4 Dommages Feu
 5 à 8 Soin
-6 à 10 Rés. Feu
-5 PA • 1 - 1 PO • 20% CC • 10% CC tot • +7 CC • 1 coup
-Intelligence > 200 + Chance > 90
+4 à 6 Tacle
+3 à 4 % Rés. Eau
+3 à 4 % Rés. Air
+
 
 
 
@@ -35001,8 +34526,7 @@ Kask'Arc Go
 Panoplie Baveuse
 Arc - Niveau 122
 
-14 à 30 Dégâts Neutre
-2 à 3 Vol Eau
+
 101 à 150 Vitalité
 31 à 50 Chance
 31 à 40 Sagesse
@@ -35012,8 +34536,7 @@ Arc - Niveau 122
 6 à 10 % Rés. Eau
 6 à 10 Rés. Neutre
 6 à 10 Rés. Eau
-5 PA • 5 - 10 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Chance > 250
+
 
 
 
@@ -35023,9 +34546,7 @@ Mourtheau
 Panoplie Moutheuze
 Marteau - Niveau 122
 
-16 à 24 Dégâts Neutre
-1 à 2 Dégâts Eau
-1 à 2 Dégâts Air
+
 151 à 200 Vitalité
 41 à 60 Chance
 41 à 60 Agilité
@@ -35036,8 +34557,7 @@ Marteau - Niveau 122
 7 à 10 Rés. Critique
 11 à 15 Rés. Terre
 11 à 15 Rés. Feu
-4 PA • 1 - 1 PO • 30% CC • 10% CC tot • +4 CC • 1 coup
-Chance > 200 + Agilité > 200
+
 
 
 
@@ -35046,8 +34566,7 @@ Chance > 200 + Agilité > 200
 Arc Rainier
 Arc - Niveau 121
 
-2 à 21 Dégâts Neutre
-2 à 21 Dégâts Neutre
+
 71 à 90 Vitalité
 21 à 35 Force
 21 à 35 Intelligence
@@ -35056,8 +34575,7 @@ Arc - Niveau 121
 21 à 40 Sagesse
 11 à 20 Puissance
 5 à 7 Dommages
-5 PA • 2 - 6 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Force > 90 + Intelligence > 90 + Chance > 90 + Agilité > 90 + Vitalité > 200
+
 
 
 
@@ -35066,16 +34584,14 @@ Force > 90 + Intelligence > 90 + Chance > 90 + Agilité > 90 + Vitalité > 200
 Dagues R'Hoh
 Dagues - Niveau 121
 
-7 à 11 Dégâts Neutre
-7 à 11 Dégâts Air
+
 41 à 80 Vitalité
 31 à 50 Agilité
 21 à 30 Sagesse
 11 à 15 Puissance
 1 PO
 6 à 10 Prospection
-3 PA • 1 - 1 PO • 25% CC • 10% CC tot • +7 CC • 2 coups
-Force > 90 + Agilité > 140 + Vitalité > 90
+
 
 
 
@@ -35084,15 +34600,14 @@ Force > 90 + Agilité > 140 + Vitalité > 90
 Pelle Hikule
 Pelle - Niveau 121
 
-24 à 43 Dégâts Neutre
+
 41 à 80 Vitalité
 31 à 50 Chance
 21 à 30 Sagesse
 11 à 15 Puissance
 6 à 10 Dommages
 11 à 15 Prospection
-3 PA • 1 - 1 PO • 25% CC • 10% CC tot • +2 CC • 2 coups
-Force > 50 + Chance > 300 + Vitalité > 90 + Sagesse > 50
+
 
 
 
@@ -35101,17 +34616,14 @@ Force > 50 + Chance > 300 + Vitalité > 90 + Sagesse > 50
 Arc Hanne
 Arc - Niveau 120
 
-16 à 25 Dégâts Neutre
-2 à 3 Vol Feu
--1 PA (cible)
+
 101 à 150 Vitalité
 31 à 50 Intelligence
 21 à 35 Sagesse
 6 à 10 Dommages
 4 à 5 % Rés. Eau
 4 à 5 % Rés. Air
-5 PA • 2 - 8 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Intelligence > 400 + Agilité > 140
+
 
 
 
@@ -35120,8 +34632,7 @@ Intelligence > 400 + Agilité > 140
 Bâton de Sangroku
 Bâton - Niveau 120
 
-10 à 16 Dégâts Neutre
-7 à 13 Dégâts Air
+
 151 à 200 Vitalité
 31 à 45 Agilité
 16 à 30 Sagesse
@@ -35129,8 +34640,7 @@ Bâton - Niveau 120
 151 à 200 Initiative
 6 à 10 % Rés. Air
 6 à 8 Rés. Air
-4 PA • 1 - 1 PO • 20% CC • 10% CC tot • +8 CC • 1 coup
-Agilité > 250 + Vitalité > 300
+
 
 
 
@@ -35139,7 +34649,7 @@ Agilité > 250 + Vitalité > 300
 La Racine Hagogue
 Bâton - Niveau 120
 
-16 à 30 Dégâts Neutre
+
 41 à 80 Vitalité
 16 à 30 Force
 21 à 35 Sagesse
@@ -35147,8 +34657,7 @@ Bâton - Niveau 120
 5 à 6 Invocation
 6 à 10 Dommages
 151 à 250 Initiative
-4 PA • 1 - 1 PO • 30% CC • 10% CC tot • +5 CC • 1 coup
-Force > 200 + Vitalité > 140
+
 
 
 
@@ -35157,16 +34666,14 @@ Force > 200 + Vitalité > 140
 Marteau R'Ticolis
 Marteau - Niveau 120
 
-25 à 42 Dégâts Neutre
-4 à 6 Vol Neutre
+
 16 à 35 Sagesse
 1 PO
 2 à 3 Invocation
 6 à 9 Dommages
 3 à 5 Prospection
 3 à 5 % Rés. Feu
-6 PA • 1 - 1 PO • 20% CC • 10% CC tot • +8 CC • 1 coup
-Force > 90 + Intelligence > 140
+
 
 
 
@@ -35175,16 +34682,14 @@ Force > 90 + Intelligence > 140
 Dague Régah
 Dagues - Niveau 119
 
-11 à 20 Dégâts Air
-3 à 4 Vol Neutre
+
 21 à 40 Force
 21 à 40 Agilité
 6 à 10 Dommages
 11 à 15 Prospection
 6 à 10 % Rés. Feu
 6 à 10 % Rés. Air
-3 PA • 1 - 1 PO • 25% CC • 10% CC tot • +7 CC • 2 coups
-Force > 90 + Agilité > 250
+
 
 
 
@@ -35193,8 +34698,7 @@ Force > 90 + Agilité > 250
 Tige du Brouture
 Bâton - Niveau 119
 
-7 à 13 Dégâts Feu
-7 à 13 Dégâts Air
+
 101 à 150 Vitalité
 26 à 45 Intelligence
 26 à 45 Agilité
@@ -35202,8 +34706,7 @@ Bâton - Niveau 119
 4 à 6 Soin
 6 à 10 % Rés. Feu
 6 à 10 % Rés. Air
-3 PA • 1 - 1 PO • 30% CC • 10% CC tot • +5 CC • 2 coups
-Intelligence > 200 + Agilité > 200
+
 
 
 
@@ -35212,17 +34715,18 @@ Intelligence > 200 + Agilité > 200
 Arc du Dragoeuf
 Arc - Niveau 118
 
-18 à 33 Dégâts Terre
-51 à 100 Vitalité
-21 à 40 Force
+
+31 à 40 Force
 11 à 20 Sagesse
 6 à 10 Puissance
-3 à 5 % Critique
-6 à 10 Dommages
+4 à 5 % Critique
+1 Invocation
+4 à 6 Dommages Terre
 11 à 15 Prospection
+4 à 5 Fuite
 4 à 5 Rés. Feu
-4 PA • 2 - 8 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Force > 300 + Vitalité > 250
+3 à 4 % Rés. Eau JCJ
+
 
 
 
@@ -35231,16 +34735,14 @@ Force > 300 + Vitalité > 250
 Pelle du Mineur Sombre
 Pelle - Niveau 118
 
-12 à 21 Dégâts Neutre
-12 à 21 Dégâts Eau
+
 41 à 80 Vitalité
 31 à 50 Chance
 21 à 30 Sagesse
 5 à 8 % Critique
 11 à 15 Prospection
 201 à 400 Initiative
-4 PA • 1 - 1 PO • 15% CC • 10% CC tot • +8 CC • 1 coup
-Force > 75 + Chance > 250 + Vitalité > 90
+
 
 
 
@@ -35250,16 +34752,14 @@ Baguette d'Elya Wood
 Panoplie d'Elya Wood
 Baguette - Niveau 117
 
-7 à 11 Dégâts Neutre
-7 à 11 Dégâts Feu
+
 21 à 40 Intelligence
 21 à 40 Sagesse
 1 PO
 6 à 10 Dommages
 6 à 10 Prospection
 3 à 5 % Rés. Eau
-4 PA • 2 - 4 PO • 30% CC • 10% CC tot • +7 CC • 1 coup
-Intelligence > 300 + Sagesse > 90
+
 
 
 
@@ -35268,7 +34768,7 @@ Intelligence > 300 + Sagesse > 90
 Marteau Kahr
 Marteau - Niveau 117
 
-25 à 42 Dégâts Neutre
+
 31 à 60 Vitalité
 31 à 50 Chance
 21 à 35 Sagesse
@@ -35278,8 +34778,7 @@ Marteau - Niveau 117
 4 à 8 Rés. Feu
 4 à 8 Rés. Eau
 4 à 8 Rés. Air
-4 PA • 1 - 1 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Intelligence > 140 + Chance > 140
+
 
 
 
@@ -35288,8 +34787,7 @@ Intelligence > 140 + Chance > 140
 La Hache Menbien
 Hache - Niveau 116
 
-21 à 32 Dégâts Neutre
-7 à 16 Dégâts Air
+
 31 à 50 Agilité
 11 à 20 Sagesse
 4 à 6 Dommages
@@ -35299,8 +34797,7 @@ Hache - Niveau 116
 6 à 10 Rés. Feu
 6 à 10 Rés. Eau
 6 à 10 Rés. Air
-5 PA • 1 - 1 PO • 30% CC • 10% CC tot • +5 CC • 1 coup
-Agilité > 120 + Vitalité > 140
+
 
 
 
@@ -35309,16 +34806,14 @@ Agilité > 120 + Vitalité > 140
 La Racine Cinati
 Bâton - Niveau 116
 
-6 à 15 Dégâts Terre
-6 à 15 Dégâts Feu
+
 41 à 80 Vitalité
 31 à 50 Force
 31 à 50 Intelligence
 1 PO
 6 à 10 Dommages
 11 à 15 Prospection
-3 PA • 1 - 1 PO • 30% CC • 10% CC tot • +5 CC • 2 coups
-Force > 200 + Intelligence > 200 + Vitalité > 140
+
 
 
 
@@ -35327,16 +34822,14 @@ Force > 200 + Intelligence > 200 + Vitalité > 140
 Arc du Chafer Archer
 Arc - Niveau 115
 
-7 à 14 Dégâts Neutre
-7 à 14 Dégâts Air
+
 21 à 40 Chance
 21 à 40 Agilité
 21 à 40 Sagesse
 1 PO
 5 à 8 Dommages
 11 à 15 Prospection
-4 PA • 2 - 7 PO • 25% CC • 10% CC tot • +10 CC • 1 coup
-Force > 90 + Chance > 90 + Agilité > 140
+
 
 
 
@@ -35345,14 +34838,13 @@ Force > 90 + Chance > 90 + Agilité > 140
 Pelle Moh
 Pelle - Niveau 115
 
-9 à 15 Vol Eau
+
 151 à 200 Vitalité
 26 à 40 Chance
 16 à 30 Sagesse
 11 à 15 Prospection
 101 à 150 Initiative
-3 PA • 1 - 1 PO • 30% CC • 10% CC tot • +10 CC • 2 coups
-Chance > 200
+
 
 
 
@@ -35361,7 +34853,7 @@ Chance > 200
 Bâton des Caraïbes
 Bâton - Niveau 114
 
-9 à 20 Vol Feu
+
 51 à 100 Vitalité
 21 à 40 Intelligence
 16 à 30 Sagesse
@@ -35369,8 +34861,7 @@ Bâton - Niveau 114
 4 à 6 Soin
 6 à 10 Prospection
 Arme de chasse
-4 PA • 1 - 1 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Intelligence > 200 + Agilité > 140
+
 
 
 
@@ -35379,7 +34870,7 @@ Intelligence > 200 + Agilité > 140
 Marteau Ridhe
 Marteau - Niveau 114
 
-21 à 46 Dégâts Neutre
+
 31 à 50 Force
 31 à 50 Intelligence
 11 à 15 Puissance
@@ -35388,8 +34879,7 @@ Marteau - Niveau 114
 3 à 5 % Rés. Eau
 4 à 8 Rés. Neutre
 4 à 8 Rés. Terre
-4 PA • 1 - 1 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Force > 90 + Intelligence > 140
+
 
 
 
@@ -35398,16 +34888,14 @@ Force > 90 + Intelligence > 140
 Amrothiline
 Baguette - Niveau 113
 
-11 à 23 Dégâts Neutre
-5 à 9 Vol Neutre
+
 41 à 80 Vitalité
 21 à 40 Intelligence
 21 à 30 Sagesse
 11 à 15 Puissance
 6 à 10 Prospection
 3 à 5 % Rés. Air
-3 PA • 2 - 4 PO • 30% CC • 10% CC tot • +3 CC • 2 coups
-Intelligence > 300 + Vitalité > 90
+
 
 
 
@@ -35416,15 +34904,13 @@ Intelligence > 300 + Vitalité > 90
 Dagues de l'Apprenti Tueur de Bouftons
 Dagues - Niveau 113
 
-12 à 15 Dégâts Neutre
-3 à 4 Vol Neutre
+
 71 à 100 Vitalité
 31 à 50 Agilité
 26 à 40 Sagesse
 2 à 3 % Critique
 6 à 10 Prospection
-3 PA • 1 - 1 PO • 30% CC • 10% CC tot • +3 CC • 2 coups
-Force > 300 + Agilité > 90
+
 
 
 
@@ -35433,16 +34919,14 @@ Force > 300 + Agilité > 90
 Dagues Rhumes
 Dagues - Niveau 113
 
-13 à 18 Dégâts Neutre
-3 à 4 Vol Feu
+
 101 à 150 Vitalité
 26 à 40 Intelligence
 26 à 40 Agilité
 1 PO
 4 à 5 Dommages
 4 à 5 Soin
-3 PA • 1 - 1 PO • 25% CC • 10% CC tot • +4 CC • 2 coups
-Intelligence > 90 + Agilité > 90
+
 
 
 
@@ -35456,8 +34940,7 @@ Marteau - Niveau 113
 -1 à -2 PA (cible)
 151 à 200 Vitalité
 21 à 40 Sagesse
-4 PA • 1 - 1 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Intelligence > 140 + Sagesse > 90
+
 
 
 
@@ -35466,16 +34949,14 @@ Intelligence > 140 + Sagesse > 90
 Baguette Houffe-Craitien
 Baguette - Niveau 112
 
-1 à 5 Dégâts Neutre
-2 à 3 Vol Feu
+
 41 à 70 Vitalité
 26 à 40 Intelligence
 21 à 35 Sagesse
 5 à 6 % Critique
 4 à 6 Soin
 151 à 250 Initiative
-2 PA • 3 - 4 PO • 30% CC • 10% CC tot • +3 CC • 2 coups
-Intelligence > 350 + Vitalité > 200
+
 
 
 
@@ -35484,7 +34965,7 @@ Intelligence > 350 + Vitalité > 200
 Arc Chitecte
 Arc - Niveau 111
 
-19 à 33 Dégâts Neutre
+
 31 à 45 Force
 31 à 45 Agilité
 16 à 35 Sagesse
@@ -35492,8 +34973,7 @@ Arc - Niveau 111
 6 à 10 Dommages
 9 à 10 Prospection
 3 à 5 % Rés. Air
-4 PA • 2 - 8 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Force > 90 + Intelligence > 30 + Agilité > 200
+
 
 
 
@@ -35502,14 +34982,13 @@ Force > 90 + Intelligence > 30 + Agilité > 200
 Griffe de Grizmine
 Épée - Niveau 111
 
-31 à 48 Dégâts Terre
+
 101 à 150 Vitalité
 31 à 50 Force
 31 à 50 Agilité
 4 à 5 Dommages
 5 à 7 % Rés. Neutre
-5 PA • 1 - 1 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Force > 300 + Agilité > 120
+
 
 
 
@@ -35518,8 +34997,7 @@ Force > 300 + Agilité > 120
 La Hache Ticot
 Hache - Niveau 110
 
-9 à 19 Dégâts Neutre
-9 à 19 Dégâts Neutre
+
 51 à 100 Vitalité
 21 à 40 Force
 16 à 25 Sagesse
@@ -35530,8 +35008,7 @@ Hache - Niveau 110
 201 à 400 Initiative
 4 à 6 Rés. Neutre
 4 à 6 Rés. Feu
-4 PA • 1 - 1 PO • 30% CC • 10% CC tot • +5 CC • 1 coup
-Force > 140 + Sagesse > 140
+
 
 
 
@@ -35540,7 +35017,6 @@ Force > 140 + Sagesse > 140
 Bâton de Marie Aigue
 Bâton - Niveau 109
 
-16 à 30 Dégâts Neutre
 31 à 50 Intelligence
 21 à 40 Agilité
 21 à 35 Sagesse
@@ -35548,8 +35024,7 @@ Bâton - Niveau 109
 6 à 10 % Critique
 6 à 10 Prospection
 3 à 5 % Rés. Air
-3 PA • 1 - 1 PO • 25% CC • 10% CC tot • +3 CC • 2 coups
-Intelligence > 250 + Agilité > 90 + Vitalité > 90
+
 
 
 
@@ -35559,15 +35034,13 @@ Epée du Rat Blanc
 Panoplie du Rat Blanc
 Épée - Niveau 109
 
-23 à 38 Dégâts Air
-3 à 5 Vol Neutre
+
 31 à 50 Vitalité
 11 à 20 Force
 26 à 35 Agilité
 3 à 4 % Critique
 2 à 3 Dommages
-5 PA • 1 - 1 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Force > 90 + Agilité > 140
+
 
 
 
@@ -35577,15 +35050,14 @@ Hache du Minotoror
 Panoplie du Minotoror
 Hache - Niveau 109
 
-21 à 40 Dégâts Neutre
-3 à 5 Vol Terre
+
 51 à 100 Vitalité
 21 à 40 Sagesse
 16 à 25 Puissance
 1 à 2 Invocation
 4 à 6 Dommages
 6 à 10 Prospection
-5 PA • 1 - 1 PO • 30% CC • 10% CC tot • +5 CC • 1 coup
+
 
 
 
@@ -35595,7 +35067,7 @@ Dagues du Rat Noir
 Panoplie du Rat Noir
 Dagues - Niveau 108
 
-17 à 20 Dégâts Air
+
 41 à 60 Vitalité
 26 à 40 Agilité
 2 à 3 % Critique
@@ -35603,8 +35075,7 @@ Dagues - Niveau 108
 100 Initiative
 21 à 30 Puissance Piège
 6 à 10 Dommages Piège
-3 PA • 1 - 1 PO • 25% CC • 10% CC tot • +10 CC • 2 coups
-Agilité > 250 + Vitalité > 300 + Sagesse > 90
+
 
 
 
@@ -35614,9 +35085,7 @@ Arc de Flèche Mauve
 Panoplie de Flèche Mauve
 Arc - Niveau 107
 
-9 à 12 Vol Feu
-12 à 17 PV rendus
-12 à 17 PV rendus
+
 151 à 200 Vitalité
 21 à 30 Sagesse
 2 à 3 % Critique
@@ -35626,7 +35095,7 @@ Arc - Niveau 107
 7 à 10 Fuite
 4 à 5 Esquive PM
 5 à 7 % Rés. Air
-3 PA • 4 - 6 PO • 30% CC • 10% CC tot • +3 CC • 2 coups
+
 
 
 
@@ -35635,16 +35104,14 @@ Arc - Niveau 107
 Le Bâton Cloutay
 Bâton - Niveau 107
 
-9 à 13 Dégâts Feu
-9 à 13 Dégâts Air
+
 51 à 100 Vitalité
 26 à 40 Intelligence
 26 à 40 Agilité
 4 à 6 Soin
 6 à 10 Prospection
 6 à 10 % Rés. Air
-4 PA • 1 - 1 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Intelligence > 140 + Agilité > 140
+
 
 
 
@@ -35653,15 +35120,12 @@ Intelligence > 140 + Agilité > 140
 Marteau M'Pouce
 Marteau - Niveau 107
 
-9 à 17 Dégâts Neutre
-9 à 17 Dégâts Feu
--1 PA (cible)
+
 101 à 150 Vitalité
 31 à 50 Intelligence
 21 à 40 Sagesse
 4 à 5 % Critique
-5 PA • 1 - 1 PO • 30% CC • 10% CC tot • +5 CC • 1 coup
-Intelligence > 350 + Vitalité > 200 + Sagesse > 90
+
 
 
 
@@ -35670,9 +35134,7 @@ Intelligence > 350 + Vitalité > 200 + Sagesse > 90
 Clef à Molette
 Pelle - Niveau 106
 
-8 à 10 Dégâts Neutre
-6 à 8 Dégâts Air
-3 à 4 Vol Air
+
 81 à 120 Vitalité
 31 à 40 Agilité
 16 à 20 Sagesse
@@ -35684,7 +35146,7 @@ Pelle - Niveau 106
 7 à 10 Dommages Poussée
 4 à 6 % Rés. Terre
 4 à 6 % Rés. Eau
-4 PA • 1 - 1 PO • 30% CC • 10% CC tot • +3 CC • 1 coup
+
 
 
 
@@ -35693,13 +35155,10 @@ Pelle - Niveau 106
 Racine Sémilla
 Bâton - Niveau 106
 
-6 à 18 Dégâts Neutre
-3 à 5 Vol Terre
-3 à 5 Vol Feu
+
 101 à 150 Vitalité
 21 à 35 Sagesse
-5 PA • 1 - 1 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Vitalité > 250 + Sagesse > 60
+
 
 
 
@@ -35708,14 +35167,11 @@ Vitalité > 250 + Sagesse > 60
 Baguette Rhon
 Baguette - Niveau 105
 
-6 à 15 Dégâts Neutre
-1 à 10 Vol Feu
-1 à 100 PV rendus
+
 101 à 130 Vitalité
 21 à 35 Intelligence
 21 à 35 Sagesse
-4 PA • 2 - 4 PO • 30% CC • 10% CC tot • +10 CC • 2 coups
-Intelligence > 200 + Sagesse > 50
+
 
 
 
@@ -35724,15 +35180,14 @@ Intelligence > 200 + Sagesse > 50
 La Baguette des Limbes
 Baguette - Niveau 105
 
-16 à 20 Dégâts Neutre
+
 -11 à -40 Force
 21 à 40 Intelligence
 21 à 40 Sagesse
 1 PA
 1 PM
 1 PO
-4 PA • 2 - 4 PO • 25% CC • 10% CC tot • +10 CC • 1 coup
-Intelligence > 200 + Sagesse > 90
+
 
 
 
@@ -35741,14 +35196,14 @@ Intelligence > 200 + Sagesse > 90
 Razoir du Soir
 Épée - Niveau 105
 
-23 à 37 Dégâts Neutre
+
 101 à 150 Vitalité
 31 à 50 Force
 31 à 50 Agilité
 21 à 35 Sagesse
 5 à 7 % Critique
-4 PA • 1 - 1 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Force > 200 + Agilité > 90
+
+
 
 
 
@@ -35758,8 +35213,7 @@ Arc Lequin
 Panoplie Talienne
 Arc - Niveau 104
 
-18 à 25 Dégâts Neutre
-4 à 5 Vol Eau
+
 101 à 150 Vitalité
 31 à 40 Chance
 16 à 20 Sagesse
@@ -35769,7 +35223,7 @@ Arc - Niveau 104
 16 à 20 Prospection
 4 à 6 Tacle
 7 à 10 Rés. Poussée
-4 PA • 2 - 7 PO • 30% CC • 10% CC tot • +5 CC • 1 coup
+
 
 
 
@@ -35778,14 +35232,12 @@ Arc - Niveau 104
 Marteau Ronto
 Marteau - Niveau 104
 
-1 à 20 Dégâts Neutre
-1 à 80 PV rendus
+
 151 à 200 Vitalité
 26 à 40 Intelligence
 26 à 40 Sagesse
 1 à 2 Invocation
-4 PA • 1 - 1 PO • 25% CC • 10% CC tot • +10 CC • 2 coups
-Intelligence > 140 + Vitalité > 140
+
 
 
 
@@ -35795,7 +35247,6 @@ Marteau de Moon
 Panoplie de Moon
 Marteau - Niveau 103
 
-26 à 37 Dégâts Feu
 31 à 40 Intelligence
 21 à 30 Sagesse
 7 à 10 % Critique
@@ -35803,7 +35254,7 @@ Marteau - Niveau 103
 3 à 4 Esquive PM
 5 à 7 % Rés. Eau
 7 à 10 Rés. Eau
-5 PA • 1 - 1 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
+
 
 
 
@@ -35812,16 +35263,14 @@ Marteau - Niveau 103
 Racine Hécouanone
 Bâton - Niveau 103
 
-11 à 35 Dégâts Neutre
-1 à 100 PV rendus
+
 101 à 130 Vitalité
 26 à 40 Intelligence
 16 à 20 Puissance
 4 à 5 % Critique
 2 à 3 Dommages
 151 à 200 Initiative
-4 PA • 1 - 1 PO • 30% CC • 10% CC tot • +15 CC • 2 coups
-Vitalité > 200
+
 
 
 
@@ -35830,14 +35279,12 @@ Vitalité > 200
 Baguette Nah
 Baguette - Niveau 102
 
-9 à 13 Dégâts Neutre
-4 à 5 Vol Feu
+
 21 à 40 Intelligence
 4 à 6 Soin
 5 à 7 % Rés. Neutre
 5 à 7 Rés. Neutre
-3 PA • 3 - 6 PO • 30% CC • 10% CC tot • +3 CC • 2 coups
-Intelligence > 300
+
 
 
 
@@ -35847,8 +35294,7 @@ Fourbasse-Ton
 Panoplie Fourbasse
 Bâton - Niveau 102
 
-11 à 16 Dégâts Neutre
-8 à 12 Dégâts Eau
+
 71 à 100 Vitalité
 36 à 45 Force
 26 à 35 Chance
@@ -35860,8 +35306,7 @@ Bâton - Niveau 102
 3 à 4 Tacle
 2 à 3 Retrait PM
 5 à 7 % Rés. Feu
-5 PA • 1 - 1 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Force > 150 + Chance > 150
+
 
 
 
@@ -35871,8 +35316,7 @@ Râtrouille
 Panoplitrouille
 Pelle - Niveau 102
 
-16 à 24 Dégâts Eau
-4 à 5 Vol Feu
+
 71 à 100 Vitalité
 26 à 35 Intelligence
 26 à 35 Chance
@@ -35885,8 +35329,7 @@ Pelle - Niveau 102
 3 à 4 Retrait PM
 4 à 5 % Rés. Air
 6 à 8 Rés. Terre
-4 PA • 1 - 1 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Intelligence > 90 + Chance > 140
+
 
 
 
@@ -35895,14 +35338,13 @@ Intelligence > 90 + Chance > 140
 Racine Hécure
 Bâton - Niveau 101
 
-14 à 31 Dégâts Neutre
+
 101 à 150 Vitalité
 16 à 25 Puissance
 5 à 7 % Critique
 3 à 5 % Rés. Eau
 3 à 5 % Rés. Air
-4 PA • 1 - 1 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Vitalité > 200 + Sagesse > 140
+
 
 
 
@@ -35911,8 +35353,7 @@ Vitalité > 200 + Sagesse > 140
 Arc Assin
 Arc - Niveau 100
 
-6 à 13 Dégâts Neutre
-6 à 13 Dégâts Feu
+
 31 à 50 Intelligence
 31 à 50 Agilité
 4 à 5 % Critique
@@ -35920,25 +35361,15 @@ Arc - Niveau 100
 4 à 5 % Rés. Neutre
 4 à 5 % Rés. Feu
 Arme de chasse
-4 PA • 2 - 6 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Intelligence > 250 + Agilité > 140
 
 
-
-
-
-Crocobur
-Épée - Niveau 100
-
-5 PA • 1 - 1 PO • 30% CC • 10% CC tot • +14 CC • 1 coup
-Être abonné + Quête en cours ou Quête en cours ou Quête en cours
 
 
 
 Dagues Maydhyn China
 Dagues - Niveau 100
 
-15 à 20 Dégâts Neutre
+
 61 à 80 Vitalité
 41 à 60 Agilité
 4 à 5 % Critique
@@ -35946,8 +35377,7 @@ Dagues - Niveau 100
 4 à 5 Dommages Neutre
 4 à 5 Dommages Air
 151 à 200 Initiative
-3 PA • 1 - 1 PO • 30% CC • 10% CC tot • +10 CC • 2 coups
-Force > 140 + Agilité > 140
+
 
 
 
@@ -35956,7 +35386,7 @@ Force > 140 + Agilité > 140
 Griffe Rose
 Épée - Niveau 100
 
-31 à 50 Dégâts Terre
+
 71 à 100 Vitalité
 61 à 80 Force
 26 à 35 Sagesse
@@ -35965,8 +35395,7 @@ Griffe Rose
 4 à 5 Dommages Neutre
 4 à 5 Dommages Terre
 7 à 10 Dommages Poussée
-6 PA • 1 - 1 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Force > 140
+
 
 
 
@@ -35976,7 +35405,6 @@ Inferno
 Panoplie Infernale
 Épée - Niveau 100
 
-31 à 50 Dégâts Feu
 100 Vitalité
 50 Intelligence
 6 % Critique
@@ -35984,9 +35412,7 @@ Panoplie Infernale
 100 Initiative
 6 % Rés. Feu
 6 Rés. Feu
-Incarnation
-5 PA • 1 - 1 PO • 5% CC • 10% CC tot • +10 CC • 2 coups
-Intelligence > 200 + Quête terminée
+
 
 
 
@@ -35994,7 +35420,7 @@ Lame du Chef Bwork
 Panoplie du Chef Bwork
 Épée - Niveau 100
 
-23 à 57 Dégâts Terre
+
 71 à 100 Vitalité
 41 à 50 Force
 41 à 50 Agilité
@@ -36003,23 +35429,20 @@ Panoplie du Chef Bwork
 7 à 10 Prospection
 4 à 5 Tacle
 4 à 5 % Rés. Eau
-5 PA • 1 - 1 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Force > 200 + Agilité > 200 + Vitalité > 200
+
 
 
 
 Lorsotheuses
 Dagues - Niveau 100
 
-6 à 15 Dégâts Air
-6 à 15 Dégâts Terre
+
 1 PA
 50 Force
 50 Vitalité
 40 Agilité
 3 % Critique
-3 PA • 1 - 1 PO • 25% CC • 10% CC tot • +10 CC • 2 coups
-Objet non équipable
+
 
 
 
@@ -36027,24 +35450,21 @@ Mandrin
 Panoplie Contrebandière
 Marteau - Niveau 100
 
-13 à 20 Vol Terre
+
 50 Vitalité
 50 Force
 5 PO
 50 Initiative
 6 % Rés. Terre
 6 Rés. Terre
-Incarnation
-6 PA • 1 - 1 PO • 10% CC • 10% CC tot • +10 CC • 1 coup
-Force > 200 + Quête terminée
+
 
 
 
 Marteau Réhadaure
 Marteau - Niveau 100
 
-11 à 15 Dégâts Feu
-11 à 15 Dégâts Eau
+
 71 à 100 Vitalité
 41 à 60 Chance
 21 à 30 Sagesse
@@ -36052,8 +35472,7 @@ Marteau - Niveau 100
 1 Invocation
 4 à 5 Dommages
 4 à 6 Fuite
-4 PA • 1 - 1 PO • 30% CC • 10% CC tot • +10 CC • 1 coup
-Force > 50 + Chance > 90 + Sagesse > 40
+
 
 
 
