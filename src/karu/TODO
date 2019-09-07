@@ -1,2 +1,5 @@
-- add model in controllers
-- display Taux view using arraylists in the model
+recherche par nom
+recherche par rune
+recherche par niveau
+recherche par score
+recherche par  type d'item
