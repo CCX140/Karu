@@ -8,13 +8,14 @@ public class Equipement {
 
      private String nom;
      private String type; //chapeau , bottes .... etc
+     private int id;
      private int niveau;
      private String panoplie;
      private ArrayList<Stat> listStats;
      private int score; // addition de toutes les stats multipliées par le taux de rune associé
 
     public Equipement(){
-
+        listStats = new ArrayList<>();
     }
 
     public String getNom() {
@@ -64,4 +65,14 @@ public class Equipement {
     public void setScore(int score) {
         this.score = score;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void addStat(Stat stat){
+        listStats.add(stat);
+    }
+
+
 }
