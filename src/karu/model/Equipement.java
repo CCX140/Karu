@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class Equipement {
 
      private String nom;
-     private String type; //chapeau , bottes .... etc
+     private int type; //chapeau , bottes .... etc
      private int id;
      private int niveau;
      private String panoplie;
@@ -22,7 +22,7 @@ public class Equipement {
         return nom;
     }
 
-    public String getType() {
+    public int getType() {
         return type;
     }
 
@@ -46,7 +46,7 @@ public class Equipement {
         this.nom = nom;
     }
 
-    public void setType(String type) {
+    public void setType(int type) {
         this.type = type;
     }
 
