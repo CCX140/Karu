@@ -198,46 +198,38 @@ public class LesEquipements {
             e.addStat(new ReAir(nb));
         }else if( s.contains("Rés. Critique")){
             e.addStat(new ReCri(nb));
-        }else if( s.contains( )){
-            e.addStat();
-        }else if( s.contains( )){
-            e.addStat();
-        }else if( s.contains( )){
-            e.addStat();
-        }else if( s.contains( )){
-            e.addStat();
-        }else if( s.contains( )){
-            e.addStat();
-        }else if( s.contains( )){
-            e.addStat();
-        }else if( s.contains( )){
-            e.addStat();
-        }else if( s.contains( )){
-            e.addStat();
-        }else if( s.contains( )){
-            e.addStat();
-        }else if( s.contains( )){
-            e.addStat();
-        }else if( s.contains( )){
-            e.addStat();
-        }else if( s.contains( )){
-            e.addStat();
-        }else if( s.contains( )){
-            e.addStat();
-        }else if( s.contains( )){
-            e.addStat();
-        }else if( s.contains( )){
-            e.addStat();
-        }else if( s.contains( )){
-            e.addStat();
-        }else if( s.contains( )){
-            e.addStat();
-        }else if( s.contains( )){
-            e.addStat();
-        }else if( s.contains( )){
-            e.addStat();
-        }else if( s.contains( )){
-            e.addStat();
+        }else if( s.contains("Esquive PA")){
+            e.addStat(new RePa(nb));
+        }else if( s.contains("Esquive PM")){
+            e.addStat(new RePm(nb));
+        }else if( s.contains("Rés. Poussée")){
+            e.addStat(new RePou(nb));
+        }else if( s.contains("% Rés. Feu")){
+            e.addStat(new RePerFeu(nb));
+        }else if( s.contains("% Rés. Air")){
+            e.addStat(new RePerAir(nb));
+        }else if( s.contains("% Rés. Eau")){
+            e.addStat(new RePerEau(nb));
+        }else if( s.contains("% Rés. Terre")){
+            e.addStat(new RePerTerre(nb));
+        }else if( s.contains("% Rés. Neutre")){
+            e.addStat(new RePerNeutre(nb));
+        }else if( s.contains("Rés. Distance")){
+            e.addStat(new RePerDi(nb));
+        }else if( s.contains("Rés. Mêlée")){
+            e.addStat(new RePerMe(nb));
+        }else if( s.contains("Retrait PM")){
+            e.addStat(new RetPm(nb));
+        }else if( s.contains("Retrait PA")){
+            e.addStat(new RetPa(nb));
+        }else if( s.contains("Sagesse")){
+            e.addStat(new Sagesse(nb));
+        }else if( s.contains("Soin")){
+            e.addStat(new So(nb));
+        }else if( s.contains("Tacle")){
+            e.addStat(new Tacle(nb));
+        }else if( s.contains("Vitalité")){
+            e.addStat(new Vitalite(nb));
         }else {
             System.out.println("\nErreur stat inconnue"+e.getNom());
         }
