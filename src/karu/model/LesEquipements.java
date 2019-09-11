@@ -15,6 +15,7 @@ public class LesEquipements {
 
     public LesEquipements(){
         listEquipements = new ArrayList<>();
+        create();
     }
 
     public void create(){
@@ -28,33 +29,54 @@ public class LesEquipements {
             int id = 0;
             String line;
 
-            while((line=buff.readLine())!=null){
-                //déplace le curseur a la ligne de nom
-                while((line=buff.readLine()) == ""){
+            //déplace le curseur a la ligne de nom
+            do{
+                line=buff.readLine();
+            }while((line.isEmpty()));
 
-                }
+            //lis les équipements un par un
+            while((line!=null)){
+
+                System.out.println(line);
                 //nom
                 addNom(e,line);
 
                 line = buff.readLine();
+                System.out.println(line);
                 //si l'item fait partie d'une panoplie on saute la ligne
-                if (line.contains("Panoplie")){
+                if (line.contains("Panopl")||line.contains("plie")){
                     line = buff.readLine();
+                    System.out.println(line);
                 }
 
                 //type et niveau
-                addNiveau(e,line);
                 addType(e,line);
+                addNiveau(e,line);
 
-                //saute les lignes vide jusqu'aux stats de l'item
-                while((line=buff.readLine()) == ""){
 
+                //déplace le curseur aux stats
+                do{
+                    line=buff.readLine();
+                    System.out.println(line);
+                }while((line.isEmpty()));
+
+                while(!(line.isEmpty())){
+                    System.out.println(line);
+                    addStat(e,line);
+                    line=buff.readLine();
                 }
 
-
-
                 listEquipements.add(e);
+                System.out.println(e);
                 id++;
+
+                //déplace le curseur a la ligne du prochain equipement
+                do{
+                    line=buff.readLine();
+                    if (line == null){ //si on est a la fin du data.txt
+                        break;
+                    }
+                }while((line.isEmpty()));
             }
 
         }
@@ -70,168 +92,168 @@ public class LesEquipements {
 
     public void addNiveau(Equipement e,String s){
         int lvl = -1;
-        String sub = s.substring(s.length()-3);
-        sub.replaceAll(" ", "0");
-        sub.replaceAll("u", "0");
-        lvl = Integer.parseInt(sub);
+        String[] split = s.split(" ");
+        lvl = Integer.parseInt(split[split.length-1]);
         e.setNiveau(lvl);
         if (lvl == -1){
-            System.out.println("\nErreur Niveau Inconnu"+e.getNom());
+            System.out.println("\nErreur Niveau Inconnu "+e.getNom());
         }
     }
 
     public void addType(Equipement e,String s){
-        String[] split = s.split(" ");
-        String type = split[0];
-
-        if(type == "Anneau"){
+        if(s.contains("Anneau")){
             e.setType(ANNEAU);
-        }else if(type == "Amulette"){
+        }else if(s.contains("Amulette")){
             e.setType(AMULETTE);
-        }else if(type == "Chapeau"){
+        }else if(s.contains("Chapeau")){
             e.setType(CHAPEAU);
-        }else if(type == "Bottes"){
+        }else if(s.contains("Bottes")){
             e.setType(BOTTES);
-        }else if(type == "Bouclier"){
+        }else if(s.contains("Bouclier")){
             e.setType(BOUCLIER);
-        }else if(type == "Cape"){
+        }else if(s.contains("Cape")){
             e.setType(CAPE);
-        }else if(type == "Ceinture"){
+        }else if(s.contains("Ceinture")){
             e.setType(CEINTURE);
-        }else if(type == "Sac"){
+        }else if(s.contains("Sac")){
             e.setType(SAC);
-        }else if(type == "Arc"){
+        }else if(s.contains("Arc")){
             e.setType(ARC);
-        }else if(type == "Baguette"){
+        }else if(s.contains("Baguette")){
             e.setType(BAGUETTE);
-        }else if(type == "Bâton"){
+        }else if(s.contains("Bâton")){
             e.setType(BATON);
-        }else if(type == "Dagues"){
+        }else if(s.contains("Dagues")){
             e.setType(DAGUE);
-        }else if(type == "Épée"){
+        }else if(s.contains("Épée")){
             e.setType(EPEE);
-        }else if(type == "Faux"){
+        }else if(s.contains("Faux")){
             e.setType(FAUX);
-        }else if(type == "Marteau"){
+        }else if(s.contains("Marteau")){
             e.setType(MARTEAU);
-        }else if(type == "Hache"){
+        }else if(s.contains("Hache")){
             e.setType(HACHE);
-        }else if(type == "Pelle"){
+        }else if(s.contains("Pelle")){
             e.setType(PELLE);
-        }else if(type == "Pioche"){
+        }else if(s.contains("Pioche")){
             e.setType(PIOCHE);
         }else{
-            System.out.println("\nErreur type inconnu"+e.getNom());
+            System.out.println("\nErreur type inconnu "+e.getNom());
         }
 
     }
 
     public void addStat(Equipement e, String s){
         String[] split = s.split(" ");
-        int nb = Integer.parseInt(split[0]);
 
         if( s.contains("Agilité")){
-            e.addStat(new Agilite(nb));
+            e.addStat(new Agilite(Integer.parseInt(split[0])));
         }else if( s.contains("Chance")){
-            e.addStat(new Chance(nb));
+            e.addStat(new Chance(Integer.parseInt(split[0])));
         }else if( s.contains("% Critique")){
-            e.addStat(new Cri(nb));
+            e.addStat(new Cri(Integer.parseInt(split[0])));
         }else if( s.contains("Dommages")){
-            e.addStat(new Do(nb));
+            e.addStat(new Do(Integer.parseInt(split[0])));
         }else if( s.contains("Dommages air")){
-            e.addStat(new DoAir(nb));
+            e.addStat(new DoAir(Integer.parseInt(split[0])));
         }else if( s.contains("Dommages eau")){
-            e.addStat(new DoEau(nb));
+            e.addStat(new DoEau(Integer.parseInt(split[0])));
         }else if( s.contains("Dommages Critique")){
-            e.addStat(new DoCri(nb));
+            e.addStat(new DoCri(Integer.parseInt(split[0])));
         }else if( s.contains("Dommages Feu")){
-            e.addStat(new DoFeu(nb));
+            e.addStat(new DoFeu(Integer.parseInt(split[0])));
         }else if( s.contains("Dommages Neutre")){
-            e.addStat(new DoNeutre(nb));
+            e.addStat(new DoNeutre(Integer.parseInt(split[0])));
         }else if( s.contains("% Dmg Mêlée")){
-            e.addStat(new DoPerMe(nb));
+            e.addStat(new DoPerMe(Integer.parseInt(split[0])));
         }else if( s.contains("% Dmg aux Sorts")){
-            e.addStat(new DoPerSo(nb));
+            e.addStat(new DoPerSo(Integer.parseInt(split[0])));
         }else if( s.contains("% Dmg Distance")){
-            e.addStat(new DoPerDi(nb));
+            e.addStat(new DoPerDi(Integer.parseInt(split[0])));
         }else if( s.contains("% Dmg d'Armes")){
-            e.addStat(new DoPerAr(nb));
+            e.addStat(new DoPerAr(Integer.parseInt(split[0])));
         }else if( s.contains("Dommages Piège")){
-            e.addStat(new DoPi(nb));
+            e.addStat(new DoPi(Integer.parseInt(split[0])));
         }else if( s.contains("Dommages Poussée")){
-            e.addStat(new DoPou(nb));
-        }else if( s.contains("Renvoi")){ // si c'est du renvoie de dommage le nombre de stats est en deuxieme position
+            e.addStat(new DoPou(Integer.parseInt(split[0])));
+        }else if( s.contains("Renvoi")){ // si c'est du renvoi de dommages, le nombre de stats est en deuxieme position
             e.addStat(new DoRen(Integer.parseInt(split[1])));
         }else if( s.contains("Dommages Terre")){
-            e.addStat(new DoTerre(nb));
+            e.addStat(new DoTerre(Integer.parseInt(split[0])));
         }else if( s.contains("Force")){
-            e.addStat(new Force(nb));
+            e.addStat(new Force(Integer.parseInt(split[0])));
         }else if( s.contains("Fuite")){
-            e.addStat(new Fuite(nb));
+            e.addStat(new Fuite(Integer.parseInt(split[0])));
         }else if( s.contains("Intelligence")){
-            e.addStat(new Intelligence(nb));
+            e.addStat(new Intelligence(Integer.parseInt(split[0])));
         }else if( s.contains("Invocation")){
-            e.addStat(new Invo(nb));
+            e.addStat(new Invo(Integer.parseInt(split[0])));
         }else if( s.contains("PA")){
-            e.addStat(new Pa(nb));
+            e.addStat(new Pa(Integer.parseInt(split[0])));
         }else if( s.contains("PM")){
-            e.addStat(new Pm(nb));
+            e.addStat(new Pm(Integer.parseInt(split[0])));
         }else if( s.contains("PO")){
-            e.addStat(new Po(nb));
+            e.addStat(new Po(Integer.parseInt(split[0])));
         }else if( s.contains("Pods")){
-            e.addStat(new Pod(nb));
+            e.addStat(new Pod(Integer.parseInt(split[0])));
         }else if( s.contains("Prospection")){
-            e.addStat(new Prospe(nb));
+            e.addStat(new Prospe(Integer.parseInt(split[0])));
         }else if( s.contains("Puissance Piège")){
-            e.addStat(new PuiPi(nb));
+            e.addStat(new PuiPi(Integer.parseInt(split[0])));
         }else if( s.contains("Puissance")){
-            e.addStat(new Puissance(nb));
+            e.addStat(new Puissance(Integer.parseInt(split[0])));
         }else if( s.contains("Rés. Feu")){
-            e.addStat(new ReFeu(nb));
+            e.addStat(new ReFeu(Integer.parseInt(split[0])));
         }else if( s.contains("Rés. Eau")){
-            e.addStat(new ReEau(nb));
+            e.addStat(new ReEau(Integer.parseInt(split[0])));
         }else if( s.contains("Rés. Terre")){
-            e.addStat(new ReTerre(nb));
+            e.addStat(new ReTerre(Integer.parseInt(split[0])));
         }else if( s.contains("Rés. Neutre")){
-            e.addStat(new ReNeutre(nb));
+            e.addStat(new ReNeutre(Integer.parseInt(split[0])));
         }else if( s.contains("Rés. Air")){
-            e.addStat(new ReAir(nb));
+            e.addStat(new ReAir(Integer.parseInt(split[0])));
         }else if( s.contains("Rés. Critique")){
-            e.addStat(new ReCri(nb));
+            e.addStat(new ReCri(Integer.parseInt(split[0])));
         }else if( s.contains("Esquive PA")){
-            e.addStat(new RePa(nb));
+            e.addStat(new RePa(Integer.parseInt(split[0])));
         }else if( s.contains("Esquive PM")){
-            e.addStat(new RePm(nb));
+            e.addStat(new RePm(Integer.parseInt(split[0])));
         }else if( s.contains("Rés. Poussée")){
-            e.addStat(new RePou(nb));
+            e.addStat(new RePou(Integer.parseInt(split[0])));
         }else if( s.contains("% Rés. Feu")){
-            e.addStat(new RePerFeu(nb));
+            e.addStat(new RePerFeu(Integer.parseInt(split[0])));
         }else if( s.contains("% Rés. Air")){
-            e.addStat(new RePerAir(nb));
+            e.addStat(new RePerAir(Integer.parseInt(split[0])));
         }else if( s.contains("% Rés. Eau")){
-            e.addStat(new RePerEau(nb));
+            e.addStat(new RePerEau(Integer.parseInt(split[0])));
         }else if( s.contains("% Rés. Terre")){
-            e.addStat(new RePerTerre(nb));
+            e.addStat(new RePerTerre(Integer.parseInt(split[0])));
         }else if( s.contains("% Rés. Neutre")){
-            e.addStat(new RePerNeutre(nb));
+            e.addStat(new RePerNeutre(Integer.parseInt(split[0])));
         }else if( s.contains("Rés. Distance")){
-            e.addStat(new RePerDi(nb));
+            e.addStat(new RePerDi(Integer.parseInt(split[0])));
         }else if( s.contains("Rés. Mêlée")){
-            e.addStat(new RePerMe(nb));
+            e.addStat(new RePerMe(Integer.parseInt(split[0])));
         }else if( s.contains("Retrait PM")){
-            e.addStat(new RetPm(nb));
+            e.addStat(new RetPm(Integer.parseInt(split[0])));
         }else if( s.contains("Retrait PA")){
-            e.addStat(new RetPa(nb));
+            e.addStat(new RetPa(Integer.parseInt(split[0])));
         }else if( s.contains("Sagesse")){
-            e.addStat(new Sagesse(nb));
+            e.addStat(new Sagesse(Integer.parseInt(split[0])));
         }else if( s.contains("Soin")){
-            e.addStat(new So(nb));
+            e.addStat(new So(Integer.parseInt(split[0])));
         }else if( s.contains("Tacle")){
-            e.addStat(new Tacle(nb));
-        }else if( s.contains("Vitalité")){
-            e.addStat(new Vitalite(nb));
+            e.addStat(new Tacle(Integer.parseInt(split[0])));
+        }else if( s.contains("Vitalité")) {
+            e.addStat(new Vitalite(Integer.parseInt(split[0])));
+        }else if( s.contains("Initiative")){
+            e.addStat(new Initiative(Integer.parseInt(split[0])));
         }else {
-            System.out.println("\nErreur stat inconnue"+e.getNom());
+            System.out.println("\nErreur stat inconnue "+e.getNom());
         }
+    }
+
+    public int size(){
+        return listEquipements.size();
     }
 }

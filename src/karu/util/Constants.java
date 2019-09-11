@@ -35,6 +35,7 @@ public final class Constants {
 
 
     //POIDS RUNES
+    public static final double POIDS_INI = 0.10;
     public static final double POIDS_FORCE = 1;
     public static final double POIDS_INTELLIGENCE = 1;
     public static final double POIDS_CHANCE = 1;

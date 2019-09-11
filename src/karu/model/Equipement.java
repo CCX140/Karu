@@ -74,5 +74,15 @@ public class Equipement {
         listStats.add(stat);
     }
 
-
+    @Override
+    public String toString() {
+        return "Equipement{" +
+                "nom='" + nom + '\'' +
+                ", type=" + type +
+                ", id=" + id +
+                ", niveau=" + niveau +
+                ", panoplie='" + panoplie + '\'' +
+                ", score=" + score +
+                '}';
+    }
 }

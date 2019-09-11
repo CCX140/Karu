@@ -1,4 +1,5 @@
 
+
 Alliance Brûlâme
 Panoplie Brûlâme
 Anneau - Niveau 200
@@ -9459,7 +9460,6 @@ Chapeau - Niveau 170
 6 à 8 Fuite
 9 à 12 Esquive PA
 6 à 8 Dommages Critique
-Quelqu'un vous suit !
 
 
 
@@ -13073,7 +13073,6 @@ Sac - Niveau 127
 4 à 6 Retrait PM
 11 à 15 Rés. Poussée
 7 à 10 % Rés. Neutre
-Quelqu'un vous suit !
 
 
 
@@ -14530,7 +14529,6 @@ Chapeau - Niveau 106
 4 à 5 Fuite
 7 à 10 Dommages Critique
 7 à 10 Rés. Poussée
-Quelqu'un vous suit !
 
 
 
@@ -18127,7 +18125,6 @@ Chapeau - Niveau 66
 151 à 200 Initiative
 7 à 10 Dommages Critique
 7 à 10 Dommages Poussée
-Quelqu'un vous suit !
 
 
 
@@ -18477,7 +18474,6 @@ Cape - Niveau 61
 1 PO
 101 à 150 Pods
 201 à 250 Initiative
-Quelqu'un vous suit !
 
 
 
@@ -26252,7 +26248,6 @@ Sac - Niveau 25
 1 à 10 Puissance
 1 Invocation
 56 à 110 Pods
-Quelqu'un vous suit !
 
 
 
@@ -39542,7 +39537,7 @@ Dagues - Niveau 2
 
 
 Demi-Baguette
-
+Baguette - Niveau 1
 
 3 à 4 Chance
 
@@ -39592,3 +39587,5 @@ Marteau - Niveau 1
 
 4 à 5 Force
 1 Dommages Terre
+
+
