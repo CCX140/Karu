@@ -5,6 +5,8 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class LesRunes {
 
@@ -44,25 +46,10 @@ public class LesRunes {
          }
     }
 
-    public void sortByTaux(){
-
+    public void trierParTaux(){
+        Collections.sort(this.runes, (o1, o2) -> (int) (o1.getTaux() - o2.getTaux()));
     }
 
-    public int getIndexIemeMeilleureRune(int ind) {
-       return 0;
-    }
-
-    public void setPrixWithIndex(int index,int value ){
-
-    }
-
-    public int getTauxWithIndex(int index){
-       return 0;
-    }
-
-    public String getRuneWithIndex(int index){
-       return "";
-    }
 
     @Override
     public String toString() {

@@ -6,6 +6,8 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 import static karu.util.Constants.*;
 
@@ -255,5 +257,13 @@ public class LesEquipements {
 
     public int size(){
         return listEquipements.size();
+    }
+
+    public void trierParTaux(){
+        Collections.sort(listEquipements, (o1, o2) -> (int) o1.getScore() - o2.getScore());
+    }
+
+    public void trierParNiveaux(){
+        Collections.sort(listEquipements, (o1, o2) -> (int) o1.getNiveau() - o2.getNiveau());
     }
 }
