@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 
@@ -46,9 +47,16 @@ public class LesRunes {
          }
     }
 
-    public void trierParTaux(){
-        Collections.sort(this.runes, (o1, o2) -> (int) (o1.getTaux() - o2.getTaux()));
+    
+    public void TrierParTaux(){
+        Collections.sort(runes, new Comparator<Rune>() {
+            @Override
+            public int compare(Rune o1, Rune o2) {
+                return (int) (o1.getTaux() - o2.getTaux());
+            }
+        });
     }
+
 
 
     @Override
