@@ -2,6 +2,7 @@ package karu.view.taux;
 
 import javax.swing.*;
 
+
 public class VueTaux extends JPanel {
 
     private JLabel label;
@@ -10,8 +11,9 @@ public class VueTaux extends JPanel {
     public VueTaux(){
         super();
         label = new JLabel("Taux des Runes");
+        label.setHorizontalAlignment(SwingConstants.CENTER);
         table = new JTable();
 
-        this.add(label,table);
+        this.add(label);
     }
 }
