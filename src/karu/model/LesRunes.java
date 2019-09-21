@@ -57,7 +57,9 @@ public class LesRunes {
         });
     }
 
-
+    public ArrayList<Rune> getRunes() {
+        return runes;
+    }
 
     @Override
     public String toString() {

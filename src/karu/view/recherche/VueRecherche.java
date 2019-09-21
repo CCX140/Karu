@@ -1,19 +1,24 @@
 package karu.view.recherche;
 
 import javax.swing.*;
+import javax.swing.border.TitledBorder;
 
 
 public class VueRecherche extends JPanel {
 
-    private JLabel label;
+
     private JTable table;
 
     public VueRecherche(){
         super();
-        label = new JLabel("Recherche");
-        label.setHorizontalAlignment(SwingConstants.CENTER);
+        //Titled borders
+        TitledBorder title;
+        title = BorderFactory.createTitledBorder("Recherche");
+        this.setBorder(title);
         table = new JTable();
+        this.setLayout(new BoxLayout(this,BoxLayout.Y_AXIS));
 
-        this.add(label);
+        this.add(new JLabel("edfghj"));
+
     }
 }

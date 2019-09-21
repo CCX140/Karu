@@ -1,5 +1,6 @@
 package karu.view;
 
+import karu.model.Karu;
 import karu.util.Constants;
 import karu.view.recherche.VueRecherche;
 import karu.view.taux.VueTaux;
@@ -9,24 +10,27 @@ import javax.swing.*;
 import java.awt.*;
 
 public class MainView {
+    private Karu model;
     private JFrame main;
     private JMenuBar menuBar;
     private JPanel panel;
-    private VueTaux vueTaux;
-    private VueRunes vueRunes;
-    private VueRecherche vueRecherche;
+    private JComponent vueTaux;
+    private JComponent vueRunes;
+    private JComponent vueRecherche;
 
-    public MainView(){
+    public MainView(Karu model){
+        this.model = model;
         main = new JFrame();
         menuBar = new JMenuBar();
-        vueTaux = new VueTaux();
-        vueRunes = new VueRunes();
+        vueTaux = new VueTaux(model.getRunes());
+        vueRunes = new VueRunes(model.getRunes());
         vueRecherche = new VueRecherche();
-        panel = new JPanel(new BorderLayout());
+        panel = new JPanel();
 
-        panel.add(vueTaux,BorderLayout.WEST);
-        panel.add(vueRunes,BorderLayout.EAST);
-        panel.add(vueRecherche,BorderLayout.CENTER);
+        panel.setLayout(new BoxLayout(panel,BoxLayout.X_AXIS));
+        panel.add(vueTaux);
+        panel.add(vueRecherche);
+        panel.add(vueRunes);
 
         main.add(panel);
         main.setSize(Constants.WIDTH/2,Constants.HEIGHT/2);

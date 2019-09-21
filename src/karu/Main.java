@@ -2,12 +2,16 @@
 
 package karu;
 
+import karu.model.Karu;
 import karu.view.MainView;
+
+import java.io.FileNotFoundException;
 
 public class Main  {
 
 
-    public static void main(String[] args) {
-        MainView mainView = new MainView();
+    public static void main(String[] args) throws FileNotFoundException {
+        Karu model = new Karu();
+        MainView mainView = new MainView(model);
     }
 }

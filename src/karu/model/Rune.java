@@ -17,6 +17,9 @@ public class Rune {
         this.nom = nom;
     }
 
+    public String getNom() {
+        return nom;
+    }
 
     public void setTaux(double taux) {
         this.taux = taux;
