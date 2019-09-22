@@ -49,7 +49,7 @@ public class LesRunes {
         Collections.sort(runes, new Comparator<Rune>() {
             @Override
             public int compare(Rune o1, Rune o2) {
-                return (int) (o1.getTaux() - o2.getTaux());
+                return (int) (o2.getTaux() - o1.getTaux());
             }
         });
     }

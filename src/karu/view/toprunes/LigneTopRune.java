@@ -6,18 +6,22 @@ import java.awt.*;
 
 
 public class LigneTopRune extends JPanel {
+
      private Rune rune;
      private JLabel nom;
      private JLabel score;
      private Color color;
 
      public LigneTopRune(Rune r){
+         rune = r;
          nom = new JLabel(r.getNom());
-         score = new JLabel(" Score = "+rune.getTaux());
+         score = new JLabel(" Taux = "+rune.getTaux());
+
+         this.setSize(250,25);
+         this.setBorder(BorderFactory.createRaisedBevelBorder());
 
          if(rune.getTaux() > 300){
              color = new Color(255,40,140);
-             this.setBorder(BorderFactory.createRaisedBevelBorder());
          }
          else if(rune.getTaux() > 250){
              color = new Color(255,40,40);
@@ -29,7 +33,7 @@ public class LigneTopRune extends JPanel {
              color = new Color(255,255,40);
          }
          else if(rune.getTaux() > 100){
-             color = new Color(200,200,120);
+             color = new Color(200,200,150);
          }
          else {
              color = new Color(200,200,200);

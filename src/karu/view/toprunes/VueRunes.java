@@ -1,12 +1,11 @@
 package karu.view.toprunes;
 
 import karu.model.LesRunes;
-import karu.view.taux.LigneRune;
+import karu.model.Rune;
 
 import javax.swing.*;
 import javax.swing.border.TitledBorder;
-import java.util.Observable;
-import java.util.Observer;
+import java.awt.*;
 
 
 public class VueRunes extends JPanel {
@@ -32,6 +31,13 @@ public class VueRunes extends JPanel {
 
         lesRunes.TrierParTaux();
 
-        System.out.println("update");
+        for(Rune rune: lesRunes.getRunes()){
+            if(rune.getTaux() != -1){
+                System.out.println(rune.getNom());
+                this.add(new LigneTopRune(rune));
+            }
+        }
+
+        this.updateUI();
     }
 }

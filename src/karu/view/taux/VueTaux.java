@@ -11,14 +11,12 @@ import java.awt.*;
 
 public class VueTaux extends JPanel {
 
-    private JLabel label;
-    private JTable table;
     private LesRunes lesRunes;
     private VueRunes vueRunes;
 
-    public VueTaux(LesRunes lesRunes,VueRunes vr){
+    public VueTaux(LesRunes lr,VueRunes vr){
         super();
-        this.lesRunes = lesRunes;
+        this.lesRunes = lr;
         vueRunes = vr;
 
         //Titled borders

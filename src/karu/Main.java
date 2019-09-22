@@ -3,8 +3,11 @@
 package karu;
 
 import karu.model.Karu;
+import karu.model.Rune;
 import karu.view.MainView;
+import karu.view.toprunes.LigneTopRune;
 
+import javax.swing.*;
 import java.io.FileNotFoundException;
 import java.util.Observer;
 

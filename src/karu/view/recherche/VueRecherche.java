@@ -17,7 +17,7 @@ public class VueRecherche extends JPanel {
         this.setBorder(title);
         table = new JTable();
         this.setLayout(new BoxLayout(this,BoxLayout.Y_AXIS));
-
+        this.setSize(300,500);
         this.add(new JLabel("edfghj"));
 
     }

@@ -69,10 +69,12 @@ public class LigneRune extends JPanel {
         if(integer){
             rune.setPrix(Integer.parseInt(prix));
             rune.calcuTaux();
-            tauxRune.setText("Taux : "+rune.getTaux());
+            tauxRune.setText("Taux :  "+rune.getTaux());
         }
         else{
             prixRune.setText("");
+            rune.setPrix(-1);
+            rune.setTaux(-1);
         }
     }
 }

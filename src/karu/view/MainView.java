@@ -28,12 +28,13 @@ public class MainView {
         panel = new JPanel();
 
         panel.setLayout(new BoxLayout(panel,BoxLayout.X_AXIS));
+
         panel.add(new JScrollPane(vueTaux));
         panel.add(vueRecherche);
-        panel.add(vueRunes);
+        panel.add(new JScrollPane(vueRunes));
 
         main.add(panel);
-        main.setSize(Constants.WIDTH/2,Constants.HEIGHT/2);
+        main.setSize(Constants.WIDTH,Constants.HEIGHT);
         main.setTitle("KARU");
         main.setLocationRelativeTo(null);
         main.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
