@@ -28,7 +28,7 @@ public class MainView {
         panel = new JPanel();
 
         panel.setLayout(new BoxLayout(panel,BoxLayout.X_AXIS));
-        panel.add(vueTaux);
+        panel.add(new JScrollPane(vueTaux));
         panel.add(vueRecherche);
         panel.add(vueRunes);
 

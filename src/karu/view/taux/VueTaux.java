@@ -8,7 +8,7 @@ import javax.swing.border.TitledBorder;
 import java.awt.*;
 
 
-public class VueTaux extends JPanel implements Scrollable{
+public class VueTaux extends JPanel {
 
     private JLabel label;
     private JTable table;
@@ -25,36 +25,12 @@ public class VueTaux extends JPanel implements Scrollable{
 
         this.setLayout(new BoxLayout(this,BoxLayout.Y_AXIS));
 
+
         for(Rune r : lesRunes.getRunes()){
-            LigneRune ligneRune = new LigneRune(r.getNom(),r);
+            LigneRune ligneRune = new LigneRune(r);
             ligneRune.setAlignmentX(Component.LEFT_ALIGNMENT);
             this.add(ligneRune);
         }
 
-    }
-
-    @Override
-    public Dimension getPreferredScrollableViewportSize() {
-        return null;
-    }
-
-    @Override
-    public int getScrollableUnitIncrement(Rectangle visibleRect, int orientation, int direction) {
-        return 0;
-    }
-
-    @Override
-    public int getScrollableBlockIncrement(Rectangle visibleRect, int orientation, int direction) {
-        return 0;
-    }
-
-    @Override
-    public boolean getScrollableTracksViewportWidth() {
-        return false;
-    }
-
-    @Override
-    public boolean getScrollableTracksViewportHeight() {
-        return false;
     }
 }
