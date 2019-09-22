@@ -1,6 +1,7 @@
 package karu.view.taux;
 
 import karu.model.Rune;
+import karu.view.toprunes.VueRunes;
 
 import javax.swing.*;
 import javax.swing.border.Border;
@@ -17,8 +18,10 @@ public class LigneRune extends JPanel {
     private JTextField prixRune;
     private JLabel tauxRune;
     private Rune rune;
+    private VueRunes vueRunes;
 
-    public LigneRune(Rune r){
+    public LigneRune(Rune r,VueRunes vr){
+        vueRunes = vr;
         nomRune = new JLabel(r.getNom());
         prixRune = new JTextField("prix/unité");
         tauxRune = new JLabel();
@@ -46,6 +49,7 @@ public class LigneRune extends JPanel {
             @Override
             public void keyReleased(KeyEvent e) {
                 calculTaux();
+                vueRunes.update();
             }
         });
 
@@ -65,7 +69,7 @@ public class LigneRune extends JPanel {
         if(integer){
             rune.setPrix(Integer.parseInt(prix));
             rune.calcuTaux();
-            tauxRune.setText(""+rune.getTaux());
+            tauxRune.setText("Taux : "+rune.getTaux());
         }
         else{
             prixRune.setText("");

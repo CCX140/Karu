@@ -2,7 +2,7 @@ package karu.model;
 
 import java.io.FileNotFoundException;
 
-public class Karu {
+public class Karu  {
 
     private LesRunes runes;
     private LesEquipements equipements;
@@ -19,7 +19,6 @@ public class Karu {
     public LesEquipements getEquipements() {
         return equipements;
     }
-
 
     @Override
     public String toString() {

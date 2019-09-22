@@ -2,6 +2,7 @@ package karu.view.taux;
 
 import karu.model.LesRunes;
 import karu.model.Rune;
+import karu.view.toprunes.VueRunes;
 
 import javax.swing.*;
 import javax.swing.border.TitledBorder;
@@ -13,10 +14,12 @@ public class VueTaux extends JPanel {
     private JLabel label;
     private JTable table;
     private LesRunes lesRunes;
+    private VueRunes vueRunes;
 
-    public VueTaux(LesRunes lesRunes){
+    public VueTaux(LesRunes lesRunes,VueRunes vr){
         super();
         this.lesRunes = lesRunes;
+        vueRunes = vr;
 
         //Titled borders
         TitledBorder title;
@@ -27,7 +30,7 @@ public class VueTaux extends JPanel {
 
 
         for(Rune r : lesRunes.getRunes()){
-            LigneRune ligneRune = new LigneRune(r);
+            LigneRune ligneRune = new LigneRune(r,vueRunes);
             ligneRune.setAlignmentX(Component.LEFT_ALIGNMENT);
             this.add(ligneRune);
         }

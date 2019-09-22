@@ -1,0 +1,47 @@
+package karu.view.toprunes;
+import karu.model.Rune;
+
+import javax.swing.*;
+import java.awt.*;
+
+
+public class LigneTopRune extends JPanel {
+     private Rune rune;
+     private JLabel nom;
+     private JLabel score;
+     private Color color;
+
+     public LigneTopRune(Rune r){
+         nom = new JLabel(r.getNom());
+         score = new JLabel(" Score = "+rune.getTaux());
+
+         if(rune.getTaux() > 300){
+             color = new Color(255,40,140);
+             this.setBorder(BorderFactory.createRaisedBevelBorder());
+         }
+         else if(rune.getTaux() > 250){
+             color = new Color(255,40,40);
+         }
+         else if(rune.getTaux() > 200){
+             color = new Color(255,120,40);
+         }
+         else if(rune.getTaux() > 150){
+             color = new Color(255,255,40);
+         }
+         else if(rune.getTaux() > 100){
+             color = new Color(200,200,120);
+         }
+         else {
+             color = new Color(200,200,200);
+         }
+
+         this.setLayout(new FlowLayout(FlowLayout.LEFT));
+         nom.setPreferredSize(new Dimension(100,20));
+         score.setPreferredSize(new Dimension(100,20));
+         this.add(nom);
+         this.add(score);
+         this.setBackground(color);
+
+     }
+
+}

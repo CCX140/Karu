@@ -6,6 +6,7 @@ import karu.model.Karu;
 import karu.view.MainView;
 
 import java.io.FileNotFoundException;
+import java.util.Observer;
 
 public class Main  {
 

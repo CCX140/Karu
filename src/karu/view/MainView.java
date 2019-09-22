@@ -22,8 +22,8 @@ public class MainView {
         this.model = model;
         main = new JFrame();
         menuBar = new JMenuBar();
-        vueTaux = new VueTaux(model.getRunes());
         vueRunes = new VueRunes(model.getRunes());
+        vueTaux = new VueTaux(model.getRunes(), (VueRunes) vueRunes);
         vueRecherche = new VueRecherche();
         panel = new JPanel();
 
@@ -38,5 +38,9 @@ public class MainView {
         main.setLocationRelativeTo(null);
         main.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         main.setVisible(true);
+    }
+
+    public JComponent getVueRunes() {
+        return vueRunes;
     }
 }
