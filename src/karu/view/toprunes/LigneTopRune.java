@@ -21,7 +21,7 @@ public class LigneTopRune extends JPanel {
          this.setBorder(BorderFactory.createRaisedBevelBorder());
 
          if(rune.getTaux() > 300){
-             color = new Color(255,40,140);
+             color = new Color(147,112,219);
          }
          else if(rune.getTaux() > 250){
              color = new Color(255,40,40);
