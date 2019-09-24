@@ -21,6 +21,7 @@ public class LigneRune extends JPanel {
     private VueRunes vueRunes;
 
     public LigneRune(Rune r,VueRunes vr){
+        super();
         vueRunes = vr;
         nomRune = new JLabel(r.getNom());
         prixRune = new JTextField("prix/unité");
@@ -33,7 +34,7 @@ public class LigneRune extends JPanel {
 
         nomRune.setPreferredSize(new Dimension(100,20));
         prixRune.setPreferredSize(new Dimension(100,20));
-        tauxRune.setPreferredSize(new Dimension(100,20));
+        tauxRune.setPreferredSize(new Dimension(150,20));
 
         prixRune.addKeyListener(new KeyListener() {
             @Override
@@ -48,7 +49,7 @@ public class LigneRune extends JPanel {
 
             @Override
             public void keyReleased(KeyEvent e) {
-                calculTaux();
+                update();
                 vueRunes.update();
             }
         });
@@ -59,7 +60,7 @@ public class LigneRune extends JPanel {
         this.add(tauxRune);
     }
 
-    public void calculTaux(){
+    public void update(){
 
         String prix = prixRune.getText();
         boolean integer= true;
@@ -75,6 +76,7 @@ public class LigneRune extends JPanel {
             prixRune.setText("");
             rune.setPrix(-1);
             rune.setTaux(-1);
+            tauxRune.setText("");
         }
     }
 }

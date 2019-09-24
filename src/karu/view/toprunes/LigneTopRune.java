@@ -13,11 +13,12 @@ public class LigneTopRune extends JPanel {
      private Color color;
 
      public LigneTopRune(Rune r){
+         super();
          rune = r;
          nom = new JLabel(r.getNom());
          score = new JLabel(" Taux = "+rune.getTaux());
 
-         this.setSize(250,25);
+         this.setSize(300,25);
          this.setBorder(BorderFactory.createRaisedBevelBorder());
 
          if(rune.getTaux() > 300){
@@ -40,8 +41,8 @@ public class LigneTopRune extends JPanel {
          }
 
          this.setLayout(new FlowLayout(FlowLayout.LEFT));
-         nom.setPreferredSize(new Dimension(100,20));
-         score.setPreferredSize(new Dimension(100,20));
+         nom.setPreferredSize(new Dimension(150,20));
+         score.setPreferredSize(new Dimension(150,20));
          this.add(nom);
          this.add(score);
          this.setBackground(color);

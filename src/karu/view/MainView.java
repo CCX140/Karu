@@ -25,7 +25,7 @@ public class MainView {
         vueRunes = new VueRunes(model.getRunes());
         vueTaux = new VueTaux(model.getRunes(), (VueRunes) vueRunes);
         vueRecherche = new VueRecherche();
-        panel = new JPanel();
+        panel = (JPanel) main.getContentPane();
 
         panel.setLayout(new BoxLayout(panel,BoxLayout.X_AXIS));
 
@@ -33,11 +33,11 @@ public class MainView {
         panel.add(vueRecherche);
         panel.add(new JScrollPane(vueRunes));
 
-        main.add(panel);
         main.setSize(Constants.WIDTH,Constants.HEIGHT);
         main.setTitle("KARU");
         main.setLocationRelativeTo(null);
         main.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        main.pack();
         main.setVisible(true);
     }
 
