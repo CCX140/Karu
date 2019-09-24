@@ -24,19 +24,19 @@ public class MainView {
         menuBar = new JMenuBar();
         vueRunes = new VueRunes(model.getRunes());
         vueTaux = new VueTaux(model.getRunes(), (VueRunes) vueRunes);
-        vueRecherche = new VueRecherche();
+        vueRecherche = new VueRecherche(model.getEquipements());
         panel = (JPanel) main.getContentPane();
 
-        panel.setLayout(new BoxLayout(panel,BoxLayout.X_AXIS));
+        panel.setLayout(new GridLayout(1,3));
 
         panel.add(new JScrollPane(vueTaux));
         panel.add(vueRecherche);
         panel.add(new JScrollPane(vueRunes));
 
-        main.setSize(Constants.WIDTH,Constants.HEIGHT);
+        main.setSize(Constants.WIDTH/2,Constants.HEIGHT/2);
         main.setTitle("KARU");
-        main.setLocationRelativeTo(null);
         main.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        main.setExtendedState(main.MAXIMIZED_BOTH);
         main.pack();
         main.setVisible(true);
     }

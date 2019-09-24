@@ -1,5 +1,7 @@
 package karu.view.recherche;
 
+import karu.model.LesEquipements;
+
 import javax.swing.*;
 import javax.swing.border.TitledBorder;
 import java.awt.*;
@@ -7,21 +9,23 @@ import java.awt.*;
 
 public class VueRecherche extends JPanel {
 
-
+    private LesEquipements model;
     private JRadioButton score;
     private JRadioButton niveau;
     private JPanel groupeBouttons;
     private JTextField barreRecherche;
+    private JMenu menuRunes;
+    private JMenu menuType;
     private VueResultat vueResultat;
     
 
-    public VueRecherche(){
+    public VueRecherche(LesEquipements lesEquipements){
         super();
-        //Titled borders
+        model = lesEquipements;
         TitledBorder title;
         title = BorderFactory.createTitledBorder("Recherche");
         this.setBorder(title);
-        this.setLayout(new FlowLayout(FlowLayout.LEFT));
+        this.setLayout(new GridLayout(3,1));
 
         score = new JRadioButton("score");
         niveau = new JRadioButton("niveau");
@@ -39,12 +43,25 @@ public class VueRecherche extends JPanel {
         barreRecherche.setHorizontalAlignment(JTextField.LEFT);
         barreRecherche.setPreferredSize(new Dimension(200,25));
 
-        this.add(groupeBouttons);
-        this.add(barreRecherche);
+        JPanel panelRecherche = new JPanel();
+        panelRecherche.add(groupeBouttons);
+        panelRecherche.add(barreRecherche);
+
+        menuRunes = new JMenu("Stat :");
+        menuType = new JMenu("Type :");
+        initMenus();
+        panelRecherche.add(menuRunes);
+        panelRecherche.add(menuType);
+
+
+        this.add(panelRecherche);
         this.add(new VueResultat());
         this.revalidate();
 
     }
 
+    public void initMenus(){
+
+    }
 
 }

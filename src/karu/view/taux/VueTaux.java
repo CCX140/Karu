@@ -24,7 +24,7 @@ public class VueTaux extends JPanel {
         title = BorderFactory.createTitledBorder("Taux des Runes");
         this.setBorder(title);
 
-        this.setLayout(new BoxLayout(this,BoxLayout.Y_AXIS));
+        this.setLayout(new GridLayout(47,1));
 
 
         for(Rune r : lesRunes.getRunes()){

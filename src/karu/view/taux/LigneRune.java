@@ -58,6 +58,7 @@ public class LigneRune extends JPanel {
         this.add(nomRune);
         this.add(prixRune);
         this.add(tauxRune);
+
     }
 
     public void update(){

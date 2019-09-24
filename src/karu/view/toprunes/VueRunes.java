@@ -21,7 +21,8 @@ public class VueRunes extends JPanel {
         title = BorderFactory.createTitledBorder("Top Runes");
         this.setBorder(title);
 
-        this.setLayout(new BoxLayout(this,BoxLayout.Y_AXIS));
+        this.setLayout(new GridLayout(47,1));
+
     }
 
 
