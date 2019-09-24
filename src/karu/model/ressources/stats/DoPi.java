@@ -2,13 +2,14 @@ package karu.model.ressources.stats;
 
 import karu.util.Constants;
 
-public class DoPi extends Stat {
+public class DoPi implements Stat {
 
     private double poidsUnite;
     private double poidsTotal;
+    private int nb;
 
     public DoPi(int nb){
-        super(nb);
+        this.nb = nb;
         poidsUnite = Constants.POIDS_DO_PI;
         poidsTotal = poidsUnite * nb;
     }

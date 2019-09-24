@@ -2,13 +2,14 @@ package karu.model.ressources.stats;
 
 import karu.util.Constants;
 
-public class Cri extends Stat {
+public class Cri implements Stat {
 
     private double poidsUnite;
     private double poidsTotal;
+    private int nb;
 
     public Cri(int nb){
-        super(nb);
+        this.nb = nb;
         poidsUnite = Constants.POIDS_CRI;
         poidsTotal = poidsUnite * nb;
     }

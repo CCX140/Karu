@@ -2,13 +2,14 @@ package karu.model.ressources.stats;
 
 import karu.util.Constants;
 
-public class DoPerSo extends Stat {
+public class DoPerSo implements Stat {
 
     private double poidsUnite;
     private double poidsTotal;
+    private int nb;
 
     public DoPerSo(int nb){
-        super(nb);
+        this.nb = nb;
         poidsUnite = Constants.POIDS_DO_PER_SO;
         poidsTotal = poidsUnite * nb;
     }

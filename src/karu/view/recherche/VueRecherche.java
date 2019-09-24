@@ -25,7 +25,9 @@ public class VueRecherche extends JPanel {
         TitledBorder title;
         title = BorderFactory.createTitledBorder("Recherche");
         this.setBorder(title);
-        this.setLayout(new GridLayout(3,1));
+        this.setLayout(new BoxLayout(this,BoxLayout.Y_AXIS));
+
+        vueResultat = new VueResultat(model);
 
         score = new JRadioButton("score");
         niveau = new JRadioButton("niveau");
@@ -55,7 +57,7 @@ public class VueRecherche extends JPanel {
 
 
         this.add(panelRecherche);
-        this.add(new VueResultat());
+        this.add(new JScrollPane(vueResultat));
         this.revalidate();
 
     }

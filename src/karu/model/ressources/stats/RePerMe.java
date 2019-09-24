@@ -2,13 +2,14 @@ package karu.model.ressources.stats;
 
 import karu.util.Constants;
 
-public class RePerMe extends Stat {
+public class RePerMe implements Stat {
 
     private double poidsUnite;
     private double poidsTotal;
+    private int nb;
 
     public RePerMe(int nb){
-        super(nb);
+        this.nb = nb;
         poidsUnite = Constants.POIDS_RE_PER_ME;
         poidsTotal = poidsUnite * nb;
     }

@@ -1,6 +1,6 @@
 package karu.model;
 
-import karu.model.ressources.stats.Stat;
+import karu.model.ressources.stats.*;
 
 import java.util.ArrayList;
 
@@ -15,6 +15,7 @@ public class Equipement {
      private int score; // addition de toutes les stats multipliées par le taux de rune associé
 
     public Equipement(){
+        score = 0;
         listStats = new ArrayList<>();
     }
 
@@ -73,6 +74,13 @@ public class Equipement {
     public void addStat(Stat stat){
         listStats.add(stat);
     }
+
+    public void calculScore(){
+        for(Stat stat:listStats){
+            score += stat.getPoidsTotal();
+        }
+    }
+
 
     @Override
     public String toString() {

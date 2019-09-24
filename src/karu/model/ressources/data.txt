@@ -31467,7 +31467,7 @@ Baguette - Niveau 171
 6 à 7 % Rés. Feu
 6 à 7 % Rés. Eau
 -6 à -7 % Rés. Air
-Arme de chasse
+
 
 
 
@@ -31573,7 +31573,7 @@ Arc - Niveau 167
 7 à 10 Dommages Eau
 11 à 15 Prospection
 2 à 3 Fuite
-Arme de chasse
+
 
 
 
@@ -31827,7 +31827,7 @@ Hache - Niveau 158
 5 à 7 % Rés. Feu
 5 à 7 % Rés. Eau
 5 à 7 % Rés. Air
-Arme de chasse
+
 
 
 
@@ -32134,7 +32134,7 @@ Marteau - Niveau 148
 251 à 300 Vitalité
 41 à 50 Intelligence
 31 à 40 Sagesse
-Arme de chasse
+
 
 
 
@@ -32485,7 +32485,7 @@ Pelle - Niveau 136
 11 à 20 Prospection
 5 à 7 % Rés. Air
 5 à 7 Rés. Air
-Arme de chasse
+
 
 
 
@@ -33001,7 +33001,7 @@ Baguette - Niveau 125
 4 à 5 Soin
 11 à 15 Prospection
 301 à 400 Initiative
-Arme de chasse
+
 
 
 
@@ -33484,7 +33484,7 @@ Bâton - Niveau 114
 1 Invocation
 4 à 6 Soin
 6 à 10 Prospection
-Arme de chasse
+
 
 
 
@@ -33982,7 +33982,7 @@ Arc - Niveau 100
 11 à 15 Prospection
 4 à 5 % Rés. Neutre
 4 à 5 % Rés. Feu
-Arme de chasse
+
 
 
 
@@ -36226,7 +36226,7 @@ Hache - Niveau 59
 21 à 30 Force
 21 à 30 Agilité
 3 à 4 Dommages
-Arme de chasse
+
 
 
 
@@ -38016,7 +38016,7 @@ Epée de Phong Huss
 6 % Critique
 8 Dommages
 50 Initiative
-Incarnation
+
 
 
 
@@ -38253,7 +38253,7 @@ Dagues - Niveau 30
 
 11 à 20 Vitalité
 11 à 20 Agilité
-Arme de chasse
+
 
 
 
@@ -38281,7 +38281,7 @@ Epée du bandit fine-lame
 
 
 6 % Critique
-Incarnation
+
 
 
 

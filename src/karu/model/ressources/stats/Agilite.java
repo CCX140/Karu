@@ -2,13 +2,14 @@ package karu.model.ressources.stats;
 
 import karu.util.Constants;
 
-public class Agilite extends Stat {
+public class Agilite implements Stat {
 
     private double poidsUnite;
     private double poidsTotal;
+    private int nb;
 
     public Agilite(int nb){
-        super(nb);
+        this.nb = nb;
         poidsUnite = Constants.POIDS_AGILITE;
         poidsTotal = poidsUnite * nb;
     }

@@ -2,13 +2,14 @@ package karu.model.ressources.stats;
 
 import karu.util.Constants;
 
-public class ReFeu extends Stat {
+public class ReFeu implements Stat {
 
     private double poidsUnite;
     private double poidsTotal;
+    private int nb;
 
     public ReFeu(int nb){
-        super(nb);
+        this.nb = nb;
         poidsUnite = Constants.POIDS_RE_FEU;
         poidsTotal = poidsUnite * nb;
     }

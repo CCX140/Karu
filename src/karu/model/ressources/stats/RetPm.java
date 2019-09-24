@@ -2,13 +2,14 @@ package karu.model.ressources.stats;
 
 import karu.util.Constants;
 
-public class RetPm extends Stat {
+public class RetPm implements Stat {
 
     private double poidsUnite;
     private double poidsTotal;
+    private int nb;
 
     public RetPm(int nb){
-        super(nb);
+        this.nb = nb;
         poidsUnite = Constants.POIDS_RET_PM;
         poidsTotal = poidsUnite * nb;
     }

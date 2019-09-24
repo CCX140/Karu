@@ -15,32 +15,37 @@ public class LigneResultat extends JPanel {
 
     public LigneResultat(Equipement equipement){
         model = equipement;
-        niveau = new JLabel(model.getNiveau()+"");
+        niveau = new JLabel("Niveau : "+model.getNiveau());
         nom = new JLabel(model.getNom());
-        taux = new JLabel(""+model.getScore());
+        taux = new JLabel("Score : "+model.getScore());
 
-        if(model.getScore() > 800){
+        if(model.getScore() > 2000){
             color = new Color(147,112,219);
         }
-        else if(model.getScore() > 600){
+        else if(model.getScore() > 1500){
             color = new Color(255,40,40);
         }
-        else if(model.getScore() > 400){
+        else if(model.getScore() > 1000){
             color = new Color(255,120,40);
         }
-        else if(model.getScore() > 200){
-            color = new Color(255,255,40);
+        else if(model.getScore() > 500){
+            color = new Color(250,200,40);
         }
-        else if(model.getScore() > 100){
+        else if(model.getScore() > 200){
             color = new Color(200,200,150);
         }
         else {
-            color = new Color(200,200,200);
+            color = new Color(240,240,240);
         }
 
         this.setBackground(color);
 
-        this.setLayout(new BoxLayout(this,BoxLayout.X_AXIS));
+        this.setLayout(new GridLayout(1,3));
+        this.setBorder(BorderFactory.createRaisedBevelBorder());
+        this.add(niveau);
+        this.add(nom);
+        this.add(taux);
+
     }
 
 

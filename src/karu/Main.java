@@ -17,5 +17,6 @@ public class Main  {
     public static void main(String[] args) throws FileNotFoundException {
         Karu model = new Karu();
         MainView mainView = new MainView(model);
+        System.out.println(model.getEquipements().toString());
     }
 }

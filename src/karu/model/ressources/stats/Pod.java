@@ -2,13 +2,14 @@ package karu.model.ressources.stats;
 
 import karu.util.Constants;
 
-public class Pod extends Stat {
+public class Pod implements Stat {
 
     private double poidsUnite;
     private double poidsTotal;
+    private int nb;
 
     public Pod(int nb){
-        super(nb);
+        this.nb = nb;
         poidsUnite = Constants.POIDS_POD;
         poidsTotal = poidsUnite * nb;
     }

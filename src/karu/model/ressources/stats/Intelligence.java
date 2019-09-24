@@ -2,13 +2,14 @@ package karu.model.ressources.stats;
 
 import karu.util.Constants;
 
-public class Intelligence extends Stat {
+public class Intelligence implements Stat {
 
     private double poidsUnite;
     private double poidsTotal;
+    private int nb;
 
     public Intelligence(int nb){
-        super(nb);
+        this.nb = nb;
         poidsUnite = Constants.POIDS_INTELLIGENCE;
         poidsTotal = poidsUnite * nb;
     }

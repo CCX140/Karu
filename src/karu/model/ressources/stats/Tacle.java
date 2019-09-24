@@ -2,13 +2,14 @@ package karu.model.ressources.stats;
 
 import karu.util.Constants;
 
-public class Tacle extends Stat {
+public class Tacle implements Stat {
 
     private double poidsUnite;
     private double poidsTotal;
+    private int nb;
 
     public Tacle(int nb){
-        super(nb);
+        this.nb = nb;
         poidsUnite = Constants.POIDS_TAC;
         poidsTotal = poidsUnite * nb;
     }

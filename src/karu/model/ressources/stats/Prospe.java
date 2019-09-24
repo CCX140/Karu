@@ -2,13 +2,14 @@ package karu.model.ressources.stats;
 
 import karu.util.Constants;
 
-public class Prospe extends Stat {
+public class Prospe implements Stat {
 
     private double poidsUnite;
     private double poidsTotal;
+    private int nb;
 
     public Prospe(int nb){
-        super(nb);
+        this.nb = nb;
         poidsUnite = Constants.POIDS_PROSPE;
         poidsTotal = poidsUnite * nb;
     }
