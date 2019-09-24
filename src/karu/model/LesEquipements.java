@@ -156,8 +156,6 @@ public class LesEquipements {
                 e.addStat(new Chance(Integer.parseInt(split[0])));
             } else if (s.contains("% Critique")) {
                 e.addStat(new Cri(Integer.parseInt(split[0])));
-            } else if (s.contains("Dommages")) {
-                e.addStat(new Do(Integer.parseInt(split[0])));
             } else if (s.contains("Dommages air")) {
                 e.addStat(new DoAir(Integer.parseInt(split[0])));
             } else if (s.contains("Dommages eau")) {
@@ -192,10 +190,6 @@ public class LesEquipements {
                 e.addStat(new Intelligence(Integer.parseInt(split[0])));
             } else if (s.contains("Invocation")) {
                 e.addStat(new Invo(Integer.parseInt(split[0])));
-            } else if (s.contains("PA")) {
-                e.addStat(new Pa(Integer.parseInt(split[0])));
-            } else if (s.contains("PM")) {
-                e.addStat(new Pm(Integer.parseInt(split[0])));
             } else if (s.contains("PO")) {
                 e.addStat(new Po(Integer.parseInt(split[0])));
             } else if (s.contains("Pods")) {
@@ -252,7 +246,15 @@ public class LesEquipements {
                 e.addStat(new Vitalite(Integer.parseInt(split[0])));
             } else if (s.contains("Initiative")) {
                 e.addStat(new Initiative(Integer.parseInt(split[0])));
-            } else {
+            }else if (s.contains("Dommages")) {
+                e.addStat(new Do(Integer.parseInt(split[0])));
+            }else if (s.contains("PA")) {
+                e.addStat(new Pa(Integer.parseInt(split[0])));
+            } else if (s.contains("PM")) {
+                e.addStat(new Pm(Integer.parseInt(split[0])));
+            }
+
+            else {
                 System.out.println("\nErreur stat inconnue " + e.getNom());
             }
         }
