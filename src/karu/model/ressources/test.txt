@@ -1,0 +1,39 @@
+
+
+Alliance Brûlâme
+Panoplie Brûlâme
+Anneau - Niveau 200
+
+251 à 300 Vitalité
+41 à 60 Force
+41 à 60 Intelligence
+41 à 60 Agilité
+21 à 30 Sagesse
+5 à 7 Dommages Neutre
+5 à 7 Dommages Terre
+5 à 7 Dommages Feu
+5 à 7 Dommages Air
+5 à 7 % Rés. Eau
+5 à 7 % Rés. Air
+
+
+
+
+
+Alliance du Lévitrof
+Panoplie du Lévitrof
+Anneau - Niveau 200
+
+201 à 250 Vitalité
+31 à 40 Force
+31 à 40 Intelligence
+31 à 40 Chance
+31 à 40 Sagesse
+1 Invocation
+7 à 10 Dommages Neutre
+7 à 10 Dommages Terre
+7 à 10 Dommages Feu
+7 à 10 Dommages Eau
+201 à 300 Initiative
+4 à 6 % Rés. Feu
+

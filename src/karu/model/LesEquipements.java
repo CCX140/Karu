@@ -23,7 +23,7 @@ public class LesEquipements {
     public void create(){
         try
         {
-            InputStream flux = getClass().getResourceAsStream("/karu/model/ressources/data.txt");
+            InputStream flux = getClass().getResourceAsStream("/karu/model/ressources/test.txt");
             InputStreamReader lecture = new InputStreamReader(flux);
             BufferedReader buff = new BufferedReader(lecture);
 
@@ -148,7 +148,8 @@ public class LesEquipements {
 
     public void addStat(Equipement e, String s){
         String[] split = s.split(" ");
-
+        System.out.println(s);
+        System.out.println(split[0]);
         if(!s.contains("-")) {
             if (s.contains("Agilité")) {
                 e.addStat(new Agilite(Integer.parseInt(split[0])));
@@ -265,7 +266,7 @@ public class LesEquipements {
     }
 
     public void trierParTaux(){
-        Collections.sort(listEquipements, (o1, o2) -> (int) o1.getScore() - o2.getScore());
+        Collections.sort(listEquipements, (o1, o2) -> (int) (o1.getScore() - o2.getScore()));
     }
 
     public void trierParNiveaux(){
