@@ -19,19 +19,19 @@ public class LigneResultat extends JPanel {
         nom = new JLabel(model.getNom());
         taux = new JLabel("Score : "+model.getScore());
 
-        if(model.getScore() > 1000){
+        if(model.getScore() > 750){
             color = new Color(147,112,219);
         }
-        else if(model.getScore() > 800){
+        else if(model.getScore() > 650){
             color = new Color(255,40,40);
         }
-        else if(model.getScore() > 600){
+        else if(model.getScore() > 500){
             color = new Color(255,120,40);
         }
-        else if(model.getScore() > 400){
+        else if(model.getScore() > 300){
             color = new Color(250,200,40);
         }
-        else if(model.getScore() > 200){
+        else if(model.getScore() > 100){
             color = new Color(200,200,150);
         }
         else {

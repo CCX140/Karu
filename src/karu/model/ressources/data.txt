@@ -3698,10 +3698,6 @@ Cape - Niveau 200
 4 à 5 % Rés. Feu
 4 à 5 % Rés. Eau
 4 à 5 % Rés. Air
-300 Chance (boost)
-300 Force (boost)
-300 Agilité (boost)
-300 Intelligence (boost)
 
 
 

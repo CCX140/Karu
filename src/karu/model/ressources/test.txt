@@ -1,5 +1,3 @@
-
-
 Alliance Brûlâme
 Panoplie Brûlâme
 Anneau - Niveau 200
@@ -19,21 +17,4 @@ Anneau - Niveau 200
 
 
 
-
-Alliance du Lévitrof
-Panoplie du Lévitrof
-Anneau - Niveau 200
-
-201 à 250 Vitalité
-31 à 40 Force
-31 à 40 Intelligence
-31 à 40 Chance
-31 à 40 Sagesse
-1 Invocation
-7 à 10 Dommages Neutre
-7 à 10 Dommages Terre
-7 à 10 Dommages Feu
-7 à 10 Dommages Eau
-201 à 300 Initiative
-4 à 6 % Rés. Feu
 
