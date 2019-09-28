@@ -267,11 +267,11 @@ public class LesEquipements {
     }
 
     public void trierParTaux(){
-        Collections.sort(listEquipements, (o1, o2) -> (int) (o1.getScore() - o2.getScore()));
+        Collections.sort(listEquipements, (o1, o2) -> (int) (o2.getScore() - o1.getScore()));
     }
 
     public void trierParNiveaux(){
-        Collections.sort(listEquipements, (o1, o2) -> (int) o1.getNiveau() - o2.getNiveau());
+        Collections.sort(listEquipements, (o1, o2) -> (int) o2.getNiveau() - o1.getNiveau());
     }
 
     public ArrayList<Equipement> getListEquipements() {

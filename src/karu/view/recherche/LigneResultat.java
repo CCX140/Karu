@@ -23,13 +23,13 @@ public class LigneResultat extends JPanel {
             color = new Color(147,112,219);
         }
         else if(model.getScore() > 650){
-            color = new Color(255,40,40);
+            color = new Color(240,40,40);
         }
         else if(model.getScore() > 500){
-            color = new Color(255,120,40);
+            color = new Color(240,120,40);
         }
         else if(model.getScore() > 300){
-            color = new Color(250,200,40);
+            color = new Color(240,200,40);
         }
         else if(model.getScore() > 100){
             color = new Color(200,200,150);

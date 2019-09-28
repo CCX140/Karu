@@ -81,7 +81,6 @@ public class Equipement {
         }
     }
 
-
     @Override
     public String toString() {
         return "Equipement{" +

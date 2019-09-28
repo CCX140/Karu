@@ -16,10 +16,18 @@ public class VueResultat extends JPanel {
         this.lesEquipements = lesEquipements;
         this.setLayout(new BoxLayout(this,BoxLayout.Y_AXIS));
 
+        update();
+    }
+
+    public void update(){
+
+        this.removeAll();
+
         for(Equipement e: lesEquipements.getListEquipements()){
             this.add(new LigneResultat(e));
         }
 
+        this.updateUI();
     }
 
 }

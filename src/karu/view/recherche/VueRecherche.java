@@ -5,6 +5,8 @@ import karu.model.LesEquipements;
 import javax.swing.*;
 import javax.swing.border.TitledBorder;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 
 public class VueRecherche extends JPanel {
@@ -30,7 +32,9 @@ public class VueRecherche extends JPanel {
         vueResultat = new VueResultat(model);
 
         score = new JRadioButton("score");
+        score.addActionListener(e -> updateOrdreScore());
         niveau = new JRadioButton("niveau");
+        niveau.addActionListener(e -> updateOrdreNiveau());
         
         groupeBouttons = new JPanel();
         groupeBouttons.add(score);
@@ -51,6 +55,7 @@ public class VueRecherche extends JPanel {
 
         menuRunes = new JMenu("Stat :");
         menuType = new JMenu("Type :");
+        menuRunes.add(new JMenuItem("Anneau"));
         initMenus();
         panelRecherche.add(menuRunes);
         panelRecherche.add(menuType);
@@ -66,4 +71,19 @@ public class VueRecherche extends JPanel {
 
     }
 
+    public void updateOrdreScore(){
+        if (score.isSelected()){
+            niveau.setSelected(false);
+            model.trierParTaux();
+            vueResultat.update();
+        }
+    }
+
+    public void updateOrdreNiveau(){
+        if(niveau.isSelected()) {
+            score.setSelected(false);
+            model.trierParNiveaux();
+            vueResultat.update();
+        }
+    }
 }
