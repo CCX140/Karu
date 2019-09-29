@@ -149,8 +149,6 @@ public class LesEquipements {
 
     public void addStat(Equipement e, String s){
         String[] split = s.split(" ");
-        System.out.println(s);
-        System.out.println(split[0]);
         if(!s.contains("-")) {
             if (s.contains("Agilité")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_AGILITE));

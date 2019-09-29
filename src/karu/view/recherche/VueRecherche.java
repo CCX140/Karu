@@ -7,6 +7,8 @@ import javax.swing.border.TitledBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 
 
 public class VueRecherche extends JPanel {
@@ -16,8 +18,8 @@ public class VueRecherche extends JPanel {
     private JRadioButton niveau;
     private JPanel groupeBouttons;
     private JTextField barreRecherche;
-    private JMenu menuRunes;
-    private JMenu menuType;
+    private JComboBox menuRunes;
+    private JComboBox menuType;
     private VueResultat vueResultat;
     
 
@@ -45,7 +47,23 @@ public class VueRecherche extends JPanel {
         groupeBouttons.setLayout(new FlowLayout(FlowLayout.LEFT));
 
 
-        barreRecherche = new JTextField("Recherche");
+        barreRecherche = new JTextField();
+        barreRecherche.addKeyListener(new KeyListener() {
+            @Override
+            public void keyTyped(KeyEvent e) {
+
+            }
+
+            @Override
+            public void keyPressed(KeyEvent e) {
+
+            }
+
+            @Override
+            public void keyReleased(KeyEvent e) {
+                vueResultat.updateRecherche(barreRecherche.getText());
+            }
+        });
         barreRecherche.setHorizontalAlignment(JTextField.LEFT);
         barreRecherche.setPreferredSize(new Dimension(200,25));
 
@@ -53,11 +71,13 @@ public class VueRecherche extends JPanel {
         panelRecherche.add(groupeBouttons);
         panelRecherche.add(barreRecherche);
 
-        menuRunes = new JMenu("Stat :");
-        menuType = new JMenu("Type :");
-        menuRunes.add(new JMenuItem("Anneau"));
+        menuRunes = new JComboBox();
+        menuType = new JComboBox();
+
         initMenus();
+        panelRecherche.add(new Label("Stat :"));
         panelRecherche.add(menuRunes);
+        panelRecherche.add(new Label("Type :"));
         panelRecherche.add(menuType);
 
 
@@ -68,14 +88,18 @@ public class VueRecherche extends JPanel {
     }
 
     public void initMenus(){
-
+        menuRunes.addItem("(aucune)");
+        menuRunes.addItem("Agilité");
+        menuRunes.addItem("Chance");
+        menuRunes.addItem("Force");
+        menuRunes.addItem("Intelligence");
     }
 
     public void updateOrdreScore(){
         if (score.isSelected()){
             niveau.setSelected(false);
             model.trierParTaux();
-            vueResultat.update();
+            vueResultat.updateRecherche(barreRecherche.getText());
         }
     }
 
@@ -83,7 +107,9 @@ public class VueRecherche extends JPanel {
         if(niveau.isSelected()) {
             score.setSelected(false);
             model.trierParNiveaux();
-            vueResultat.update();
+            vueResultat.updateRecherche(barreRecherche.getText());
         }
     }
+
+
 }

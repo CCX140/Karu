@@ -30,4 +30,16 @@ public class VueResultat extends JPanel {
         this.updateUI();
     }
 
+    public void updateRecherche(String s){
+        this.removeAll();
+
+        for(Equipement e: lesEquipements.getListEquipements()){
+            if(e.getNom().contains(s)){
+                this.add(new LigneResultat(e));
+            }
+        }
+
+        this.updateUI();
+    }
+
 }
