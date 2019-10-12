@@ -6,6 +6,7 @@ import karu.model.LesRunes;
 
 import javax.swing.*;
 import java.awt.*;
+import java.text.Normalizer;
 
 public class VueResultat extends JPanel {
 
@@ -34,7 +35,7 @@ public class VueResultat extends JPanel {
         this.removeAll();
 
         for(Equipement e: lesEquipements.getListEquipements()){
-            if(e.getNom().contains(s)){
+            if(stripAccents(e.getNom().toLowerCase()).contains(s.toLowerCase())){ //compre sans accent et tout en minuscule
                 this.add(new LigneResultat(e));
             }
         }
@@ -42,4 +43,11 @@ public class VueResultat extends JPanel {
         this.updateUI();
     }
 
+
+    public static String stripAccents(String s)
+    {
+        s = Normalizer.normalize(s, Normalizer.Form.NFD);
+        s = s.replaceAll("[\\p{InCombiningDiacriticalMarks}]", "");
+        return s;
+    }
 }
