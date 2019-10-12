@@ -34,11 +34,9 @@ public class VueRunes extends JPanel {
 
         for(Rune rune: lesRunes.getRunes()){
             if(rune.getTaux() != -1){
-                System.out.println(rune.getNom());
                 this.add(new LigneTopRune(rune));
             }
         }
-
         this.updateUI();
     }
 }

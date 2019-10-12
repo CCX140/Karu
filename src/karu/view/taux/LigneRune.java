@@ -67,6 +67,9 @@ public class LigneRune extends JPanel {
         boolean integer= true;
 
         integer = prix.matches("\\d+");
+        if (prix.length()>8){
+            integer = false;
+        }
 
         if(integer){
             rune.setPrix(Integer.parseInt(prix));

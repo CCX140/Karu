@@ -30,8 +30,8 @@ public class MainView {
         panel.setLayout(new GridLayout(1,3));
 
         panel.add(new JScrollPane(vueTaux));
-        panel.add(vueRecherche);
         panel.add(new JScrollPane(vueRunes));
+        panel.add(vueRecherche);
 
         main.setSize(Constants.WIDTH/2,Constants.HEIGHT/2);
         main.setTitle("KARU");

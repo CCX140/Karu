@@ -19,8 +19,7 @@ public class LigneTopRune extends JPanel {
          score = new JLabel(" Taux = "+rune.getTaux());
 
          this.setSize(300,25);
-         this.setBorder(BorderFactory.createRaisedBevelBorder());
-
+         this.setBorder(BorderFactory.createLineBorder(Color.BLACK));
          if(rune.getTaux() > 300){
              color = new Color(147,60,255);
          }
