@@ -32,6 +32,7 @@ public class MainView {
         panel.add(new JScrollPane(vueTaux));
         panel.add(new JScrollPane(vueRunes));
         panel.add(vueRecherche);
+        main.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/karu/model/ressources/icone.png")));
 
         main.setSize(Constants.WIDTH/2,Constants.HEIGHT/2);
         main.setTitle("KARU");

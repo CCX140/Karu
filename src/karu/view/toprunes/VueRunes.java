@@ -25,7 +25,7 @@ public class VueRunes extends JPanel {
         this.setBorder(title);
 
         this.setLayout(new GridLayout(47,1));
-        this.setBackground(new Color(R_DARK_GRAY,G_DARK_GRAY,B_DARK_GRAY));
+        this.setBackground(new Color(R_GRAY,G_GRAY,B_GRAY));
 
     }
 
