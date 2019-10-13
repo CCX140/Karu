@@ -3,10 +3,13 @@ package karu.view.recherche;
 import karu.model.Equipement;
 import karu.model.LesEquipements;
 import karu.model.LesRunes;
+import karu.util.Constants;
 
 import javax.swing.*;
 import java.awt.*;
 import java.text.Normalizer;
+
+import static karu.util.Constants.*;
 
 public class VueResultat extends JPanel {
 
@@ -16,7 +19,7 @@ public class VueResultat extends JPanel {
         super();
         this.lesEquipements = lesEquipements;
         this.setLayout(new BoxLayout(this,BoxLayout.Y_AXIS));
-
+        this.setBackground(new Color(R_LIGHT_GRAY,G_LIGHT_GRAY,B_LIGHT_GRAY));
         update();
     }
 
@@ -35,7 +38,7 @@ public class VueResultat extends JPanel {
         this.removeAll();
 
         for(Equipement e: lesEquipements.getListEquipements()){
-            if(stripAccents(e.getNom().toLowerCase()).contains(s.toLowerCase())){ //compre sans accent et tout en minuscule
+            if(stripAccents(e.getNom().toLowerCase()).contains(s.toLowerCase())){ //compare sans accent et tout en minuscule
                 this.add(new LigneResultat(e));
             }
         }

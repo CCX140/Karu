@@ -88,6 +88,26 @@ public final class Constants {
     public static final double POIDS_PA = 100;
 
 
+    //style
+    public static final int R_GRAY = 60;
+    public static final int G_GRAY = 63;
+    public static final int B_GRAY = 65;
+
+    public static final int WHITE_GRAY = 200;
+
+    public static final int R_DARK_GRAY = 49;
+    public static final int G_DARK_GRAY = 51;
+    public static final int B_DARK_GRAY = 53;
+
+    public static final int R_LIGHT_GRAY = 100;
+    public static final int G_LIGHT_GRAY = 102;
+    public static final int B_LIGHT_GRAY = 104;
+
+    public static final int R_BLACK_GRAY = 20;
+    public static final int G_BLACK_GRAY = 22;
+    public static final int B_BLACK_GRAY = 24;
+
+
 
 
 

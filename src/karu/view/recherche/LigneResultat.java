@@ -5,6 +5,8 @@ import karu.model.Equipement;
 import javax.swing.*;
 import java.awt.*;
 
+import static karu.util.Constants.*;
+
 public class LigneResultat extends JPanel {
 
     private Equipement model;
@@ -39,10 +41,12 @@ public class LigneResultat extends JPanel {
         }
 
         this.setBackground(color);
+        niveau.setForeground(new Color(R_BLACK_GRAY,G_BLACK_GRAY,B_BLACK_GRAY));
+        nom.setForeground(new Color(R_BLACK_GRAY,G_BLACK_GRAY,B_BLACK_GRAY));
+        taux.setForeground(new Color(R_BLACK_GRAY,G_BLACK_GRAY,B_BLACK_GRAY));
 
         this.setLayout(new FlowLayout(FlowLayout.LEFT));
         this.setSize(400,20);
-        //this.setBorder(BorderFactory.createRaisedBevelBorder());
         this.add(niveau);
         this.add(nom);
         this.add(taux);

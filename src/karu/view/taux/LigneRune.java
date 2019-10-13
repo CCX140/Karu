@@ -12,6 +12,8 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.util.regex.Pattern;
 
+import static karu.util.Constants.*;
+
 public class LigneRune extends JPanel {
 
     private JLabel nomRune;
@@ -28,13 +30,20 @@ public class LigneRune extends JPanel {
         tauxRune = new JLabel();
         rune = r;
 
-        Border border = BorderFactory.createLineBorder(new Color(150,150,150));
-        this.setBorder(border);
         this.setLayout(new FlowLayout(FlowLayout.LEFT));
+        this.setBackground(new Color(R_GRAY,G_GRAY,B_GRAY));
 
         nomRune.setPreferredSize(new Dimension(100,20));
+        nomRune.setBackground(new Color(R_GRAY,G_GRAY,B_GRAY));
+        nomRune.setForeground(Color.white);
         prixRune.setPreferredSize(new Dimension(100,20));
+        prixRune.setBackground(new Color(R_LIGHT_GRAY,G_LIGHT_GRAY,B_LIGHT_GRAY));
+        prixRune.setForeground(Color.white);
+        prixRune.setCaretColor(Color.white);
+        prixRune.setBorder(BorderFactory.createLineBorder(Color.BLACK));
         tauxRune.setPreferredSize(new Dimension(150,20));
+        tauxRune.setBackground(new Color(R_GRAY,G_GRAY,B_GRAY));
+        tauxRune.setForeground(Color.white);
 
         prixRune.addKeyListener(new KeyListener() {
             @Override
