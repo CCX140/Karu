@@ -105,7 +105,7 @@ public class VueRecherche extends JPanel {
 
     public void initMenus(){
         menuRunes.addItem("(aucune)");
-        menuRunes.addItem("Agilité");
+        menuRunes.addItem("Agilite");
         menuRunes.addItem("Chance");
         menuRunes.addItem("Force");
         menuRunes.addItem("Intelligence");

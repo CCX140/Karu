@@ -125,11 +125,11 @@ public class LesEquipements {
             e.setType(ARC);
         }else if(s.contains("Baguette")){
             e.setType(BAGUETTE);
-        }else if(s.contains("Bâton")){
+        }else if(s.contains("Baton")){
             e.setType(BATON);
         }else if(s.contains("Dagues")){
             e.setType(DAGUE);
-        }else if(s.contains("Épée")){
+        }else if(s.contains("Epee")){
             e.setType(EPEE);
         }else if(s.contains("Faux")){
             e.setType(FAUX);
@@ -150,7 +150,7 @@ public class LesEquipements {
     public void addStat(Equipement e, String s){
         String[] split = s.split(" ");
         if(!s.contains("-")) {
-            if (s.contains("Agilité")) {
+            if (s.contains("Agilite")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_AGILITE));
             } else if (s.contains("Chance")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_CHANCE));
@@ -166,7 +166,7 @@ public class LesEquipements {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_DO_FEU));
             } else if (s.contains("Dommages Neutre")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_DO_NEUTRE));
-            } else if (s.contains("% Dmg Mêlée")) {
+            } else if (s.contains("% Dmg Melee")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_DO_PER_ME));
             } else if (s.contains("% Dmg aux Sorts")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_DO_PER_SO));
@@ -174,9 +174,9 @@ public class LesEquipements {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_DO_PER_DI));
             } else if (s.contains("% Dmg d'Armes")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_DO_PER_AR));
-            } else if (s.contains("Dommages Piège")) {
+            } else if (s.contains("Dommages Piege")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_DO_PI));
-            } else if (s.contains("Dommages Poussée")) {
+            } else if (s.contains("Dommages Poussee")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_DO_POU));
             } else if (s.contains("Renvoi")) { // si c'est du renvoi de dommages, le nombre de stats est en deuxieme position
                 e.addStat(new StatTest(Integer.parseInt(split[1]), POIDS_DO_REN));
@@ -196,31 +196,31 @@ public class LesEquipements {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_POD));
             } else if (s.contains("Prospection")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_PROSPE));
-            } else if (s.contains("Puissance Piège")) {
+            } else if (s.contains("Puissance Piege")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_PUI_PI));
             } else if (s.contains("Puissance")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_PUI));
-            } else if (s.contains("Rés. Critique")) {
+            } else if (s.contains("Res. Critique")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_RE_CRI));
             } else if (s.contains("Esquive PA")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_RE_PA));
             } else if (s.contains("Esquive PM")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_RE_PM));
-            } else if (s.contains("Rés. Poussée")) {
+            } else if (s.contains("Res. Poussee")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_RE_POU));
-            } else if (s.contains("% Rés. Feu")) {
+            } else if (s.contains("% Res. Feu")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_RE_PER_FEU));
-            } else if (s.contains("% Rés. Air")) {
+            } else if (s.contains("% Res. Air")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_RE_PER_AIR));
-            } else if (s.contains("% Rés. Eau")) {
+            } else if (s.contains("% Res. Eau")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_RE_PER_EAU));
-            } else if (s.contains("% Rés. Terre")) {
+            } else if (s.contains("% Res. Terre")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_RE_PER_TERRE));
-            } else if (s.contains("% Rés. Neutre")) {
+            } else if (s.contains("% Res. Neutre")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_RE_PER_NEUTRE));
-            } else if (s.contains("Rés. Distance")) {
+            } else if (s.contains("Res. Distance")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_RE_PER_DI));
-            } else if (s.contains("Rés. Mêlée")) {
+            } else if (s.contains("Res. Melee")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_RE_PER_ME));
             } else if (s.contains("Retrait PM")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_RET_PM));
@@ -228,21 +228,21 @@ public class LesEquipements {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_RET_PA));
             } else if (s.contains("Sagesse")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_SAGESSE));
-            } else if (s.contains("Rés. Feu")) {
+            } else if (s.contains("Res. Feu")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_RE_FEU));
-            } else if (s.contains("Rés. Eau")) {
+            } else if (s.contains("Res. Eau")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_RE_EAU));
-            } else if (s.contains("Rés. Terre")) {
+            } else if (s.contains("Res. Terre")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_RE_TERRE));
-            } else if (s.contains("Rés. Neutre")) {
+            } else if (s.contains("Res. Neutre")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_RE_NEUTRE));
-            } else if (s.contains("Rés. Air")) {
+            } else if (s.contains("Res. Air")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_RE_AIR));
             } else if (s.contains("Soin")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_SO));
             } else if (s.contains("Tacle")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_TAC));
-            } else if (s.contains("Vitalité")) {
+            } else if (s.contains("Vitalite")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_VITALITE));
             } else if (s.contains("Initiative")) {
                 e.addStat(new StatTest(Integer.parseInt(split[0]), POIDS_INI));
