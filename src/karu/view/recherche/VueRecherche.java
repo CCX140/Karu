@@ -88,18 +88,18 @@ public class VueRecherche extends JPanel {
         panelRecherche.setBackground(new Color(R_GRAY,G_GRAY,B_GRAY));
 
         menuRunes = new JComboBox();
-        menuType = new JComboBox();
+        menuRunes.setBackground(new Color(R_GRAY,G_GRAY,B_GRAY));
+        menuRunes.setForeground(new Color(WHITE_GRAY,WHITE_GRAY,WHITE_GRAY));
 
-        /*initMenus();
-        panelRecherche.add(new Label("Stat :"));
+        initMenus();
+
+        JLabel stat = new JLabel("Stat :");
+        stat.setForeground(new Color(WHITE_GRAY,WHITE_GRAY,WHITE_GRAY));
+        panelRecherche.add(stat);
         panelRecherche.add(menuRunes);
-        panelRecherche.add(new Label("Type :"));
-        panelRecherche.add(menuType);*/
-
 
         this.add(panelRecherche);
         this.add(new JScrollPane(vueResultat));
-        this.revalidate();
 
     }
 
@@ -109,6 +109,53 @@ public class VueRecherche extends JPanel {
         menuRunes.addItem("Chance");
         menuRunes.addItem("Force");
         menuRunes.addItem("Intelligence");
+        menuRunes.addItem("Vitalite");
+        menuRunes.addItem("Initiative");
+        menuRunes.addItem("Sagesse");
+        menuRunes.addItem("% Critique");
+        menuRunes.addItem("Dommages");
+        menuRunes.addItem("Dommages Air");
+        menuRunes.addItem("Dommages Eau");
+        menuRunes.addItem("Dommages Feu");
+        menuRunes.addItem("Dommages Neutre");
+        menuRunes.addItem("Dommages Terre");
+        menuRunes.addItem("Dommages Critique");
+        menuRunes.addItem("% Dmg Melee");
+        menuRunes.addItem("% Dmg aux Sorts");
+        menuRunes.addItem("% Dmg Distance");
+        menuRunes.addItem("% Dmg d'Armes");
+        menuRunes.addItem("Dommages Piege");
+        menuRunes.addItem("Dommages Poussee");
+        menuRunes.addItem("Renvoi");
+        menuRunes.addItem("Fuite");
+        menuRunes.addItem("Tacle");
+        menuRunes.addItem("Pods");
+        menuRunes.addItem("Prospection");
+        menuRunes.addItem("Puissance Piege");
+        menuRunes.addItem("Puissance");
+        menuRunes.addItem("Res. Critique");
+        menuRunes.addItem("Res. Poussee");
+        menuRunes.addItem("% Res. Feu");
+        menuRunes.addItem("% Res. Air");
+        menuRunes.addItem("% Res. Eau");
+        menuRunes.addItem("% Res. Terre");
+        menuRunes.addItem("% Res. Neutre");
+        menuRunes.addItem("Res. Feu");
+        menuRunes.addItem("Res. Eau");
+        menuRunes.addItem("Res. Terre");
+        menuRunes.addItem("Res. Neutre");
+        menuRunes.addItem("Res. Air");
+        menuRunes.addItem("Res. Distance");
+        menuRunes.addItem("Res. Melee");
+        menuRunes.addItem("Esquive PA");
+        menuRunes.addItem("Esquive PM");
+        menuRunes.addItem("Retrait PM");
+        menuRunes.addItem("Retrait PA");
+        menuRunes.addItem("Soin");
+        menuRunes.addItem("Invocation");
+        menuRunes.addItem("PO");
+        menuRunes.addItem("PM");
+        menuRunes.addItem("PA");
     }
 
     public void updateOrdreScore(){

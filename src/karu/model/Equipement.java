@@ -11,6 +11,7 @@ public class Equipement {
      private int id;
      private int niveau;
      private String panoplie;
+     private String allStats;
      private ArrayList<Stat> listStats;
      private int score; // addition de toutes les stats multipliées par le taux de rune associé
 
@@ -73,6 +74,17 @@ public class Equipement {
 
     public void addStat(Stat stat){
         listStats.add(stat);
+    }
+
+    public void addStatString(String stat){
+        allStats = allStats + "|" + stat + "|";
+    }
+
+    public boolean contains(String stat){
+        if(stat == null){
+            return true;
+        }
+        return allStats.contains("|"+stat+"|");
     }
 
     public void calculScore(){
