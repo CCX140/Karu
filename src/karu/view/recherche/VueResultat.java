@@ -34,12 +34,14 @@ public class VueResultat extends JPanel {
         this.updateUI();
     }
 
-    public void updateRecherche(String s){
+    public void updateRecherche(String s,String stat){
         this.removeAll();
 
         for(Equipement e: lesEquipements.getListEquipements()){
             if(stripAccents(e.getNom().toLowerCase()).contains(s.toLowerCase())){ //compare sans accent et tout en minuscule
-                this.add(new LigneResultat(e));
+                if(e.contains(stat)){
+                    this.add(new LigneResultat(e));
+                }
             }
         }
 

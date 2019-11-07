@@ -18,6 +18,7 @@ public class Equipement {
     public Equipement(){
         score = 0;
         listStats = new ArrayList<>();
+        allStats = "";
     }
 
     public String getNom() {
@@ -81,9 +82,10 @@ public class Equipement {
     }
 
     public boolean contains(String stat){
-        if(stat == null){
+        if(stat == null || stat == "(aucune)"){
             return true;
         }
+        System.out.println(stat);
         return allStats.contains("|"+stat+"|");
     }
 

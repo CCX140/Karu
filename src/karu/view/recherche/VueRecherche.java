@@ -21,7 +21,7 @@ public class VueRecherche extends JPanel {
     private JPanel groupeBouttons;
     private JTextField barreRecherche;
     private JComboBox menuRunes;
-    private JComboBox menuType;
+    private String currentStat;
     private VueResultat vueResultat;
     
 
@@ -76,7 +76,7 @@ public class VueRecherche extends JPanel {
 
             @Override
             public void keyReleased(KeyEvent e) {
-                vueResultat.updateRecherche(barreRecherche.getText());
+                vueResultat.updateRecherche(barreRecherche.getText(),currentStat);
             }
         });
         barreRecherche.setHorizontalAlignment(JTextField.LEFT);
@@ -88,10 +88,16 @@ public class VueRecherche extends JPanel {
         panelRecherche.setBackground(new Color(R_GRAY,G_GRAY,B_GRAY));
 
         menuRunes = new JComboBox();
+        initMenus();
         menuRunes.setBackground(new Color(R_GRAY,G_GRAY,B_GRAY));
         menuRunes.setForeground(new Color(WHITE_GRAY,WHITE_GRAY,WHITE_GRAY));
-
-        initMenus();
+        menuRunes.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                currentStat = (String)menuRunes.getSelectedItem();
+                vueResultat.updateRecherche(barreRecherche.getText(),currentStat);
+            }
+        });
 
         JLabel stat = new JLabel("Stat :");
         stat.setForeground(new Color(WHITE_GRAY,WHITE_GRAY,WHITE_GRAY));
@@ -162,7 +168,7 @@ public class VueRecherche extends JPanel {
         if (score.isSelected()){
             niveau.setSelected(false);
             model.trierParTaux();
-            vueResultat.updateRecherche(barreRecherche.getText());
+            vueResultat.updateRecherche(barreRecherche.getText(),currentStat);
         }
     }
 
@@ -170,7 +176,7 @@ public class VueRecherche extends JPanel {
         if(niveau.isSelected()) {
             score.setSelected(false);
             model.trierParNiveaux();
-            vueResultat.updateRecherche(barreRecherche.getText());
+            vueResultat.updateRecherche(barreRecherche.getText(),currentStat);
         }
     }
 
