@@ -40,8 +40,8 @@ public class LigneTopRune extends JPanel {
          }
 
          this.setLayout(new FlowLayout(FlowLayout.LEFT));
-         nom.setPreferredSize(new Dimension(150,20));
-         score.setPreferredSize(new Dimension(150,20));
+         nom.setPreferredSize(new Dimension(100,20));
+         score.setPreferredSize(new Dimension(100,20));
          this.add(nom);
          this.add(score);
          this.setBackground(color);

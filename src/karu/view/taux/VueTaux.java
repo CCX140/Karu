@@ -30,7 +30,7 @@ public class VueTaux extends JPanel {
 
         this.setLayout(new GridLayout(47,1));
 
-        this.setBackground(new Color(R_GRAY,G_GRAY,B_GRAY));
+        this.setBackground(new Color(R_DARK_GRAY,G_DARK_GRAY,B_DARK_GRAY));
 
 
         for(Rune r : lesRunes.getRunes()){

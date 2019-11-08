@@ -3,7 +3,9 @@ package karu.view.recherche;
 import karu.model.LesEquipements;
 
 import javax.swing.*;
+import javax.swing.border.LineBorder;
 import javax.swing.border.TitledBorder;
+import javax.swing.plaf.basic.BasicScrollBarUI;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -62,6 +64,7 @@ public class VueRecherche extends JPanel {
         barreRecherche.setBackground(new Color(R_LIGHT_GRAY,G_LIGHT_GRAY,B_LIGHT_GRAY));
         barreRecherche.setForeground(Color.white);
         barreRecherche.setCaretColor(Color.white);
+        barreRecherche.setSize(200,20);
         barreRecherche.setBorder(BorderFactory.createLineBorder(Color.BLACK));
         barreRecherche.addKeyListener(new KeyListener() {
             @Override
@@ -101,11 +104,21 @@ public class VueRecherche extends JPanel {
 
         JLabel stat = new JLabel("Stat :");
         stat.setForeground(new Color(WHITE_GRAY,WHITE_GRAY,WHITE_GRAY));
-        panelRecherche.add(stat);
-        panelRecherche.add(menuRunes);
+        //panelRecherche.add(stat);
+        //panelRecherche.add(menuRunes);
+
+        JPanel statPanel = new JPanel();
+        statPanel.add(stat);
+        statPanel.add(menuRunes);
+        statPanel.setBackground(new Color(R_GRAY,G_GRAY,B_GRAY));
 
         this.add(panelRecherche);
-        this.add(new JScrollPane(vueResultat));
+        this.add(statPanel);
+        JScrollPane scrollVueResultat = new JScrollPane(vueResultat);
+        scrollVueResultat.setBorder(null);
+        scrollVueResultat.getVerticalScrollBar().setBackground(new Color(R_GRAY,G_GRAY,B_GRAY));
+        scrollVueResultat.getHorizontalScrollBar().setBackground(new Color(R_GRAY,G_GRAY,B_GRAY));
+        this.add(scrollVueResultat);
 
     }
 
