@@ -5,5 +5,5 @@ Application d'aide Dofus pour le brisage d'item
 
 ## Liste des fonctionnalités: 
 + Calcul du taux des runes (en fonction du prix unitaire et du poids)
-+ Calcul du poids d'un items (en fonction de ses caractéristiques)
++ Calcul du poids d'un item (en fonction de ses caractéristiques)
 + Classement des items les plus rentables pour une rune choisie
