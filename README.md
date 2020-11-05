@@ -1,5 +1,5 @@
 # Karu
-Application d'aide Dofus pour le brisage d'item
+Application d'aide pour le brisage d'item sur Dofus
 
 ![alt text](https://s.ankama.com/www/static.ankama.com/dofus/www/game/items/200/78055.png)
 
